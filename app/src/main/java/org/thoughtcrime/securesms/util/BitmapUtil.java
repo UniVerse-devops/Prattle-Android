@@ -21,8 +21,8 @@ import androidx.exifinterface.media.ExifInterface;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.ThreadUtil;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.mms.MediaConstraints;
 
 import java.io.BufferedInputStream;

@@ -2,11 +2,11 @@ package org.thoughtcrime.securesms
 
 import android.content.ContentValues
 import android.os.Build
-import org.signal.core.util.logging.AndroidLogger
-import org.signal.core.util.logging.Log
-import org.signal.spinner.Spinner
-import org.signal.spinner.Spinner.DatabaseConfig
-import org.signal.spinner.SpinnerLogger
+import org.spark.core.util.logging.AndroidLogger
+import org.spark.core.util.logging.Log
+import org.spark.spinner.Spinner
+import org.spark.spinner.Spinner.DatabaseConfig
+import org.spark.spinner.SpinnerLogger
 import org.thoughtcrime.securesms.database.AttachmentTransformer
 import org.thoughtcrime.securesms.database.DatabaseMonitor
 import org.thoughtcrime.securesms.database.GV2Transformer

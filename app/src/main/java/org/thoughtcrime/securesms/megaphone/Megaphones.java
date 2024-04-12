@@ -14,10 +14,10 @@ import androidx.core.app.NotificationManagerCompat;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.Glide;
 
-import org.signal.core.util.MapUtil;
-import org.signal.core.util.SetUtil;
-import org.signal.core.util.TranslationDetection;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.MapUtil;
+import org.sparkcore.util.SetUtil;
+import org.sparkcore.util.TranslationDetection;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
 import org.thoughtcrime.securesms.database.SignalDatabase;

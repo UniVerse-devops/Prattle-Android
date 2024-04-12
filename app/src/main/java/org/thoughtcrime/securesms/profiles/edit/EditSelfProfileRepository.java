@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Consumer;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

@@ -117,11 +117,11 @@ dependencyResolutionManagement {
       library("firebase-messaging", "com.google.firebase:firebase-messaging:23.1.2")
 
       // 1st Party
-      library("libsignal-client", "org.signal", "libsignal-client").versionRef("libsignal-client")
-      library("libsignal-android", "org.signal", "libsignal-android").versionRef("libsignal-client")
-      library("signal-aesgcmprovider", "org.signal:aesgcmprovider:0.0.3")
-      library("signal-ringrtc", "org.signal:ringrtc-android:2.39.3")
-      library("signal-android-database-sqlcipher", "org.signal:sqlcipher-android:4.5.4-S2")
+      library("libsignal-client", "org.spark, "libsignal-client").versionRef("libsignal-client")
+      library("libsignal-android", "org.spark, "libsignal-android").versionRef("libsignal-client")
+      library("signal-aesgcmprovider", "org.sparkaesgcmprovider:0.0.3")
+      library("signal-ringrtc", "org.sparkringrtc-android:2.39.3")
+      library("signal-android-database-sqlcipher", "org.sparksqlcipher-android:4.5.4-S2")
 
       // Third Party
       library("greenrobot-eventbus", "org.greenrobot:eventbus:3.0.0")

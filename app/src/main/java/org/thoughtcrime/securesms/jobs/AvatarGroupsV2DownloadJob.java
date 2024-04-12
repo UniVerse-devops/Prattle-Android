@@ -5,10 +5,10 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
+import org.sparklibsignal.zkgroup.groups.GroupSecretParams;
 import org.thoughtcrime.securesms.database.GroupTable;
 import org.thoughtcrime.securesms.database.model.GroupRecord;
 import org.thoughtcrime.securesms.database.SignalDatabase;

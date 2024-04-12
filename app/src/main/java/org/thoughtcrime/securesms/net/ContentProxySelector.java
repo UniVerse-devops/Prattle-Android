@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.net;
 
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
 
 import java.io.IOException;

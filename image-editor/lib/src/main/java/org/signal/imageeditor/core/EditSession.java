@@ -1,11 +1,11 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorElement;
 
 /**
  * Represents an underway edit of the image.

@@ -4,8 +4,8 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.groups.GroupChangeException;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.groups.GroupManager;

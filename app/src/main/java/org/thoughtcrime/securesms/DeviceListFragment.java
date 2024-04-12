@@ -23,7 +23,7 @@ import androidx.loader.content.Loader;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.loaders.DeviceListLoader;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.devicelist.Device;

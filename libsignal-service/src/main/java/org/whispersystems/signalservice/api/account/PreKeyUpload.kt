@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api.account
 
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import org.spark.libsignal.protocol.state.KyberPreKeyRecord
+import org.spark.libsignal.protocol.state.PreKeyRecord
+import org.spark.libsignal.protocol.state.SignedPreKeyRecord
 import org.whispersystems.signalservice.api.push.ServiceIdType
 
 /**

@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.tracing.Tracer;
-import org.signal.devicetransfer.TransferStatus;
+import org.sparkcore.util.logging.Log;
+import org.sparkcore.util.tracing.Tracer;
+import org.sparkdevicetransfer.TransferStatus;
 import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberLockActivity;
 import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 /**
  * Stripe Payment Processor decline codes

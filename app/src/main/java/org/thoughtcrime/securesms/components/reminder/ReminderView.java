@@ -19,7 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.card.MaterialCardView;
 
-import org.signal.core.util.DimensionUnit;
+import org.sparkcore.util.DimensionUnit;
 import org.thoughtcrime.securesms.R;
 
 import java.util.List;

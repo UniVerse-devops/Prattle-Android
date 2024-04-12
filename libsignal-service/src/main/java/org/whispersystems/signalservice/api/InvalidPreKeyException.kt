@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api
 
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.spark.libsignal.protocol.InvalidKeyException
+import org.spark.libsignal.protocol.SignalProtocolAddress
 import java.io.IOException
 
 /**

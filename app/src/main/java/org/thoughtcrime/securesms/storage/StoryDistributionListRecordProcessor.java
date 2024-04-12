@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.storage;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.RecipientRecord;

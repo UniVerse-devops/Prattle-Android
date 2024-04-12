@@ -1,9 +1,9 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.ui
+package org.spark.core.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.theme.SignalTheme
 
 object BottomSheets {
   /**

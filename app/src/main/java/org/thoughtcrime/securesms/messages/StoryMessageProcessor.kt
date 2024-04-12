@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.messages
 
 import android.graphics.Color
-import org.signal.core.util.Base64
-import org.signal.core.util.orNull
+import org.sparkcore.util.Base64
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.database.MessageTable.InsertResult
 import org.thoughtcrime.securesms.database.MessageType
 import org.thoughtcrime.securesms.database.SignalDatabase

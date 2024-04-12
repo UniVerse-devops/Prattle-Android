@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.MediaTable;
 import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;

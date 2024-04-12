@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -9,8 +9,8 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.concurrent.MaybeCompat
-import org.signal.core.util.orNull
+import org.sparkcore.util.concurrent.MaybeCompat
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.recipients.Recipient

@@ -3,10 +3,10 @@ package org.thoughtcrime.securesms.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.SignalProtocolAddress;
+import org.sparklibsignal.protocol.message.SenderKeyDistributionMessage;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.DistributionListRecord;

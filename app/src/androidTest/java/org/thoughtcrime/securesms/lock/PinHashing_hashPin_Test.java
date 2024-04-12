@@ -4,8 +4,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.signal.core.util.Hex;
-import org.signal.libsignal.svr2.PinHash;
+import org.spark.core.util.Hex;
+import org.spark.libsignal.svr2.PinHash;
 import org.whispersystems.signalservice.api.kbs.KbsData;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
 import org.whispersystems.signalservice.api.kbs.PinHashUtil;

@@ -5,8 +5,8 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.fragment.app.setFragmentResult
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.AvatarBundler
 import org.thoughtcrime.securesms.avatar.AvatarPickerStorage

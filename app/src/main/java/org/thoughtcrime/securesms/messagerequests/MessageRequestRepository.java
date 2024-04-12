@@ -5,10 +5,10 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.Result;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
+import org.sparkcore.util.Result;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
 import org.thoughtcrime.securesms.database.GroupTable;
 import org.thoughtcrime.securesms.database.MessageTable;
 import org.thoughtcrime.securesms.database.RecipientTable;

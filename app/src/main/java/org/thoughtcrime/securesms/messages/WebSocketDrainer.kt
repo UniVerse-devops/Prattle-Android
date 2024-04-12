@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.messages
 import android.os.PowerManager
 import androidx.annotation.AnyThread
 import androidx.annotation.WorkerThread
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobmanager.JobTracker

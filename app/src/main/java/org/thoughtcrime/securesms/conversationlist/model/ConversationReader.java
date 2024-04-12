@@ -8,7 +8,7 @@ import org.thoughtcrime.securesms.database.ThreadTable;
 import org.thoughtcrime.securesms.database.model.ThreadRecord;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.signal.core.util.CursorUtil;
+import org.sparkcore.util.CursorUtil;
 
 public class ConversationReader extends ThreadTable.StaticReader {
 

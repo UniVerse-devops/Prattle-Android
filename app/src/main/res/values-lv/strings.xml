@@ -4722,7 +4722,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">Licences</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Noteikumi &amp; privātuma politika</string>
-    <string name="HelpFragment__copyright_signal_messenger">Autortiesības Signal Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Autortiesības Spark Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licencēta saskaņā ar GPLv3 AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->

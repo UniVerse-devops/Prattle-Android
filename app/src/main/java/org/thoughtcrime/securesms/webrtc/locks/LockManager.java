@@ -5,7 +5,7 @@ import android.net.wifi.WifiManager;
 import android.os.PowerManager;
 import android.provider.Settings;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 /**
  * Maintains wake lock state.

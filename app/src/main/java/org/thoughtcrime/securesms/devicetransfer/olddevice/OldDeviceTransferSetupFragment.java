@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.devicetransfer.DeviceToDeviceTransferService;
+import org.sparkcore.util.PendingIntentFlags;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

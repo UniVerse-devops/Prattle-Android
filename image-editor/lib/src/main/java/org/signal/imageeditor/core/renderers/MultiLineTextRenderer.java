@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import android.animation.ValueAnimator;
 import android.graphics.Color;
@@ -15,11 +15,11 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.ColorableRenderer;
-import org.signal.imageeditor.core.RendererContext;
-import org.signal.imageeditor.core.SelectableRenderer;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.ColorableRenderer;
+import org.sparkimageeditor.core.RendererContext;
+import org.sparkimageeditor.core.SelectableRenderer;
 
 import java.util.ArrayList;
 import java.util.List;

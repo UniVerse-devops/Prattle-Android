@@ -1,18 +1,18 @@
-package org.signal.qr.kitkat;
+package org.spark.qr.kitkat;
 
 import androidx.annotation.NonNull;
 
 import com.google.zxing.DecodeHintType;
 
-import org.signal.core.util.logging.Log;
-import org.signal.qr.QrProcessor;
+import org.spark.core.util.logging.Log;
+import org.spark.qr.QrProcessor;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static org.signal.qr.kitkat.QrCameraView.PreviewCallback;
-import static org.signal.qr.kitkat.QrCameraView.PreviewFrame;
+import static org.spark.qr.kitkat.QrCameraView.PreviewCallback;
+import static org.spark.qr.kitkat.QrCameraView.PreviewFrame;
 
 public class ScanningThread extends Thread implements PreviewCallback {
 

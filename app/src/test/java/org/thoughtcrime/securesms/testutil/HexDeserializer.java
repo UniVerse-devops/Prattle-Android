@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 
-import org.signal.core.util.Hex;
+import org.spark.core.util.Hex;
 
 import java.io.IOException;
 

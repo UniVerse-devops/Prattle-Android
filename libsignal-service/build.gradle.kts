@@ -65,7 +65,7 @@ wire {
 
   custom {
     // Comes from wire-handler jar project
-    schemaHandlerFactoryClass = "org.signal.wire.Factory"
+    schemaHandlerFactoryClass = "org.spark.wire.Factory"
   }
 }
 

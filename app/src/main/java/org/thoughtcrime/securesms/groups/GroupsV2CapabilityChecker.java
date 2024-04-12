@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.groups;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 

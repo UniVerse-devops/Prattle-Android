@@ -16,8 +16,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.signal.donations.StripeApi;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
+import org.sparkdonations.StripeApi;
 import org.thoughtcrime.securesms.components.DebugLogsPromptDialogFragment;
 import org.thoughtcrime.securesms.components.PromptBatterySaverDialogFragment;
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;

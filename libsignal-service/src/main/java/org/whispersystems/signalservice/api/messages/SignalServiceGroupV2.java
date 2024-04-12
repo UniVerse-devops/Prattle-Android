@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api.messages;
 
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey;
 import org.whispersystems.signalservice.api.util.Preconditions;
 import org.whispersystems.signalservice.internal.push.GroupContextV2;
 

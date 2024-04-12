@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.tabs.TabLayout
-import org.signal.core.util.EditTextUtil
+import org.sparkcore.util.EditTextUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.Avatar
 import org.thoughtcrime.securesms.avatar.AvatarBundler

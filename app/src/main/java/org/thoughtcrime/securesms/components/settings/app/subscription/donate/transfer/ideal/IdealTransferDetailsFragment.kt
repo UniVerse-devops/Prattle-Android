@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -50,10 +50,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.navigation.navGraphViewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Scaffolds
-import org.signal.core.ui.Texts
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Scaffolds
+import org.sparkcore.ui.Texts
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.TemporaryScreenshotSecurity
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -47,7 +47,7 @@ import androidx.compose.ui.unit.dp
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.core.BackpressureStrategy
 import kotlinx.coroutines.delay
-import org.signal.core.ui.theme.SignalTheme
+import org.sparkcore.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.webrtc.WebRtcCallViewModel
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

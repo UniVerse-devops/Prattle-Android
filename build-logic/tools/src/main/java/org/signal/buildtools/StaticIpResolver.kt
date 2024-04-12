@@ -1,4 +1,4 @@
-package org.signal.buildtools
+package org.spark.buildtools
 
 import org.xbill.DNS.ARecord
 import org.xbill.DNS.Lookup

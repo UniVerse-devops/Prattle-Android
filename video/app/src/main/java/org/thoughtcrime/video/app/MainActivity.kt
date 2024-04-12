@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -29,8 +29,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import org.signal.core.util.logging.AndroidLogger
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.AndroidLogger
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.video.app.playback.PlaybackTestActivity
 import org.thoughtcrime.video.app.transcode.TranscodeTestActivity
 import org.thoughtcrime.video.app.ui.composables.LabeledButton

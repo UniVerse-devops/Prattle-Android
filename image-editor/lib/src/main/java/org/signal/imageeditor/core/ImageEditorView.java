@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,13 +18,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.GestureDetectorCompat;
 
-import org.signal.imageeditor.R;
-import org.signal.imageeditor.core.model.EditorElement;
-import org.signal.imageeditor.core.model.EditorModel;
-import org.signal.imageeditor.core.model.ThumbRenderer;
-import org.signal.imageeditor.core.renderers.BezierDrawingRenderer;
-import org.signal.imageeditor.core.renderers.MultiLineTextRenderer;
-import org.signal.imageeditor.core.renderers.TrashRenderer;
+import org.sparkimageeditor.R;
+import org.sparkimageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorModel;
+import org.sparkimageeditor.core.model.ThumbRenderer;
+import org.sparkimageeditor.core.renderers.BezierDrawingRenderer;
+import org.sparkimageeditor.core.renderers.MultiLineTextRenderer;
+import org.sparkimageeditor.core.renderers.TrashRenderer;
 
 import java.util.LinkedList;
 import java.util.List;

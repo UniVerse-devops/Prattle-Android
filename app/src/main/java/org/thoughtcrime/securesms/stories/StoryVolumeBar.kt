@@ -12,7 +12,7 @@ import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.withClip
 import androidx.media.AudioManagerCompat
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.util.ServiceUtil
 

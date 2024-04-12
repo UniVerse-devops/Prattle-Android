@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
-import org.signal.core.util.Base64
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Base64
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint

@@ -13,8 +13,8 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.Stopwatch;
+import org.spark.core.util.logging.Log;
+import org.spark.core.util.Stopwatch;
 
 import java.util.HashMap;
 import java.util.Map;

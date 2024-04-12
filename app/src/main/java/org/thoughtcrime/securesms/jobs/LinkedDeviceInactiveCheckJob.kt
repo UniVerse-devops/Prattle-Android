@@ -1,13 +1,13 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.jobs
 
-import org.signal.core.util.Base64
-import org.signal.core.util.logging.Log
-import org.signal.core.util.roundedString
+import org.sparkcore.util.Base64
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.roundedString
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.devicelist.protos.DeviceName
 import org.thoughtcrime.securesms.jobmanager.Job

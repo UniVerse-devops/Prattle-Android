@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.InvalidKeyIdException
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
+import org.sparklibsignal.protocol.InvalidKeyIdException
+import org.sparklibsignal.protocol.state.KyberPreKeyRecord
 import org.thoughtcrime.securesms.database.KyberPreKeyTable.KyberPreKey
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore

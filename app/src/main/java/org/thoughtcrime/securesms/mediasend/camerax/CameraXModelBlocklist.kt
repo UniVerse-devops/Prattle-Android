@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.mediasend.camerax
 
 import android.os.Build
-import org.signal.core.util.asListContains
+import org.sparkcore.util.asListContains
 import org.thoughtcrime.securesms.util.FeatureFlags
 
 /**

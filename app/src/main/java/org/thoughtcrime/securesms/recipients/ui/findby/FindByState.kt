@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,7 +7,7 @@ package org.thoughtcrime.securesms.recipients.ui.findby
 
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
-import org.signal.core.util.orNull
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.registration.util.CountryPrefix
 

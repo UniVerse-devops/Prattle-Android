@@ -40,8 +40,8 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 import com.google.android.material.card.MaterialCardView;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener;

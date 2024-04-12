@@ -8,7 +8,7 @@ import androidx.preference.PreferenceManager;
 
 import com.bumptech.glide.Glide;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
 import org.thoughtcrime.securesms.crypto.MasterSecret;
 import org.thoughtcrime.securesms.database.AttachmentTable;

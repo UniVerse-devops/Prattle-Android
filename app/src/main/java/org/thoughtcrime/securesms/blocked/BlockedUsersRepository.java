@@ -5,8 +5,8 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.groups.GroupChangeBusyException;

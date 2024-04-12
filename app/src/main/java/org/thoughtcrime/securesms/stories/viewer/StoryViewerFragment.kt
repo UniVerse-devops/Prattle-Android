@@ -11,10 +11,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.viewpager2.widget.ViewPager2
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.getParcelableArrayListCompat
-import org.signal.core.util.getParcelableCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.getParcelableArrayListCompat
+import org.sparkcore.util.getParcelableCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation
 import org.thoughtcrime.securesms.keyvalue.SignalStore

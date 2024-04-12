@@ -6,7 +6,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.IOException;

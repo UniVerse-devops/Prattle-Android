@@ -8,9 +8,9 @@ import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireLong
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireLong
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.conversation.ConversationIntents

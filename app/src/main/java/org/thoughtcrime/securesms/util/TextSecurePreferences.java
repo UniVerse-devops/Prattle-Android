@@ -16,9 +16,9 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.preference.PreferenceManager;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.core.util.PendingIntentFlags;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.backup.proto.SharedPreference;
 import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;

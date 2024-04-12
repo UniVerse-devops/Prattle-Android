@@ -29,8 +29,8 @@ import androidx.core.app.NotificationCompat;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.PendingIntentFlags;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.PlayServicesProblemActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

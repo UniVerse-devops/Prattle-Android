@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.thoughtcrime.securesms.backup.v2.ui
@@ -42,11 +42,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Previews
-import org.signal.core.ui.Scaffolds
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Previews
+import org.sparkcore.ui.Scaffolds
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.payments.FiatMoneyUtil
 import java.math.BigDecimal

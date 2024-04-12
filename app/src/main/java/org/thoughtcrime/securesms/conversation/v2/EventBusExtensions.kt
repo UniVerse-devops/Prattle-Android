@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.conversation.v2
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.greenrobot.eventbus.EventBus
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 /**
  * Set up a lifecycle aware register/deregister for the lifecycleowner.

@@ -3,13 +3,13 @@ package org.thoughtcrime.securesms.groups;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.DatabaseId;
-import org.signal.core.util.Hex;
-import org.signal.libsignal.protocol.kdf.HKDFv3;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupIdentifier;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import org.sparkcore.util.DatabaseId;
+import org.sparkcore.util.Hex;
+import org.sparklibsignal.protocol.kdf.HKDFv3;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.groups.GroupIdentifier;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
+import org.sparklibsignal.zkgroup.groups.GroupSecretParams;
 import org.thoughtcrime.securesms.util.LRUCache;
 import org.thoughtcrime.securesms.util.Util;
 

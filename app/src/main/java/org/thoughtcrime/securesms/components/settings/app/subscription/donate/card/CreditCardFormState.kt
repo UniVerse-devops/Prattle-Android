@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
 
-import org.signal.donations.StripeApi
+import org.sparkdonations.StripeApi
 
 data class CreditCardFormState(
   val focusedField: FocusedField = FocusedField.NONE,

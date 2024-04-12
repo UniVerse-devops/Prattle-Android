@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 import androidx.sqlite.db.SupportSQLiteProgram
 import androidx.sqlite.db.SupportSQLiteQuery

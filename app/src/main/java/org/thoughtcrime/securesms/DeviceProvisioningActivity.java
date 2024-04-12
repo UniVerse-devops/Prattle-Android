@@ -8,7 +8,7 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 public class DeviceProvisioningActivity extends PassphraseRequiredActivity {
 

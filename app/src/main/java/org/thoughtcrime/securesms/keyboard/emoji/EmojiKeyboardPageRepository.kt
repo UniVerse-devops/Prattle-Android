@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyboard.emoji
 
 import android.content.Context
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
 import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
 import org.thoughtcrime.securesms.emoji.EmojiSource.Companion.latest

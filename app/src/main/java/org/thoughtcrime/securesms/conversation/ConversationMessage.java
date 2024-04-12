@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.Conversions;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.Conversions;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
 import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect;
 import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectCollection;

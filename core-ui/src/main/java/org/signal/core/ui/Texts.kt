@@ -1,4 +1,4 @@
-package org.signal.core.ui
+package org.spark.core.ui
 
 import android.text.Spanned
 import android.text.style.URLSpan
@@ -16,7 +16,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.text.getSpans
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.theme.SignalTheme
 
 object Texts {
   /**

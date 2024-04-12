@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.net;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 
 import java.io.IOException;

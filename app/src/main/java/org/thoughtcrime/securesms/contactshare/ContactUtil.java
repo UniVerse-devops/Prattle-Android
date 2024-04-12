@@ -18,8 +18,8 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
 import org.thoughtcrime.securesms.contactshare.Contact.Email;

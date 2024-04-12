@@ -6,7 +6,7 @@ import android.text.Spannable
 import android.text.Spanned
 import android.text.TextUtils
 import android.text.TextWatcher
-import org.signal.core.util.StringUtil
+import org.sparkcore.util.StringUtil
 import org.thoughtcrime.securesms.conversation.MessageStyler
 import org.thoughtcrime.securesms.conversation.MessageStyler.isSupportedStyle
 

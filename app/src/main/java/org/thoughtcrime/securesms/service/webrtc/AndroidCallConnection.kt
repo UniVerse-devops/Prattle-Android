@@ -5,7 +5,7 @@ import android.content.Intent
 import android.telecom.CallAudioState
 import android.telecom.Connection
 import androidx.annotation.RequiresApi
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.WebRtcCallActivity
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.permissions.Permissions

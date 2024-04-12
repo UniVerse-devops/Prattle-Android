@@ -7,9 +7,9 @@ import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
 import androidx.annotation.WorkerThread
 import kotlinx.parcelize.Parcelize
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.attachments.Attachment
 import org.thoughtcrime.securesms.color.ViewColorSet

@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.mediasend.v2
 
 import android.os.Bundle
-import org.signal.core.util.getParcelableArrayListCompat
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.getParcelableArrayListCompat
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.recipients.RecipientId
 

@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
 import org.thoughtcrime.securesms.video.interfaces.MediaInput;
 

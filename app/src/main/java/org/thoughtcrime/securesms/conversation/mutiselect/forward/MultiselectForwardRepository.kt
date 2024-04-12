@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.conversation.mutiselect.forward
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.recipients.Recipient

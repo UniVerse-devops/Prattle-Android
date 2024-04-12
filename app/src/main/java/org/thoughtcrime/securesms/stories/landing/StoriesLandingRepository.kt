@@ -4,7 +4,7 @@ import android.content.Context
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.conversation.ConversationMessage
 import org.thoughtcrime.securesms.database.DatabaseObserver
 import org.thoughtcrime.securesms.database.MessageTable

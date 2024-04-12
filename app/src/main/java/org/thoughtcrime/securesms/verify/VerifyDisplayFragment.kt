@@ -23,11 +23,11 @@ import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireParcelableCompat
-import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.signal.libsignal.protocol.fingerprint.FingerprintVersionMismatchException
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireParcelableCompat
+import org.sparklibsignal.protocol.fingerprint.Fingerprint
+import org.sparklibsignal.protocol.fingerprint.FingerprintVersionMismatchException
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ViewBinderDelegate
 import org.thoughtcrime.securesms.components.verify.SafetyNumberQrView

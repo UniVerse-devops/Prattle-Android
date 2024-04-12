@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.contacts.paged
 
 import android.content.Context
 import android.database.Cursor
-import org.signal.core.util.CursorUtil
+import org.sparkcore.util.CursorUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.contacts.ContactRepository
 import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator

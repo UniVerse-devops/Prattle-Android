@@ -1,4 +1,4 @@
-package org.signal.spinnertest
+package org.sparkspinnertest
 
 import android.database.sqlite.SQLiteDatabase
 import android.os.Build
@@ -6,11 +6,11 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.AndroidLogger
-import org.signal.core.util.logging.Log
-import org.signal.spinner.Spinner
-import org.signal.spinner.SpinnerLogger
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.AndroidLogger
+import org.sparkcore.util.logging.Log
+import org.sparkspinner.Spinner
+import org.sparkspinner.SpinnerLogger
 import java.util.UUID
 import kotlin.random.Random
 

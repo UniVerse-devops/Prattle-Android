@@ -13,8 +13,8 @@ import okio.ByteString
 import org.mockito.kotlin.any
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock
-import org.signal.core.util.Base64
-import org.signal.core.util.logging.Log
+import org.spark.core.util.Base64
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
 import org.thoughtcrime.securesms.push.SignalServiceTrustStore

@@ -4,9 +4,9 @@ import android.graphics.Bitmap
 import android.net.Uri
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.Base64
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Base64
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.StoryType

@@ -4,7 +4,7 @@ import android.os.Process;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.ThreadUtil;
+import org.sparkcore.util.ThreadUtil;
 import org.thoughtcrime.securesms.jobmanager.ExecutorFactory;
 
 import java.util.concurrent.ExecutorService;

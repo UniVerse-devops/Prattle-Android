@@ -1,4 +1,4 @@
-package org.signal.qr
+package org.spark.qr
 
 import androidx.lifecycle.LifecycleOwner
 

@@ -1,9 +1,9 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 import java.lang.ref.WeakReference;
 

@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import android.app.Application
 import org.junit.Assert.assertEquals

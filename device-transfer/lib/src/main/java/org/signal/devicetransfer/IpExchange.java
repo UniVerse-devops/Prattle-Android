@@ -1,11 +1,11 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import android.os.Handler;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

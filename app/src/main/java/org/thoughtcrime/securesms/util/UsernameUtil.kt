@@ -1,19 +1,19 @@
 package org.thoughtcrime.securesms.util
 
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.usernames.BadDiscriminatorCharacterException
-import org.signal.libsignal.usernames.BadNicknameCharacterException
-import org.signal.libsignal.usernames.BaseUsernameException
-import org.signal.libsignal.usernames.CannotBeEmptyException
-import org.signal.libsignal.usernames.CannotStartWithDigitException
-import org.signal.libsignal.usernames.DiscriminatorCannotBeEmptyException
-import org.signal.libsignal.usernames.DiscriminatorCannotBeSingleDigitException
-import org.signal.libsignal.usernames.DiscriminatorCannotBeZeroException
-import org.signal.libsignal.usernames.DiscriminatorCannotHaveLeadingZerosException
-import org.signal.libsignal.usernames.DiscriminatorTooLargeException
-import org.signal.libsignal.usernames.NicknameTooLongException
-import org.signal.libsignal.usernames.NicknameTooShortException
-import org.signal.libsignal.usernames.Username
+import org.spark.core.util.logging.Log
+import org.spark.libsignal.usernames.BadDiscriminatorCharacterException
+import org.spark.libsignal.usernames.BadNicknameCharacterException
+import org.spark.libsignal.usernames.BaseUsernameException
+import org.spark.libsignal.usernames.CannotBeEmptyException
+import org.spark.libsignal.usernames.CannotStartWithDigitException
+import org.spark.libsignal.usernames.DiscriminatorCannotBeEmptyException
+import org.spark.libsignal.usernames.DiscriminatorCannotBeSingleDigitException
+import org.spark.libsignal.usernames.DiscriminatorCannotBeZeroException
+import org.spark.libsignal.usernames.DiscriminatorCannotHaveLeadingZerosException
+import org.spark.libsignal.usernames.DiscriminatorTooLargeException
+import org.spark.libsignal.usernames.NicknameTooLongException
+import org.spark.libsignal.usernames.NicknameTooShortException
+import org.spark.libsignal.usernames.Username
 import java.util.Locale
 import java.util.regex.Pattern
 

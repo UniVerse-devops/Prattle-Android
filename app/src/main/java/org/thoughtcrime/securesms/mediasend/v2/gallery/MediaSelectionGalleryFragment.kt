@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import app.cash.exhaustive.Exhaustive
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import org.signal.core.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.LifecycleDisposable
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.mediasend.Media
 import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator

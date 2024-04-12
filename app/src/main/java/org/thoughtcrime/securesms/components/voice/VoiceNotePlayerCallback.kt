@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -28,9 +28,9 @@ import androidx.media3.session.SessionCommands
 import androidx.media3.session.SessionResult
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SimpleTask
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SimpleTask
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.NoSuchMessageException
 import org.thoughtcrime.securesms.database.SignalDatabase.Companion.messages

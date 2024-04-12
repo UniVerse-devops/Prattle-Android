@@ -5,7 +5,7 @@ import android.animation.AnimatorSet
 import android.animation.ValueAnimator
 import androidx.core.animation.doOnEnd
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.conversation.ConversationAdapter
 
 /**

@@ -22,10 +22,10 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.getParcelableArrayListCompat
-import org.signal.core.util.getParcelableCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.getParcelableArrayListCompat
+import org.sparkcore.util.getParcelableCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.components.mention.MentionAnnotation
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.conversation.MessageSendType

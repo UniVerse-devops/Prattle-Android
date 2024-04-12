@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -33,10 +33,10 @@ import com.bumptech.glide.request.Request;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
-import org.signal.core.util.logging.Log;
-import org.signal.glide.transforms.SignalDownsampleStrategy;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.SettableFuture;
+import org.sparkcore.util.logging.Log;
+import org.sparkglide.transforms.SignalDownsampleStrategy;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.blurhash.BlurHash;
 import org.thoughtcrime.securesms.components.transfercontrols.TransferControlView;

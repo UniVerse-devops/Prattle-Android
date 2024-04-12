@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.database.model
 
 import android.net.Uri
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey
+import org.sparklibsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.conversation.colors.AvatarColor
 import org.thoughtcrime.securesms.conversation.colors.ChatColors

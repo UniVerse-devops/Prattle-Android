@@ -9,9 +9,9 @@ import com.annimon.stream.Stream;
 
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidKeyException;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;

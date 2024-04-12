@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import androidx.annotation.ColorInt;
 

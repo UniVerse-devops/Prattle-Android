@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.util.FileUtils;
 

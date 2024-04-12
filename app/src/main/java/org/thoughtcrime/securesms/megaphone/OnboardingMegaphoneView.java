@@ -15,7 +15,7 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.InviteActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.databinding.OnboardingMegaphoneCardBinding;

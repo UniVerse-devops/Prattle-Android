@@ -46,8 +46,8 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 import androidx.lifecycle.Lifecycle;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
+import org.spark.core.util.concurrent.ListenableFuture;
+import org.spark.core.util.concurrent.SettableFuture;
 import org.thoughtcrime.securesms.util.views.Stub;
 
 public final class ViewUtil {

@@ -9,8 +9,8 @@ import android.media.MediaRecorder;
 import android.os.ParcelFileDescriptor;
 import android.os.Process;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.StreamUtil;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;

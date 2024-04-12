@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.core.ui"
+  namespace = "org.spark.core.ui"
 
   buildFeatures {
     compose = true

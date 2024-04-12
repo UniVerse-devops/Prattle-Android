@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.components.settings.app.subscription.donate.g
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
 import org.thoughtcrime.securesms.recipients.RecipientId

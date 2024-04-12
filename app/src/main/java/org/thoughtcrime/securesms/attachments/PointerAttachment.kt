@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.attachments
 import android.net.Uri
 import android.os.Parcel
 import androidx.annotation.VisibleForTesting
-import org.signal.core.util.Base64.encodeWithPadding
+import org.sparkcore.util.Base64.encodeWithPadding
 import org.thoughtcrime.securesms.blurhash.BlurHash
 import org.thoughtcrime.securesms.database.AttachmentTable
 import org.thoughtcrime.securesms.stickers.StickerLocator

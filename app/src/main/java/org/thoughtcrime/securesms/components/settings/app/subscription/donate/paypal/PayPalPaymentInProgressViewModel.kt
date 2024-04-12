@@ -10,8 +10,8 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.logging.Log
-import org.signal.donations.PaymentSourceType
+import org.sparkcore.util.logging.Log
+import org.sparkdonations.PaymentSourceType
 import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.PayPalRepository

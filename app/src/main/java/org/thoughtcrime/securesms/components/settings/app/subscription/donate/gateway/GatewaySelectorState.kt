@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
 
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.badges.models.Badge
 
 data class GatewaySelectorState(

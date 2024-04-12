@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.keyvalue;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.ByteSerializer;
-import org.signal.core.util.StringSerializer;
+import org.sparkcore.util.ByteSerializer;
+import org.sparkcore.util.StringSerializer;
 import org.thoughtcrime.securesms.database.model.databaseprotos.SignalStoreList;
 
 import java.io.IOException;

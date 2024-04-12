@@ -1,4 +1,4 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -18,8 +18,8 @@ import androidx.core.content.ContextCompat;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;

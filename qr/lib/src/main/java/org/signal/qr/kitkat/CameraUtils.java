@@ -1,4 +1,4 @@
-package org.signal.qr.kitkat;
+package org.spark.qr.kitkat;
 
 import android.app.Activity;
 import android.hardware.Camera.CameraInfo;
@@ -10,7 +10,7 @@ import android.view.Surface;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.util.Collections;
 import java.util.Comparator;

@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.badges.self.expired
 
 import androidx.fragment.app.FragmentManager
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.badges.models.ExpiredBadge

@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -31,10 +31,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.updateLayoutParams
 import kotlinx.collections.immutable.persistentListOf
-import org.signal.core.ui.BottomSheets
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Previews
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.ui.BottomSheets
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Previews
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayResponse
 import org.thoughtcrime.securesms.components.settings.app.subscription.models.GooglePayButton

@@ -1,12 +1,12 @@
-package org.signal.core.util.concurrent;
+package org.spark.core.util.concurrent;
 
 import android.os.HandlerThread;
 import android.os.Process;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.LinkedBlockingLifoQueue;
-import org.signal.core.util.ThreadUtil;
+import org.spark.core.util.LinkedBlockingLifoQueue;
+import org.spark.core.util.ThreadUtil;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

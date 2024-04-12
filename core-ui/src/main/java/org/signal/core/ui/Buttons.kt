@@ -1,4 +1,4 @@
-package org.signal.core.ui
+package org.spark.core.ui
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -38,7 +38,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.theme.SignalTheme
 
 object Buttons {
 

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.backup
 
 import org.greenrobot.eventbus.EventBus
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.backup.proto.Attachment
 import org.thoughtcrime.securesms.backup.proto.Avatar
 import org.thoughtcrime.securesms.backup.proto.BackupFrame

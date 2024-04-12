@@ -8,12 +8,12 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import androidx.core.app.NotificationManagerCompat;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.IdentityKeyPair;
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord;
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
-import org.signal.libsignal.protocol.util.KeyHelper;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.IdentityKeyPair;
+import org.sparklibsignal.protocol.state.KyberPreKeyRecord;
+import org.sparklibsignal.protocol.state.SignedPreKeyRecord;
+import org.sparklibsignal.protocol.util.KeyHelper;
+import org.sparklibsignal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.crypto.PreKeyUtil;
 import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
 import org.thoughtcrime.securesms.crypto.SenderKeyUtil;

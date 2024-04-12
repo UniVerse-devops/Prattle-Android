@@ -14,10 +14,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 
-import org.signal.qr.QrScannerView;
-import org.signal.qr.kitkat.ScanListener;
+import org.sparkqr.QrScannerView;
+import org.sparkqr.kitkat.ScanListener;
 import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist;
-import org.signal.core.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
 import org.thoughtcrime.securesms.util.ViewUtil;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;

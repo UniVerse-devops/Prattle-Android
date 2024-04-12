@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.crypto.AttachmentSecret;
 import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
 import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
@@ -21,8 +21,8 @@ import org.thoughtcrime.securesms.database.model.StickerRecord;
 import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
 import org.thoughtcrime.securesms.stickers.BlessedPacks;
 import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent;
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.SqlUtil;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.SqlUtil;
 
 import java.io.Closeable;
 import java.io.File;

@@ -7,10 +7,10 @@ import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.ResourceDecoder;
 import com.bumptech.glide.load.engine.Resource;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.glide.apng.decode.APNGDecoder;
-import org.signal.glide.apng.decode.APNGParser;
-import org.signal.glide.common.io.StreamReader;
+import org.sparkcore.util.StreamUtil;
+import org.sparkglide.apng.decode.APNGDecoder;
+import org.sparkglide.apng.decode.APNGParser;
+import org.sparkglide.common.io.StreamReader;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.database
 
 import android.content.ContentValues
-import org.signal.core.util.SqlUtil.buildArgs
+import org.spark.core.util.SqlUtil.buildArgs
 
 object TestDbUtils {
 

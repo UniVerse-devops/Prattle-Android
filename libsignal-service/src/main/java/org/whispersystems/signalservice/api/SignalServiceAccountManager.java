@@ -8,17 +8,17 @@ package org.whispersystems.signalservice.api;
 
 import com.squareup.wire.FieldEncoding;
 
-import org.signal.libsignal.net.Network;
-import org.signal.libsignal.protocol.IdentityKeyPair;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
-import org.signal.libsignal.usernames.BaseUsernameException;
-import org.signal.libsignal.usernames.Username;
-import org.signal.libsignal.usernames.Username.UsernameLink;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.net.Network;
+import org.spark.libsignal.protocol.IdentityKeyPair;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.ecc.ECPublicKey;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.state.SignedPreKeyRecord;
+import org.spark.libsignal.usernames.BaseUsernameException;
+import org.spark.libsignal.usernames.Username;
+import org.spark.libsignal.usernames.Username.UsernameLink;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.account.AccountAttributes;
 import org.whispersystems.signalservice.api.account.ChangePhoneNumberRequest;
 import org.whispersystems.signalservice.api.account.PniKeyDistributionRequest;
@@ -86,7 +86,7 @@ import org.whispersystems.signalservice.internal.storage.protos.WriteOperation;
 import org.whispersystems.signalservice.internal.util.StaticCredentialsProvider;
 import org.whispersystems.signalservice.internal.util.Util;
 import org.whispersystems.signalservice.internal.websocket.DefaultResponseMapper;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.security.MessageDigest;

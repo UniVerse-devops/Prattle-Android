@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyvalue
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.whispersystems.signalservice.api.archive.ArchiveServiceCredential
 import org.whispersystems.signalservice.internal.util.JsonUtil
 import java.io.IOException

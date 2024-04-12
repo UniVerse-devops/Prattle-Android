@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.components.settings.app.subscription.donate.g
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.signal.donations.PaymentSourceType
+import org.sparkdonations.PaymentSourceType
 
 @Parcelize
 data class GatewayResponse(val gateway: Gateway, val request: GatewayRequest) : Parcelable {

@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
 
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration
 import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter

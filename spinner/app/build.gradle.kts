@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.spinnertest"
+  namespace = "org.spark.spinnertest"
 
   defaultConfig {
-    applicationId = "org.signal.spinnertest"
+    applicationId = "org.spark.spinnertest"
   }
 }
 

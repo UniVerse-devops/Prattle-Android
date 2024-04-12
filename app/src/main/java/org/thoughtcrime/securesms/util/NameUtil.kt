@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.util
 
-import org.signal.core.util.CharacterIterable
+import org.spark.core.util.CharacterIterable
 import java.util.regex.Pattern
 
 object NameUtil {

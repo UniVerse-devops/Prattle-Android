@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.badges.gifts.flow
 
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.databinding.SubscriptionPreferenceBinding

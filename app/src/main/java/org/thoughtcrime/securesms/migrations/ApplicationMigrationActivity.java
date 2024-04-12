@@ -19,7 +19,7 @@ package org.thoughtcrime.securesms.migrations;
 
 import android.os.Bundle;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.BaseActivity;
 import org.thoughtcrime.securesms.R;
 

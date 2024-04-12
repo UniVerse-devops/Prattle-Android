@@ -4,7 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.provider.DocumentsContract;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 /**
  * Located in androidx package as {@link TreeDocumentFile} is package protected.

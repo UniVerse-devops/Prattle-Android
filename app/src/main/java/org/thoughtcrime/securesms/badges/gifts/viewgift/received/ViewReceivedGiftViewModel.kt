@@ -6,7 +6,7 @@ import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.badges.BadgeRepository
 import org.thoughtcrime.securesms.badges.gifts.viewgift.ViewGiftRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError

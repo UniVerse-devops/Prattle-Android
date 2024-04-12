@@ -1,14 +1,14 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
 import org.junit.Test;
-import org.signal.storageservice.protos.groups.AccessControl;
-import org.signal.storageservice.protos.groups.local.DecryptedApproveMember;
-import org.signal.storageservice.protos.groups.local.DecryptedBannedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember;
-import org.signal.storageservice.protos.groups.local.DecryptedString;
-import org.signal.storageservice.protos.groups.local.DecryptedTimer;
-import org.signal.storageservice.protos.groups.local.EnabledState;
+import org.spark.storageservice.protos.groups.AccessControl;
+import org.spark.storageservice.protos.groups.local.DecryptedApproveMember;
+import org.spark.storageservice.protos.groups.local.DecryptedBannedMember;
+import org.spark.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.spark.storageservice.protos.groups.local.DecryptedRequestingMember;
+import org.spark.storageservice.protos.groups.local.DecryptedString;
+import org.spark.storageservice.protos.groups.local.DecryptedTimer;
+import org.spark.storageservice.protos.groups.local.EnabledState;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 
 import java.util.List;

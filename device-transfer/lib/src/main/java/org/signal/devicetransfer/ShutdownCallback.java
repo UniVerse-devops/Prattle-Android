@@ -1,4 +1,4 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 /**
  * Allow {@link DeviceTransferClient} or {@link DeviceTransferServer} to indicate to the

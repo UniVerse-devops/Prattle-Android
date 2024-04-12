@@ -13,7 +13,7 @@ import android.view.animation.OvershootInterpolator
 import androidx.annotation.Px
 import androidx.core.content.ContextCompat
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import kotlin.math.max
 import kotlin.time.Duration

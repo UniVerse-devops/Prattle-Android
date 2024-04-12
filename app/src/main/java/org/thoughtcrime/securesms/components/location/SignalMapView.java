@@ -17,8 +17,8 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.SettableFuture;
 import org.thoughtcrime.securesms.R;
 
 import java.util.concurrent.ExecutionException;

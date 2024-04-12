@@ -2,12 +2,12 @@ package org.thoughtcrime.securesms.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.delete
-import org.signal.core.util.deleteAll
-import org.signal.core.util.exists
-import org.signal.core.util.logging.Log
-import org.signal.core.util.update
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.delete
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.exists
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.update
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.LRUCache
 import org.whispersystems.signalservice.api.messages.SendMessageResult

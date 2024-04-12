@@ -1,13 +1,13 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.video.postprocessing
 
-import org.signal.core.util.readLength
-import org.signal.libsignal.media.Mp4Sanitizer
-import org.signal.libsignal.media.SanitizedMetadata
+import org.spark.core.util.readLength
+import org.spark.libsignal.media.Mp4Sanitizer
+import org.spark.libsignal.media.SanitizedMetadata
 import org.thoughtcrime.securesms.video.exceptions.VideoPostProcessingException
 import java.io.ByteArrayInputStream
 import java.io.FilterInputStream

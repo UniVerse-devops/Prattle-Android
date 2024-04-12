@@ -29,17 +29,17 @@ import com.google.android.gms.security.ProviderInstaller;
 
 import org.conscrypt.ConscryptSignal;
 import org.greenrobot.eventbus.EventBus;
-import org.signal.aesgcmprovider.AesGcmProvider;
-import org.signal.core.util.MemoryTracker;
-import org.signal.core.util.concurrent.AnrDetector;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.AndroidLogger;
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.logging.Scrubber;
-import org.signal.core.util.tracing.Tracer;
-import org.signal.glide.SignalGlideCodecs;
-import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider;
-import org.signal.ringrtc.CallManager;
+import org.sparkaesgcmprovider.AesGcmProvider;
+import org.sparkcore.util.MemoryTracker;
+import org.sparkcore.util.concurrent.AnrDetector;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.AndroidLogger;
+import org.sparkcore.util.logging.Log;
+import org.sparkcore.util.logging.Scrubber;
+import org.sparkcore.util.tracing.Tracer;
+import org.sparkglide.SignalGlideCodecs;
+import org.sparklibsignal.protocol.logging.SignalProtocolLoggerProvider;
+import org.sparkringrtc.CallManager;
 import org.thoughtcrime.securesms.avatar.AvatarPickerStorage;
 import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
 import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
@@ -486,7 +486,7 @@ public class ApplicationContext extends MultiDexApplication implements AppForegr
   }
 
   private void initializeGlideCodecs() {
-    SignalGlideCodecs.setLogProvider(new org.signal.glide.Log.Provider() {
+    SignalGlideCodecs.setLogProvider(new org.sparkglide.Log.Provider() {
       @Override
       public void v(@NonNull String tag, @NonNull String message) {
         Log.v(tag, message);

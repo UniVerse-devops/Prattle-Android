@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -9,9 +9,9 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.Base64
-import org.signal.core.util.Serializer
-import org.signal.ringrtc.CallLinkRootKey
+import org.sparkcore.util.Base64
+import org.sparkcore.util.Serializer
+import org.sparkringrtc.CallLinkRootKey
 
 @Parcelize
 class CallLinkRoomId private constructor(private val roomId: ByteArray) : Parcelable {

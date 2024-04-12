@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 /**
  * A Result that allows for generic definitions of success/failure values.

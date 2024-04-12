@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.badges.gifts
 
 import android.content.Context
-import org.signal.core.util.Base64
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.sparkcore.util.Base64
+import org.sparklibsignal.zkgroup.InvalidInputException
+import org.sparklibsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
 import org.thoughtcrime.securesms.mms.OutgoingMessage

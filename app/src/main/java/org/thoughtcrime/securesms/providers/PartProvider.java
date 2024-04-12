@@ -35,10 +35,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.attachments.AttachmentId;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;

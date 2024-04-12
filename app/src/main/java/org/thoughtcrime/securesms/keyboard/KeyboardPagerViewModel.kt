@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.keyboard
 import androidx.annotation.MainThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import org.signal.core.util.ThreadUtil
+import org.sparkcore.util.ThreadUtil
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.stickers.StickerSearchRepository
 import org.thoughtcrime.securesms.util.DefaultValueLiveData

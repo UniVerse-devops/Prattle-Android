@@ -7,8 +7,8 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.contacts.ContactRepository;
 import org.thoughtcrime.securesms.database.GroupTable;

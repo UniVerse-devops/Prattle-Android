@@ -9,7 +9,7 @@ import androidx.lifecycle.MediatorLiveData;
 
 import com.annimon.stream.function.Function;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
 
 import java.util.HashSet;

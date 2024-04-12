@@ -11,10 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.ContactRepository;
 import org.thoughtcrime.securesms.conversation.MessageStyler;
 import org.thoughtcrime.securesms.database.BodyAdjustment;

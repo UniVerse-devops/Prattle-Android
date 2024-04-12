@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription
 
-import org.signal.donations.PaymentSourceType
+import org.sparkdonations.PaymentSourceType
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.util.Environment

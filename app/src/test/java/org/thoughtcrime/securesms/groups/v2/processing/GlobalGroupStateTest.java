@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.groups.v2.processing;
 
 import org.junit.Test;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.spark.storageservice.protos.groups.local.DecryptedGroup;
+import org.spark.storageservice.protos.groups.local.DecryptedGroupChange;
 
 import static org.junit.Assert.assertEquals;
 import static java.util.Arrays.asList;

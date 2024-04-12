@@ -10,8 +10,8 @@ import com.bumptech.glide.load.engine.Resource;
 import com.bumptech.glide.load.resource.drawable.DrawableResource;
 import com.bumptech.glide.load.resource.transcode.ResourceTranscoder;
 
-import org.signal.glide.apng.APNGDrawable;
-import org.signal.glide.apng.decode.APNGDecoder;
+import org.sparkglide.apng.APNGDrawable;
+import org.sparkglide.apng.decode.APNGDecoder;
 
 public class ApngFrameDrawableTranscoder implements ResourceTranscoder<APNGDecoder, Drawable> {
 

@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.Uri
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.components.emoji.Emoji
 import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
 import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel

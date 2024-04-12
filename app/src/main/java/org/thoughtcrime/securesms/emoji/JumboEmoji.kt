@@ -5,10 +5,10 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.SystemClock
 import androidx.annotation.MainThread
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.concurrent.SimpleTask
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SimpleTask
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
 import org.thoughtcrime.securesms.emoji.protos.JumbomojiPack
 import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint

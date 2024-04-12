@@ -1,10 +1,10 @@
 package org.whispersystems.signalservice.api.services;
 
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.util.Pair;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription;

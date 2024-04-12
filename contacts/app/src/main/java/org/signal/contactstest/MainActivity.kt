@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.Manifest
 import android.accounts.Account
@@ -11,10 +11,10 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import org.signal.contacts.ContactLinkConfiguration
-import org.signal.contacts.SystemContactsRepository
-import org.signal.core.util.concurrent.SimpleTask
-import org.signal.core.util.logging.Log
+import org.sparkcontacts.ContactLinkConfiguration
+import org.sparkcontacts.SystemContactsRepository
+import org.sparkcore.util.concurrent.SimpleTask
+import org.sparkcore.util.logging.Log
 
 class MainActivity : AppCompatActivity() {
 
@@ -121,8 +121,8 @@ class MainActivity : AppCompatActivity() {
       messagePrompt = { "(Test) Message $it" },
       callPrompt = { "(Test) Call $it" },
       e164Formatter = { PhoneNumberUtils.formatNumberToE164(it, "US") },
-      messageMimetype = "vnd.android.cursor.item/vnd.org.signal.contacts.test.message",
-      callMimetype = "vnd.android.cursor.item/vnd.org.signal.contacts.test.call",
+      messageMimetype = "vnd.android.cursor.item/vnd.org.sparkcontacts.test.message",
+      callMimetype = "vnd.android.cursor.item/vnd.org.sparkcontacts.test.call",
       syncTag = "__TEST"
     )
   }

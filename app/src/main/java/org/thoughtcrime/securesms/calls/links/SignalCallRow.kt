@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -35,8 +35,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.theme.SignalTheme
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
 import org.thoughtcrime.securesms.database.CallLinkTable
@@ -57,7 +57,7 @@ private fun SignalCallRowPreview() {
       credentials = credentials,
       state = SignalCallLinkState(
         name = "Call Name",
-        restrictions = org.signal.ringrtc.CallLinkState.Restrictions.NONE,
+        restrictions = org.sparkringrtc.CallLinkState.Restrictions.NONE,
         expiration = Instant.MAX,
         revoked = false
       )

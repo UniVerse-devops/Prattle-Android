@@ -1,8 +1,8 @@
-package org.signal.donations
+package org.sparkdonations
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import java.io.IOException
 
 internal object ResponseFieldLogger {

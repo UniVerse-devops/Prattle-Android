@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.conversationlist.chatfilter
 
 import android.animation.FloatEvaluator
 import androidx.annotation.FloatRange
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.util.Util
 
 /**

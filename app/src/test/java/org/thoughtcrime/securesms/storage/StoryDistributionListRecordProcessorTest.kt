@@ -5,7 +5,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.BeforeClass
 import org.junit.Test
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.testutil.EmptyLogger
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord

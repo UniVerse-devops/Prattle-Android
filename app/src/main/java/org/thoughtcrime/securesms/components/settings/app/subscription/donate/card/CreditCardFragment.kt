@@ -14,8 +14,8 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.navigation.navGraphViewModels
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.TemporaryScreenshotSecurity
 import org.thoughtcrime.securesms.components.ViewBinderDelegate

@@ -2,11 +2,11 @@ package org.thoughtcrime.securesms.backup;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.Conversions;
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.kdf.HKDF;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.sparkcore.util.Conversions;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.kdf.HKDF;
+import org.sparklibsignal.protocol.util.ByteUtil;
 import org.thoughtcrime.securesms.backup.proto.BackupFrame;
 import org.thoughtcrime.securesms.backup.proto.Header;
 

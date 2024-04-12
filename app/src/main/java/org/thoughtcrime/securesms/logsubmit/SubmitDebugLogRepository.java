@@ -14,18 +14,18 @@ import com.annimon.stream.Stream;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.logging.Scrubber;
-import org.signal.core.util.tracing.Tracer;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparkcore.util.logging.Scrubber;
+import org.sparkcore.util.tracing.Tracer;
 import org.thoughtcrime.securesms.database.LogDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
 import org.thoughtcrime.securesms.providers.BlobProvider;
 import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
 import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.signal.core.util.Stopwatch;
+import org.sparkcore.util.Stopwatch;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.InvalidMessageException
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.protocol.InvalidMessageException
 import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

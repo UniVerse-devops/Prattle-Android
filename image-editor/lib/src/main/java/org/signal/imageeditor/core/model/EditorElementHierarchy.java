@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
 import android.graphics.Matrix;
 import android.graphics.Point;
@@ -10,15 +10,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.R;
-import org.signal.imageeditor.core.SelectableRenderer;
-import org.signal.imageeditor.core.renderers.CropAreaRenderer;
-import org.signal.imageeditor.core.renderers.FillRenderer;
-import org.signal.imageeditor.core.renderers.InverseFillRenderer;
-import org.signal.imageeditor.core.renderers.OvalGuideRenderer;
-import org.signal.imageeditor.core.renderers.SelectedElementGuideRenderer;
-import org.signal.imageeditor.core.renderers.TrashRenderer;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.R;
+import org.sparkimageeditor.core.SelectableRenderer;
+import org.sparkimageeditor.core.renderers.CropAreaRenderer;
+import org.sparkimageeditor.core.renderers.FillRenderer;
+import org.sparkimageeditor.core.renderers.InverseFillRenderer;
+import org.sparkimageeditor.core.renderers.OvalGuideRenderer;
+import org.sparkimageeditor.core.renderers.SelectedElementGuideRenderer;
+import org.sparkimageeditor.core.renderers.TrashRenderer;
 
 /**
  * Creates and handles a strict EditorElement Hierarchy.

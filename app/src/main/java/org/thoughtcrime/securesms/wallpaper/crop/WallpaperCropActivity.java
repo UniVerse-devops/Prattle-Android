@@ -21,11 +21,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.signal.core.util.logging.Log;
-import org.signal.imageeditor.core.ImageEditorView;
-import org.signal.imageeditor.core.model.EditorElement;
-import org.signal.imageeditor.core.model.EditorModel;
-import org.signal.imageeditor.core.renderers.FaceBlurRenderer;
+import org.sparkcore.util.logging.Log;
+import org.sparkimageeditor.core.ImageEditorView;
+import org.sparkimageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorModel;
+import org.sparkimageeditor.core.renderers.FaceBlurRenderer;
 import org.thoughtcrime.securesms.BaseActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.ProgressCard;

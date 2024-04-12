@@ -1,14 +1,14 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.calls.links
 
 import io.reactivex.rxjava3.core.Observable
-import org.signal.core.util.logging.Log
-import org.signal.ringrtc.CallException
-import org.signal.ringrtc.CallLinkRootKey
+import org.sparkcore.util.logging.Log
+import org.sparkringrtc.CallException
+import org.sparkringrtc.CallLinkRootKey
 import org.thoughtcrime.securesms.database.CallLinkTable
 import org.thoughtcrime.securesms.database.DatabaseObserver
 import org.thoughtcrime.securesms.database.SignalDatabase

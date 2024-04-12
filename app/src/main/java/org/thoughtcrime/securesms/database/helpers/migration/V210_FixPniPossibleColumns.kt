@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,9 +7,9 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireString
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireString
 import org.thoughtcrime.securesms.database.KeyValueDatabase
 import org.whispersystems.signalservice.api.push.ServiceId
 

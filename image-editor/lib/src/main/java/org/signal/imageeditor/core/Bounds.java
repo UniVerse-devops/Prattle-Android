@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.graphics.Matrix;
 import android.graphics.RectF;
@@ -6,7 +6,7 @@ import android.graphics.RectF;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.imageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorElement;
 
 /**
  * The local extent of a {@link EditorElement}.

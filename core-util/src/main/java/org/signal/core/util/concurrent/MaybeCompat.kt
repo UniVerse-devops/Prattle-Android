@@ -1,9 +1,9 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.concurrent
+package org.spark.core.util.concurrent
 
 import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.exceptions.Exceptions

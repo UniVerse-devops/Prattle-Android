@@ -13,11 +13,11 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.mobilecoin.lib.exceptions.SerializationException;
 
-import org.signal.core.util.CursorExtensionsKt;
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.SQLiteDatabaseExtensionsKt;
-import org.signal.core.util.SqlUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.CursorExtensionsKt;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.SQLiteDatabaseExtensionsKt;
+import org.sparkcore.util.SqlUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
 import org.thoughtcrime.securesms.database.model.MessageId;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
@@ -32,7 +32,7 @@ import org.thoughtcrime.securesms.payments.Payment;
 import org.thoughtcrime.securesms.payments.State;
 import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
 import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.whispersystems.signalservice.api.payments.Money;
 import org.whispersystems.signalservice.api.util.UuidUtil;

@@ -13,8 +13,8 @@ import androidx.annotation.RequiresApi;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.profiles.manage
 
-import org.signal.libsignal.usernames.Username
+import org.sparklibsignal.usernames.Username
 import org.whispersystems.signalservice.api.util.discriminator
 import org.whispersystems.signalservice.api.util.nickname
 

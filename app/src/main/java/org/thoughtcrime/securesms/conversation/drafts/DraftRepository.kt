@@ -7,11 +7,11 @@ import android.text.SpannableString
 import com.bumptech.glide.Glide
 import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.Base64
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.concurrent.MaybeCompat
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Base64
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.concurrent.MaybeCompat
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.components.location.SignalPlace
 import org.thoughtcrime.securesms.components.mention.MentionAnnotation
 import org.thoughtcrime.securesms.conversation.ConversationIntents

@@ -5,7 +5,7 @@ import androidx.annotation.OptIn
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.audio.AudioSink
 import androidx.media3.exoplayer.audio.DefaultAudioSink
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import java.nio.ByteBuffer
 
 /**

@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api.backup
 
-import org.signal.core.util.Base64
+import org.spark.core.util.Base64
 
 /**
  * Safe typing around a mediaId, which is a 15-byte array.

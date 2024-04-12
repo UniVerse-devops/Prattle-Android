@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.absbackup.backupables
 
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.absbackup.AndroidBackupItem
 import org.thoughtcrime.securesms.absbackup.protos.SvrAuthToken
 import org.thoughtcrime.securesms.keyvalue.SignalStore

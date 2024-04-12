@@ -17,8 +17,8 @@ import androidx.core.view.ViewKt;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
 import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;

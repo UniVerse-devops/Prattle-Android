@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.annotation.WorkerThread
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.util.EncryptedStreamUtils
 import java.io.File
 

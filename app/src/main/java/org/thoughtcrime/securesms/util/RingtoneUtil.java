@@ -11,7 +11,7 @@ import android.provider.Settings;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

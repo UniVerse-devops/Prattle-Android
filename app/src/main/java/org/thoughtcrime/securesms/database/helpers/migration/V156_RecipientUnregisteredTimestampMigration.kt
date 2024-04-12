@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.update
+import org.sparkcore.util.update
 import java.util.concurrent.TimeUnit
 
 /**

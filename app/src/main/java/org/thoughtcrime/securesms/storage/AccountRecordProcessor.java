@@ -5,8 +5,8 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.whispersystems.signalservice.api.storage.SignalAccountRecord;

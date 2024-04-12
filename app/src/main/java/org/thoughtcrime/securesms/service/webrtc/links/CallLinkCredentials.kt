@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,7 +7,7 @@ package org.thoughtcrime.securesms.service.webrtc.links
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.signal.ringrtc.CallLinkRootKey
+import org.sparkringrtc.CallLinkRootKey
 
 /**
  * Holds onto the credentials for a given call link.

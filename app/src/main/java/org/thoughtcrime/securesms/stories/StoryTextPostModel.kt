@@ -16,9 +16,9 @@ import com.bumptech.glide.load.Options
 import com.bumptech.glide.load.ResourceDecoder
 import com.bumptech.glide.load.engine.Resource
 import com.bumptech.glide.load.resource.SimpleResource
-import org.signal.core.util.Base64
-import org.signal.core.util.concurrent.safeBlockingGet
-import org.signal.core.util.readParcelableCompat
+import org.sparkcore.util.Base64
+import org.sparkcore.util.concurrent.safeBlockingGet
+import org.sparkcore.util.readParcelableCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.colors.ChatColors
 import org.thoughtcrime.securesms.database.SignalDatabase

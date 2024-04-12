@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerListAdapter;
 import org.thoughtcrime.securesms.util.ViewUtil;

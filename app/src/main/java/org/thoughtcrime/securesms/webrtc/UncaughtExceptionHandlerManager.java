@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.webrtc;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.util.ArrayList;
 import java.util.List;

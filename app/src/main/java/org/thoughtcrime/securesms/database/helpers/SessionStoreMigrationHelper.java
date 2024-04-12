@@ -6,10 +6,10 @@ import android.content.Context;
 
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
-import org.signal.core.util.Conversions;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.state.SessionRecord;
+import org.sparkcore.util.Conversions;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMessageException;
+import org.sparklibsignal.protocol.state.SessionRecord;
 import org.thoughtcrime.securesms.database.SessionTable;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

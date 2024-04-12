@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
+import org.sparklibsignal.protocol.SignalProtocolAddress
+import org.sparklibsignal.protocol.groups.state.SenderKeyRecord
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceSenderKeyStore

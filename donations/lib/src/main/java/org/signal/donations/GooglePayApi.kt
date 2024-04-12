@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import android.app.Activity
 import android.content.Context
@@ -16,8 +16,8 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
 import java.util.Locale
 
 /**

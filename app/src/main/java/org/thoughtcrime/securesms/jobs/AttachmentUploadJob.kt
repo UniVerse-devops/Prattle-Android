@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.thoughtcrime.securesms.jobs
@@ -8,10 +8,10 @@ import android.graphics.Bitmap
 import android.os.Build
 import android.text.TextUtils
 import org.greenrobot.eventbus.EventBus
-import org.signal.core.util.inRoundedDays
-import org.signal.core.util.logging.Log
-import org.signal.core.util.mebiBytes
-import org.signal.protos.resumableuploads.ResumableUpload
+import org.sparkcore.util.inRoundedDays
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.mebiBytes
+import org.sparkprotos.resumableuploads.ResumableUpload
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.attachments.Attachment
 import org.thoughtcrime.securesms.attachments.AttachmentId

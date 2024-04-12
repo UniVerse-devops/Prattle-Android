@@ -7,8 +7,8 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.dp
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.menu.ActionItem
 import org.thoughtcrime.securesms.components.menu.SignalContextMenu

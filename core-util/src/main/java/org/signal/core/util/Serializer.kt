@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 /**
  * Generic serialization interface for use with database and store operations.

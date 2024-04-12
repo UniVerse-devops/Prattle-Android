@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.keyvalue
 
-import org.signal.core.util.ByteSerializer
+import org.sparkcore.util.ByteSerializer
 import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
 
 /**

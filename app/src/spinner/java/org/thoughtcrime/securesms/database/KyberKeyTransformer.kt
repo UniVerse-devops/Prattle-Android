@@ -1,15 +1,15 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.Base64
-import org.signal.core.util.requireBlob
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.spinner.ColumnTransformer
+import org.spark.core.util.Base64
+import org.spark.core.util.requireBlob
+import org.spark.libsignal.protocol.state.KyberPreKeyRecord
+import org.spark.spinner.ColumnTransformer
 
 object KyberKeyTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {

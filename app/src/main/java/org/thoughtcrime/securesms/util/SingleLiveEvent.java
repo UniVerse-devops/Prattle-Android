@@ -23,7 +23,7 @@ import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

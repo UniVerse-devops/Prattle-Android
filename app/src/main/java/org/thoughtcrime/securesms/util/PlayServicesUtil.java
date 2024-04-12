@@ -8,7 +8,7 @@ import android.content.pm.PackageManager;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 public class PlayServicesUtil {
 

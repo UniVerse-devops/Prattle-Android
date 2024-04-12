@@ -6,12 +6,12 @@
 
 package org.whispersystems.signalservice.api;
 
-import org.signal.core.util.concurrent.FutureTransformers;
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.core.util.concurrent.FutureTransformers;
+import org.spark.core.util.concurrent.ListenableFuture;
+import org.spark.core.util.concurrent.SettableFuture;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream;
 import org.whispersystems.signalservice.api.crypto.ProfileCipherInputStream;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;

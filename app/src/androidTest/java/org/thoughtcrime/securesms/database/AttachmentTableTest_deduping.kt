@@ -11,8 +11,8 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.core.util.Base64
-import org.signal.core.util.update
+import org.spark.core.util.Base64
+import org.spark.core.util.update
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.attachments.PointerAttachment
 import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties

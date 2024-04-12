@@ -6,7 +6,7 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.paging.PagingController;
+import org.spark.paging.PagingController;
 import org.thoughtcrime.securesms.util.ViewUtil;
 
 /**

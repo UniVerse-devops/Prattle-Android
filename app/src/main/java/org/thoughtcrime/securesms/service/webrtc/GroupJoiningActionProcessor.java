@@ -5,9 +5,9 @@ import android.os.ResultReceiver;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.GroupCall;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.GroupCall;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
 import org.thoughtcrime.securesms.ringrtc.Camera;
 import org.thoughtcrime.securesms.ringrtc.RemotePeer;

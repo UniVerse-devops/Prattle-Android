@@ -1,9 +1,9 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import org.signal.core.util.StreamUtil;
+import org.sparkcore.util.StreamUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

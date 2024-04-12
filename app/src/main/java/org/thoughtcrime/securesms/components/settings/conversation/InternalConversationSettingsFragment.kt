@@ -7,11 +7,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.core.util.Base64
-import org.signal.core.util.Hex
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.isAbsent
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.sparkcore.util.Base64
+import org.sparkcore.util.Hex
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.isAbsent
+import org.sparklibsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration

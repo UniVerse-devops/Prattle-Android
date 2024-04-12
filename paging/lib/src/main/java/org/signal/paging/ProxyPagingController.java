@@ -1,4 +1,4 @@
-package org.signal.paging;
+package org.spark.paging;
 
 import androidx.annotation.Nullable;
 

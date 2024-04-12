@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.core.util.LongSerializer
+import org.sparkcore.util.LongSerializer
 
 /**
  * A list can explicit ([ONLY_WITH]) where only members of the list can send or exclusionary ([ALL_EXCEPT]) where

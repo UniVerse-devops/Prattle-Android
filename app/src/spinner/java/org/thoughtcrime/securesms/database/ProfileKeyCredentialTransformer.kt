@@ -1,12 +1,12 @@
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.Base64
-import org.signal.core.util.Hex
-import org.signal.core.util.requireString
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.signal.spinner.ColumnTransformer
-import org.signal.spinner.DefaultColumnTransformer
+import org.spark.core.util.Base64
+import org.spark.core.util.Hex
+import org.spark.core.util.requireString
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.spark.spinner.ColumnTransformer
+import org.spark.spinner.DefaultColumnTransformer
 import org.thoughtcrime.securesms.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
 import org.thoughtcrime.securesms.util.toLocalDateTime
 import java.security.MessageDigest

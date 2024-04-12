@@ -7,7 +7,7 @@ import android.widget.ImageView
 import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
-import org.signal.core.util.EditTextUtil
+import org.sparkcore.util.EditTextUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLSettingsText
 import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory

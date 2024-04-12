@@ -1,19 +1,19 @@
 package org.thoughtcrime.securesms.database
 
 import android.content.Context
-import org.signal.core.util.delete
-import org.signal.core.util.deleteAll
-import org.signal.core.util.exists
-import org.signal.core.util.insertInto
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.readToSingleObject
-import org.signal.core.util.requireBoolean
-import org.signal.core.util.requireNonNullBlob
-import org.signal.core.util.select
-import org.signal.core.util.toInt
-import org.signal.core.util.update
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
+import org.sparkcore.util.delete
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.exists
+import org.sparkcore.util.insertInto
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.readToSingleObject
+import org.sparkcore.util.requireBoolean
+import org.sparkcore.util.requireNonNullBlob
+import org.sparkcore.util.select
+import org.sparkcore.util.toInt
+import org.sparkcore.util.update
+import org.sparklibsignal.protocol.state.KyberPreKeyRecord
 import org.whispersystems.signalservice.api.push.ServiceId
 
 /**

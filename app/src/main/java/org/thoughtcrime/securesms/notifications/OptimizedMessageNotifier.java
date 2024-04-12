@@ -8,9 +8,9 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.ExceptionUtil;
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.ExceptionUtil;
+import org.spark.core.util.ThreadUtil;
+import org.spark.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
 import org.thoughtcrime.securesms.notifications.v2.ConversationId;

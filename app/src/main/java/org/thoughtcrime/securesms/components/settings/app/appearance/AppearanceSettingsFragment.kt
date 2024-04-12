@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.components.settings.app.appearance
 import android.os.Build
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
-import org.signal.core.util.concurrent.observe
+import org.sparkcore.util.concurrent.observe
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration
 import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment

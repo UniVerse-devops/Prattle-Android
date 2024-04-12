@@ -2,9 +2,9 @@ package org.thoughtcrime.securesms.components.settings.app.subscription.errors
 
 import android.content.Context
 import androidx.annotation.StringRes
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeDeclineCode
-import org.signal.donations.StripeFailureCode
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeDeclineCode
+import org.sparkdonations.StripeFailureCode
 import org.thoughtcrime.securesms.R
 
 class DonationErrorParams<V> private constructor(

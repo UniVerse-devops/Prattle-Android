@@ -4,10 +4,10 @@ import androidx.lifecycle.Observer
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.paging.ObservablePagedData
-import org.signal.paging.PagedData
-import org.signal.paging.PagingConfig
-import org.signal.paging.PagingController
+import org.sparkpaging.ObservablePagedData
+import org.sparkpaging.PagedData
+import org.sparkpaging.PagingConfig
+import org.sparkpaging.PagingController
 import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
 import org.thoughtcrime.securesms.conversation.colors.NameColor
 import org.thoughtcrime.securesms.database.DatabaseObserver

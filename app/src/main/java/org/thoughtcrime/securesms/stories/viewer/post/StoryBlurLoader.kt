@@ -11,7 +11,7 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.blurhash.BlurHash
 import org.thoughtcrime.securesms.stories.viewer.page.StoryCache
 import org.thoughtcrime.securesms.stories.viewer.page.StoryDisplay

@@ -11,8 +11,8 @@ import androidx.lifecycle.Lifecycle;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkstorageservice.protos.groups.local.DecryptedPendingMember;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.GroupRecord;
 import org.thoughtcrime.securesms.recipients.Recipient;

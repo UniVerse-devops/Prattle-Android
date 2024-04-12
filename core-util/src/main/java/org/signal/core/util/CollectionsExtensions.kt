@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 /**
  * Flattens a List of Map<K, V> into a Map<K, V> using the + operator.

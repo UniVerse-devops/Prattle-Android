@@ -1,4 +1,4 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import androidx.annotation.NonNull;
 

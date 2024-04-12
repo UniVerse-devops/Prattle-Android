@@ -2,14 +2,14 @@ package org.thoughtcrime.securesms.glide.cache;
 
 import com.bumptech.glide.load.Option;
 
-import org.signal.core.util.Conversions;
+import org.sparkcore.util.Conversions;
 
 /**
  * Holds options that can be used to alter how APNGs are decoded in Glide.
  */
 public final class ApngOptions {
 
-  private static final String KEY = "org.signal.skip_apng";
+  private static final String KEY = "org.sparkskip_apng";
 
   public static Option<Boolean> ANIMATE = Option.disk(KEY, true, (keyBytes, value, messageDigest) -> {
     messageDigest.update(keyBytes);

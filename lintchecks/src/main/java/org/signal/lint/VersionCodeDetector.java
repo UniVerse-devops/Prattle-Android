@@ -1,4 +1,4 @@
-package org.signal.lint;
+package org.sparklint;
 
 import com.android.annotations.NonNull;
 import com.android.tools.lint.client.api.JavaEvaluator;

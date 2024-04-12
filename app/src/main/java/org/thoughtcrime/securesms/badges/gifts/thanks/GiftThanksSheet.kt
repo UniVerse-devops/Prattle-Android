@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.badges.gifts.thanks
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.badges.models.BadgePreview

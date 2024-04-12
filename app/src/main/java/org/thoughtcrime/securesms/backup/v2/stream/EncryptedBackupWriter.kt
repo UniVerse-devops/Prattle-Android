@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.backup.v2.stream
 
-import org.signal.core.util.stream.MacOutputStream
-import org.signal.core.util.writeVarInt32
+import org.sparkcore.util.stream.MacOutputStream
+import org.sparkcore.util.writeVarInt32
 import org.thoughtcrime.securesms.backup.v2.proto.BackupInfo
 import org.thoughtcrime.securesms.backup.v2.proto.Frame
 import org.whispersystems.signalservice.api.backup.BackupKey

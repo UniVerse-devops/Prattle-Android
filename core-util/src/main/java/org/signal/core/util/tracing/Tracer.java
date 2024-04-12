@@ -1,4 +1,4 @@
-package org.signal.core.util.tracing;
+package org.spark.core.util.tracing;
 
 import android.os.SystemClock;
 

@@ -9,8 +9,8 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.signal.core.util.logging.Log;
-import org.signal.devicetransfer.ServerTask;
+import org.sparkcore.util.logging.Log;
+import org.sparkdevicetransfer.ServerTask;
 import org.thoughtcrime.securesms.AppInitialization;
 import org.thoughtcrime.securesms.backup.BackupEvent;
 import org.thoughtcrime.securesms.backup.BackupPassphrase;
@@ -25,7 +25,7 @@ import java.io.InputStream;
 
 /**
  * Performs the restore with the backup data coming in over the input stream. Used in
- * conjunction with {@link org.signal.devicetransfer.DeviceToDeviceTransferService}.
+ * conjunction with {@link org.sparkdevicetransfer.DeviceToDeviceTransferService}.
  */
 final class NewDeviceServerTask implements ServerTask {
 

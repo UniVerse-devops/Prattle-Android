@@ -1,4 +1,4 @@
-package org.signal.spinner
+package org.sparkspinner
 
 interface Plugin {
   fun get(): PluginResult

@@ -7,9 +7,9 @@ import com.google.android.flexbox.AlignItems
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.util.Pair
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.protocol.util.Pair
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.badges.models.Badge.Category.Companion.fromCode

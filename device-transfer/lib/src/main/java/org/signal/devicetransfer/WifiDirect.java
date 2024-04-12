@@ -1,4 +1,4 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -26,10 +26,10 @@ import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.devicetransfer.WifiDirectUnavailableException.Reason;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparkdevicetransfer.WifiDirectUnavailableException.Reason;
 
 import java.util.Collections;
 import java.util.concurrent.CountDownLatch;

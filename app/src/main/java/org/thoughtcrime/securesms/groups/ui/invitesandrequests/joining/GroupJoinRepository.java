@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.VerificationFailedException;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupJoinInfo;
 import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
 import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
 import org.thoughtcrime.securesms.groups.GroupManager;

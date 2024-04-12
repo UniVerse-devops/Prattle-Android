@@ -12,10 +12,10 @@ import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.spark.core.util.logging.Log
+import org.spark.libsignal.protocol.ecc.Curve
+import org.spark.libsignal.protocol.ecc.ECKeyPair
+import org.spark.libsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil
 import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
 import org.thoughtcrime.securesms.recipients.Recipient

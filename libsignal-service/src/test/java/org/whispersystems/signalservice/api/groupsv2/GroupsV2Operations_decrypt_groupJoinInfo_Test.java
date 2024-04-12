@@ -2,12 +2,12 @@ package org.whispersystems.signalservice.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.storageservice.protos.groups.AccessControl;
-import org.signal.storageservice.protos.groups.GroupJoinInfo;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey;
+import org.spark.libsignal.zkgroup.groups.GroupSecretParams;
+import org.spark.storageservice.protos.groups.AccessControl;
+import org.spark.storageservice.protos.groups.GroupJoinInfo;
+import org.spark.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
 import org.whispersystems.signalservice.internal.util.Util;
 import org.whispersystems.signalservice.testutil.LibSignalLibraryUtil;
 

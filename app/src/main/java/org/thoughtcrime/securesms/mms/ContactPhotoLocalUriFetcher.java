@@ -9,7 +9,7 @@ import android.provider.ContactsContract;
 
 import com.bumptech.glide.load.data.StreamLocalUriFetcher;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

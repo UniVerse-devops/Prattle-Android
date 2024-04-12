@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import java.util.Currency
 

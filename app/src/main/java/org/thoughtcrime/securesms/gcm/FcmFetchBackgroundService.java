@@ -6,7 +6,7 @@ import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 /**
  * Works with {@link FcmFetchManager} to exists as a service that will keep the app process running in the background while we fetch messages.

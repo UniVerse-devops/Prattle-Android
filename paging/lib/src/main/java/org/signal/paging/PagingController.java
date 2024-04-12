@@ -1,4 +1,4 @@
-package org.signal.paging;
+package org.spark.paging;
 
 
 public interface PagingController<Key> {

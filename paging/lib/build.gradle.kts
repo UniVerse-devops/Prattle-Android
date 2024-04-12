@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.paging"
+  namespace = "org.spark.paging"
 }
 
 dependencies {

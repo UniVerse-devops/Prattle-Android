@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:background="@color/teal_200">
 
-        <org.signal.qr.QrScannerView
+        <org.spark.qr.QrScannerView
             android:id="@+id/scanner"
             android:layout_width="240dp"
             android:layout_height="240dp" />

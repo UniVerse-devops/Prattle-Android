@@ -1,10 +1,10 @@
 package org.whispersystems.signalservice.api.messages
 
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.spark.libsignal.protocol.message.DecryptionErrorMessage
+import org.spark.libsignal.protocol.message.SenderKeyDistributionMessage
+import org.spark.libsignal.zkgroup.InvalidInputException
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.internal.push.AttachmentPointer

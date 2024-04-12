@@ -5,12 +5,12 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.Curve;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.ringrtc.CallManager;
-import org.signal.ringrtc.GroupCall;
-import org.signal.ringrtc.PeekInfo;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparklibsignal.protocol.ecc.Curve;
+import org.sparklibsignal.protocol.ecc.ECPublicKey;
+import org.sparkringrtc.CallManager;
+import org.sparkringrtc.GroupCall;
+import org.sparkringrtc.PeekInfo;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
 import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;

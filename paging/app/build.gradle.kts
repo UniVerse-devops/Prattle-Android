@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.pagingtest"
+  namespace = "org.spark.pagingtest"
 
   defaultConfig {
-    applicationId = "org.signal.pagingtest"
+    applicationId = "org.spark.pagingtest"
   }
 }
 

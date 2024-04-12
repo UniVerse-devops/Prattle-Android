@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.stories.viewer.reply.group
 
-import org.signal.paging.PagedDataSource
+import org.sparkpaging.PagedDataSource
 import org.thoughtcrime.securesms.conversation.ConversationMessage
 import org.thoughtcrime.securesms.database.MessageTable
 import org.thoughtcrime.securesms.database.MessageTypes

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -21,7 +21,7 @@ import androidx.core.graphics.withTranslation
 import androidx.core.view.updateLayoutParams
 import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.transition.Transition
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils.isThumbnailAtBottomOfBubble
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord

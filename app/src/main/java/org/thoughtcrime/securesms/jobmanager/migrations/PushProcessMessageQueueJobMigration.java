@@ -4,15 +4,15 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.jobmanager.JobMigration;
 import org.thoughtcrime.securesms.jobmanager.JsonJobData;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.internal.serialize.protos.SignalServiceContentProto;

@@ -1,11 +1,11 @@
 package org.whispersystems.signalservice.api.crypto;
 
 
-import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
-import org.signal.libsignal.metadata.certificate.SenderCertificate;
-import org.signal.libsignal.protocol.util.ByteUtil;
-import org.signal.libsignal.zkgroup.internal.ByteArray;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.metadata.certificate.InvalidCertificateException;
+import org.spark.libsignal.metadata.certificate.SenderCertificate;
+import org.spark.libsignal.protocol.util.ByteUtil;
+import org.spark.libsignal.zkgroup.internal.ByteArray;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

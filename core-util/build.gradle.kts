@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.core.util"
+  namespace = "org.spark.core.util"
 }
 
 dependencies {

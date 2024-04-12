@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.registration.v2;
 
 import org.junit.Test;
-import org.signal.core.util.StreamUtil;
-import org.signal.libsignal.svr2.PinHash;
+import org.spark.core.util.StreamUtil;
+import org.spark.libsignal.svr2.PinHash;
 import org.thoughtcrime.securesms.registration.v2.testdata.KbsTestVector;
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException;
 import org.whispersystems.signalservice.api.kbs.KbsData;

@@ -24,7 +24,7 @@ import com.annimon.stream.Stream;
 import com.annimon.stream.function.Consumer;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.util.LRUCache;
 import org.thoughtcrime.securesms.util.ServiceUtil;

@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.sparkcore.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.util.LRUCache;
 
 import java.util.ArrayList;

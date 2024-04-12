@@ -48,8 +48,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.biometric.BiometricManager;
 import androidx.biometric.BiometricPrompt;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
 import org.thoughtcrime.securesms.components.AnimatingToggle;
 import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;

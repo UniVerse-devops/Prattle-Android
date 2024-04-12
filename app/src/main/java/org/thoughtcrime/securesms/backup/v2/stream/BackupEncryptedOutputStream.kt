@@ -1,11 +1,11 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.backup.v2.stream
 
-import org.signal.libsignal.protocol.kdf.HKDF
+import org.sparklibsignal.protocol.kdf.HKDF
 import java.io.FilterOutputStream
 import java.io.OutputStream
 import javax.crypto.Cipher

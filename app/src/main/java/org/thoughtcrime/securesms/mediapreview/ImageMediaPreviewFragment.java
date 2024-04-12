@@ -14,7 +14,7 @@ import com.bumptech.glide.RequestManager;
 
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.ZoomingImageView;
-import org.signal.core.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
 import org.thoughtcrime.securesms.util.MediaUtil;
 
 public final class ImageMediaPreviewFragment extends MediaPreviewFragment {

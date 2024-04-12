@@ -6,11 +6,11 @@
 
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.protocol.InvalidMacException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice;
-import org.signal.libsignal.protocol.incrementalmac.IncrementalMacInputStream;
-import org.signal.libsignal.protocol.kdf.HKDFv3;
+import org.spark.libsignal.protocol.InvalidMacException;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.protocol.incrementalmac.ChunkSizeChoice;
+import org.spark.libsignal.protocol.incrementalmac.IncrementalMacInputStream;
+import org.spark.libsignal.protocol.kdf.HKDFv3;
 import org.whispersystems.signalservice.internal.util.ContentLengthInputStream;
 import org.whispersystems.signalservice.internal.util.Util;
 

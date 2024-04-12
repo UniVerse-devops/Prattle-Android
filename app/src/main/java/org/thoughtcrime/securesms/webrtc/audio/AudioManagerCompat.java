@@ -18,7 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.jetbrains.annotations.Nullable;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
+import org.spark.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
 
 import java.util.HashMap;
 import java.util.Map;

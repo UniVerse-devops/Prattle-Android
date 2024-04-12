@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -51,8 +51,8 @@ import androidx.lifecycle.LiveData
 import com.google.common.util.concurrent.FutureCallback
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.mediasend.camerax.SignalCameraController.InitializationListener
 import org.thoughtcrime.securesms.util.TextSecurePreferences
 import org.thoughtcrime.securesms.util.ViewUtil

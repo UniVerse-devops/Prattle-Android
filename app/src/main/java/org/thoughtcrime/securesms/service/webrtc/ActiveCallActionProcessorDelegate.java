@@ -5,11 +5,11 @@ import android.os.ResultReceiver;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.CallManager.CallEvent;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.CallManager.CallEvent;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.events.CallParticipant;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;

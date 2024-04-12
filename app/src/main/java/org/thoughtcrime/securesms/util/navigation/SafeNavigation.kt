@@ -8,7 +8,7 @@ import androidx.annotation.IdRes
 import androidx.navigation.NavController
 import androidx.navigation.NavDirections
 import androidx.navigation.NavOptions
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 
 private const val TAG = "SafeNavigation"

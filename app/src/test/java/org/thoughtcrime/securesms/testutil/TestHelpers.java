@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.testutil;
 import com.annimon.stream.Stream;
 import com.google.common.collect.Sets;
 
-import org.signal.core.util.Conversions;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.spark.core.util.Conversions;
+import org.spark.libsignal.protocol.util.ByteUtil;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

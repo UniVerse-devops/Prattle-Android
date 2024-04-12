@@ -57,7 +57,7 @@ include(":microbenchmark")
 include(":video")
 include(":video-app")
 
-project(":app").name = "Signal-Android"
+project(":app").name = "Spark-Android"
 project(":paging").projectDir = file("paging/lib")
 project(":paging-app").projectDir = file("paging/app")
 
@@ -82,6 +82,6 @@ project(":qr-app").projectDir = file("qr/app")
 project(":video").projectDir = file("video/lib")
 project(":video-app").projectDir = file("video/app")
 
-rootProject.name = "Signal"
+rootProject.name = "Spark"
 
 apply(from = "dependencies.gradle.kts")

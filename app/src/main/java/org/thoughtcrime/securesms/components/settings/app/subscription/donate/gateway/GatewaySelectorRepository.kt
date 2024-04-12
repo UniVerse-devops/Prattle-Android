@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
 
 import io.reactivex.rxjava3.core.Single
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.components.settings.app.subscription.getAvailablePaymentMethods
 import org.thoughtcrime.securesms.payments.currency.CurrencyUtil
 import org.whispersystems.signalservice.api.services.DonationsService

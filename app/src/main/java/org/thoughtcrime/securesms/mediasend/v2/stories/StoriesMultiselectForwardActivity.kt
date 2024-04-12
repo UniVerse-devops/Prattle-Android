@@ -11,7 +11,7 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.fragment.app.FragmentManager
 import com.bumptech.glide.Glide
 import kotlinx.parcelize.Parcelize
-import org.signal.core.util.getParcelableArrayListExtraCompat
+import org.sparkcore.util.getParcelableArrayListExtraCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey

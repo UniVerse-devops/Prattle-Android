@@ -14,10 +14,10 @@ import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.dp
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.dp
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.BadgePreview
 import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout

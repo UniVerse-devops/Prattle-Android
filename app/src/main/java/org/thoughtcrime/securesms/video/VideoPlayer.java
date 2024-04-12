@@ -41,7 +41,7 @@ import androidx.media3.ui.AspectRatioFrameLayout;
 import androidx.media3.ui.LegacyPlayerControlView;
 import androidx.media3.ui.PlayerView;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.mediapreview.MediaPreviewPlayerControlView;

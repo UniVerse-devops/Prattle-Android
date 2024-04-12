@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -33,9 +33,9 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.os.bundleOf
 import androidx.core.text.method.LinkMovementMethodCompat
 import androidx.core.text.util.LinkifyCompat
-import org.signal.core.ui.BottomSheets
-import org.signal.core.ui.Previews
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.ui.BottomSheets
+import org.sparkcore.ui.Previews
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView
 import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment

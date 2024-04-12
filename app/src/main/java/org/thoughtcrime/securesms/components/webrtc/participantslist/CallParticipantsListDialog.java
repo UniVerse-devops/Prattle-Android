@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.OptionalLong;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.signal.core.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState;
 import org.thoughtcrime.securesms.components.webrtc.WebRtcCallViewModel;

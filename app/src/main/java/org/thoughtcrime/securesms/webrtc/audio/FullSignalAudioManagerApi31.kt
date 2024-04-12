@@ -6,7 +6,7 @@ import android.media.AudioDeviceInfo
 import android.media.AudioManager
 import android.net.Uri
 import androidx.annotation.RequiresApi
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.recipients.RecipientId
 
 /**

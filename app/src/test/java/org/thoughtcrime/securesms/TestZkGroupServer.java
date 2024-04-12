@@ -1,13 +1,13 @@
 package org.thoughtcrime.securesms;
 
-import org.signal.libsignal.zkgroup.ServerPublicParams;
-import org.signal.libsignal.zkgroup.ServerSecretParams;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.groups.GroupPublicParams;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCommitment;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import org.signal.libsignal.zkgroup.profiles.ServerZkProfileOperations;
+import org.spark.libsignal.zkgroup.ServerPublicParams;
+import org.spark.libsignal.zkgroup.ServerSecretParams;
+import org.spark.libsignal.zkgroup.VerificationFailedException;
+import org.spark.libsignal.zkgroup.groups.GroupPublicParams;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCommitment;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import org.spark.libsignal.zkgroup.profiles.ServerZkProfileOperations;
 import org.whispersystems.signalservice.test.LibSignalLibraryUtil;
 
 import java.util.UUID;

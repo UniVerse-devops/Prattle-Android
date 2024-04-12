@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.database
 import android.annotation.SuppressLint
 import android.content.Context
 import android.database.Cursor
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireNonNullString
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireNonNullString
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.FeatureFlags

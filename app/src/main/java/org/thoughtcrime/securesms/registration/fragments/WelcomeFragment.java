@@ -25,9 +25,9 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.logging.Log;
-import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.signal.devicetransfer.TransferStatus;
+import org.sparkcore.util.logging.Log;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService;
+import org.sparkdevicetransfer.TransferStatus;
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;

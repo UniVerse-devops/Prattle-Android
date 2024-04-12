@@ -1,11 +1,11 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.whispersystems.signalservice.api.kbs
 
-import org.signal.libsignal.svr2.Pin
-import org.signal.libsignal.svr2.PinHash
+import org.spark.libsignal.svr2.Pin
+import org.spark.libsignal.svr2.PinHash
 import org.whispersystems.signalservice.api.crypto.HmacSIV
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException
 import java.nio.charset.StandardCharsets

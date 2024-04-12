@@ -5,8 +5,8 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import org.signal.core.util.concurrent.SimpleTask
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.SimpleTask
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.mms.PartAuthority
 import org.thoughtcrime.securesms.util.ListenableFutureTask
 import org.thoughtcrime.securesms.util.SoftHashMap

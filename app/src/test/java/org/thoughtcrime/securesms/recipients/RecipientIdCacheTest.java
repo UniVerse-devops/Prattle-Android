@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.testutil.LogRecorder;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.api.push.ServiceId;

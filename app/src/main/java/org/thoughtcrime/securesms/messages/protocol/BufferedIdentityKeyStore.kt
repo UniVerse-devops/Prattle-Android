@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.state.IdentityKeyStore
+import org.sparklibsignal.protocol.IdentityKey
+import org.sparklibsignal.protocol.IdentityKeyPair
+import org.sparklibsignal.protocol.SignalProtocolAddress
+import org.sparklibsignal.protocol.state.IdentityKeyStore
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.ServiceId

@@ -4,7 +4,7 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.concurrent.DeadlockDetector;
+import org.sparkcore.util.concurrent.DeadlockDetector;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 
 import java.text.SimpleDateFormat;

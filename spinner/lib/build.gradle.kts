@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.spinner"
+  namespace = "org.spark.spinner"
 }
 
 dependencies {

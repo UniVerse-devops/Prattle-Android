@@ -14,9 +14,9 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.SettableFuture;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.mms.MediaConstraints;
 import org.thoughtcrime.securesms.util.BitmapDecodingException;
 import org.thoughtcrime.securesms.util.BitmapUtil;

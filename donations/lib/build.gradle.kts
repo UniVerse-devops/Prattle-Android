@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.donations"
+  namespace = "org.spark.donations"
 }
 
 dependencies {

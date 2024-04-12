@@ -1,13 +1,13 @@
 package org.thoughtcrime.securesms.registration.secondary
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.protocol.util.ByteUtil
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.protocol.IdentityKeyPair
+import org.sparklibsignal.protocol.InvalidKeyException
+import org.sparklibsignal.protocol.ecc.Curve
+import org.sparklibsignal.protocol.ecc.ECKeyPair
+import org.sparklibsignal.protocol.ecc.ECPrivateKey
+import org.sparklibsignal.protocol.util.ByteUtil
 import org.thoughtcrime.securesms.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 import java.security.GeneralSecurityException

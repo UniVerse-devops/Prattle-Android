@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.logging
+package org.spark.core.util.logging
 
-import org.signal.core.util.CryptoUtil
-import org.signal.core.util.Hex
+import org.spark.core.util.CryptoUtil
+import org.spark.core.util.Hex
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 

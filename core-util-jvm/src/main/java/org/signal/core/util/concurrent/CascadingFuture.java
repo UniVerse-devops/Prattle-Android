@@ -1,9 +1,9 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.concurrent;
+package org.spark.core.util.concurrent;
 
 import java.util.ArrayList;
 import java.util.List;

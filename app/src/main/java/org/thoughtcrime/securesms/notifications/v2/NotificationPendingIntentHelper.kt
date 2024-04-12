@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.notifications.v2
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 
 /**
  * Wrapper for creating pending intents that catches security exceptions thrown by Xiaomi devices randomly.

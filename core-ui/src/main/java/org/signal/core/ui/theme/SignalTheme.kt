@@ -1,4 +1,4 @@
-package org.signal.core.ui.theme
+package org.spark.core.ui.theme
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column

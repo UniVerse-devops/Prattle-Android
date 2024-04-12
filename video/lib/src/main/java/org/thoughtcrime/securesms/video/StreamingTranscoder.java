@@ -10,7 +10,7 @@ import androidx.annotation.VisibleForTesting;
 
 import com.google.common.io.CountingOutputStream;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.video.exceptions.VideoSizeException;
 import org.thoughtcrime.securesms.video.exceptions.VideoSourceException;
 import org.thoughtcrime.securesms.video.interfaces.TranscoderCancelationSignal;

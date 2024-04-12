@@ -10,37 +10,37 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.squareup.wire.Message;
 
-import org.signal.core.util.Base64;
-import org.signal.core.util.concurrent.FutureTransformers;
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.libsignal.protocol.kem.KEMPublicKey;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.state.PreKeyBundle;
-import org.signal.libsignal.protocol.util.Pair;
-import org.signal.libsignal.usernames.BaseUsernameException;
-import org.signal.libsignal.usernames.Username;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.backups.BackupAuthCredentialRequest;
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest;
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyVersion;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
-import org.signal.storageservice.protos.groups.AvatarUploadAttributes;
-import org.signal.storageservice.protos.groups.Group;
-import org.signal.storageservice.protos.groups.GroupChange;
-import org.signal.storageservice.protos.groups.GroupChanges;
-import org.signal.storageservice.protos.groups.GroupExternalCredential;
-import org.signal.storageservice.protos.groups.GroupJoinInfo;
+import org.spark.core.util.Base64;
+import org.spark.core.util.concurrent.FutureTransformers;
+import org.spark.core.util.concurrent.ListenableFuture;
+import org.spark.core.util.concurrent.SettableFuture;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.ecc.ECPublicKey;
+import org.spark.libsignal.protocol.kem.KEMPublicKey;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.state.PreKeyBundle;
+import org.spark.libsignal.protocol.util.Pair;
+import org.spark.libsignal.usernames.BaseUsernameException;
+import org.spark.libsignal.usernames.Username;
+import org.spark.libsignal.zkgroup.VerificationFailedException;
+import org.spark.libsignal.zkgroup.backups.BackupAuthCredentialRequest;
+import org.spark.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest;
+import org.spark.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse;
+import org.spark.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyVersion;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
+import org.spark.storageservice.protos.groups.AvatarUploadAttributes;
+import org.spark.storageservice.protos.groups.Group;
+import org.spark.storageservice.protos.groups.GroupChange;
+import org.spark.storageservice.protos.groups.GroupChanges;
+import org.spark.storageservice.protos.groups.GroupExternalCredential;
+import org.spark.storageservice.protos.groups.GroupJoinInfo;
 import org.whispersystems.signalservice.api.account.AccountAttributes;
 import org.whispersystems.signalservice.api.account.ChangePhoneNumberRequest;
 import org.whispersystems.signalservice.api.account.PniKeyDistributionRequest;
@@ -2777,7 +2777,7 @@ public class PushServiceSocket {
   public GroupJoinInfo getGroupJoinInfo(Optional<byte[]> groupLinkPassword, GroupsV2AuthorizationString authorization)
       throws NonSuccessfulResponseCodeException, PushNetworkException, IOException, MalformedResponseException
   {
-    String passwordParam = groupLinkPassword.map(org.signal.core.util.Base64::encodeUrlSafeWithoutPadding).orElse("");
+    String passwordParam = groupLinkPassword.map(org.spark.core.util.Base64::encodeUrlSafeWithoutPadding).orElse("");
     try (Response response = makeStorageRequest(authorization.toString(),
                                                 String.format(GROUPSV2_GROUP_JOIN, passwordParam),
                                                 "GET",

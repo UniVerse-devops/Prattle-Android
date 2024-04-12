@@ -35,10 +35,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.components.menu.ActionItem;
 import org.thoughtcrime.securesms.components.menu.SignalContextMenu;
 import org.thoughtcrime.securesms.contacts.management.ContactsManagementRepository;

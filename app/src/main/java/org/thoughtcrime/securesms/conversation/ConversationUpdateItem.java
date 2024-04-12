@@ -24,8 +24,8 @@ import com.bumptech.glide.RequestManager;
 import com.google.android.material.button.MaterialButton;
 import com.google.common.collect.Sets;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.BindableConversationItem;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.conversation.colors.Colorizer;

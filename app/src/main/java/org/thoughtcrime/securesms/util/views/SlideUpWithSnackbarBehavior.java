@@ -12,7 +12,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.signal.core.util.DimensionUnit;
+import org.spark.core.util.DimensionUnit;
 
 public class SlideUpWithSnackbarBehavior extends CoordinatorLayout.Behavior<View> {
 

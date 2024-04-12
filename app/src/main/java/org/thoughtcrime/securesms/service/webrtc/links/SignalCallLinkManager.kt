@@ -1,25 +1,25 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.service.webrtc.links
 
 import io.reactivex.rxjava3.core.Single
-import org.signal.core.util.isAbsent
-import org.signal.core.util.logging.Log
-import org.signal.core.util.or
-import org.signal.libsignal.zkgroup.GenericServerPublicParams
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation
-import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredential
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialPresentation
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequestContext
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
-import org.signal.ringrtc.CallLinkRootKey
-import org.signal.ringrtc.CallLinkState
-import org.signal.ringrtc.CallLinkState.Restrictions
-import org.signal.ringrtc.CallManager
+import org.sparkcore.util.isAbsent
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.or
+import org.sparklibsignal.zkgroup.GenericServerPublicParams
+import org.sparklibsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation
+import org.sparklibsignal.zkgroup.calllinks.CallLinkSecretParams
+import org.sparklibsignal.zkgroup.calllinks.CreateCallLinkCredential
+import org.sparklibsignal.zkgroup.calllinks.CreateCallLinkCredentialPresentation
+import org.sparklibsignal.zkgroup.calllinks.CreateCallLinkCredentialRequestContext
+import org.sparklibsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
+import org.sparkringrtc.CallLinkRootKey
+import org.sparkringrtc.CallLinkState
+import org.sparkringrtc.CallLinkState.Restrictions
+import org.sparkringrtc.CallManager
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.recipients.Recipient

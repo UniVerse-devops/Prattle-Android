@@ -4,13 +4,13 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import okio.ByteString.Companion.toByteString
-import org.signal.libsignal.protocol.logging.Log
-import org.signal.libsignal.svr2.PinHash
-import org.signal.svr2.proto.BackupRequest
-import org.signal.svr2.proto.DeleteRequest
-import org.signal.svr2.proto.ExposeRequest
-import org.signal.svr2.proto.Request
-import org.signal.svr2.proto.RestoreRequest
+import org.spark.libsignal.protocol.logging.Log
+import org.spark.libsignal.svr2.PinHash
+import org.spark.svr2.proto.BackupRequest
+import org.spark.svr2.proto.DeleteRequest
+import org.spark.svr2.proto.ExposeRequest
+import org.spark.svr2.proto.Request
+import org.spark.svr2.proto.RestoreRequest
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException
 import org.whispersystems.signalservice.api.kbs.MasterKey
 import org.whispersystems.signalservice.api.kbs.PinHashUtil
@@ -27,9 +27,9 @@ import org.whispersystems.signalservice.internal.util.Hex
 import org.whispersystems.signalservice.internal.util.JsonUtil
 import java.io.IOException
 import kotlin.jvm.Throws
-import org.signal.svr2.proto.BackupResponse as ProtoBackupResponse
-import org.signal.svr2.proto.ExposeResponse as ProtoExposeResponse
-import org.signal.svr2.proto.RestoreResponse as ProtoRestoreResponse
+import org.spark.svr2.proto.BackupResponse as ProtoBackupResponse
+import org.spark.svr2.proto.ExposeResponse as ProtoExposeResponse
+import org.spark.svr2.proto.RestoreResponse as ProtoRestoreResponse
 
 /**
  * An interface for working with V2 of the Secure Value Recovery service.

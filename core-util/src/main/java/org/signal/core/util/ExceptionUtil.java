@@ -1,8 +1,8 @@
-package org.signal.core.util;
+package org.spark.core.util;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Scrubber;
+import org.spark.core.util.logging.Scrubber;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

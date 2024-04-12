@@ -1,19 +1,19 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.metadata.certificate.SenderCertificate;
-import org.signal.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.NoSessionException;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.UntrustedIdentityException;
-import org.signal.libsignal.protocol.message.CiphertextMessage;
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
-import org.signal.libsignal.protocol.message.PlaintextContent;
+import org.spark.libsignal.metadata.certificate.SenderCertificate;
+import org.spark.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.NoSessionException;
+import org.spark.libsignal.protocol.SignalProtocolAddress;
+import org.spark.libsignal.protocol.UntrustedIdentityException;
+import org.spark.libsignal.protocol.message.CiphertextMessage;
+import org.spark.libsignal.protocol.message.DecryptionErrorMessage;
+import org.spark.libsignal.protocol.message.PlaintextContent;
 import org.whispersystems.signalservice.internal.push.Content;
 import org.whispersystems.signalservice.internal.push.Envelope.Type;
 import org.whispersystems.signalservice.internal.push.OutgoingPushMessage;
 import org.whispersystems.signalservice.internal.push.PushTransportDetails;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.util.Optional;
 

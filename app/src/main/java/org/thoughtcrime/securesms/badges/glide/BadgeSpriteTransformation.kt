@@ -5,7 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Rect
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import java.security.MessageDigest
 
 /**

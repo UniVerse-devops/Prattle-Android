@@ -6,8 +6,8 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.paging.PagedDataSource;
+import org.sparkcore.util.logging.Log;
+import org.sparkpaging.PagedDataSource;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.giph.model.GiphyImage;

@@ -12,10 +12,10 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.signal.paging.LivePagedData;
-import org.signal.paging.PagedData;
-import org.signal.paging.PagingConfig;
-import org.signal.paging.PagingController;
+import org.sparkpaging.LivePagedData;
+import org.sparkpaging.PagedData;
+import org.sparkpaging.PagingConfig;
+import org.sparkpaging.PagingController;
 import org.thoughtcrime.securesms.giph.model.GiphyImage;
 import org.thoughtcrime.securesms.util.DefaultValueLiveData;
 import org.thoughtcrime.securesms.util.SingleLiveEvent;

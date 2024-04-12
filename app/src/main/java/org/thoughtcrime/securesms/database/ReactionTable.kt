@@ -3,10 +3,10 @@ package org.thoughtcrime.securesms.database
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
-import org.signal.core.util.CursorUtil
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.delete
-import org.signal.core.util.update
+import org.sparkcore.util.CursorUtil
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.delete
+import org.sparkcore.util.update
 import org.thoughtcrime.securesms.database.model.MessageId
 import org.thoughtcrime.securesms.database.model.ReactionRecord
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

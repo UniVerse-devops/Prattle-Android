@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.groups;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange;
 
 public final class GroupMutation {
   @Nullable private final DecryptedGroup       previousGroupState;

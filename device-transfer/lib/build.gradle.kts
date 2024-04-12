@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.devicetransfer"
+  namespace = "org.sparkdevicetransfer"
 }
 
 dependencies {

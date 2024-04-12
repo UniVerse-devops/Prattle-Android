@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.conversation.colors.ui.custom
 
 import android.content.Context
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.conversation.colors.ChatColors
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.keyvalue.SignalStore

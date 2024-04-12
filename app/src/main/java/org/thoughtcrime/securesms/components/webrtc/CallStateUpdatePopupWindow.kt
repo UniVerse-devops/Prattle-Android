@@ -10,7 +10,7 @@ import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.view.ViewCompat
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.util.Debouncer
 import org.thoughtcrime.securesms.util.visible

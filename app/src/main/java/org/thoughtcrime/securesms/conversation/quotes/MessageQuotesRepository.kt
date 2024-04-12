@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.conversation.quotes
 import android.app.Application
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Observable
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.conversation.ConversationMessage
 import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
 import org.thoughtcrime.securesms.conversation.v2.data.AttachmentHelper

@@ -8,7 +8,7 @@ import org.junit.BeforeClass
 import org.junit.Test
 import org.mockito.Mockito.doReturn
 import org.mockito.Mockito.mock
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.testutil.EmptyLogger
 
 class BackupUtilTest {

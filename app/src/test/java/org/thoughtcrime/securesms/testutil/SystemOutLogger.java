@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.testutil;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 public final class SystemOutLogger extends Log.Logger {
   @Override

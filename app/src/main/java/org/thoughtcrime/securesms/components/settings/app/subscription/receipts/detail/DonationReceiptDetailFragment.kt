@@ -12,8 +12,8 @@ import androidx.core.app.ShareCompat
 import androidx.core.view.drawToBitmap
 import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButton
-import org.signal.core.util.concurrent.SimpleTask
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.SimpleTask
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.SignalProgressDialog
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration

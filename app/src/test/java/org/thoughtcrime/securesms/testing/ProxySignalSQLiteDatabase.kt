@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.testing
 import android.content.ContentValues
 import android.database.Cursor
 import androidx.sqlite.db.SupportSQLiteQuery
-import org.signal.core.util.toAndroidQuery
+import org.spark.core.util.toAndroidQuery
 import java.util.Locale
 import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase
 import android.database.sqlite.SQLiteTransactionListener as AndroidSQLiteTransactionListener

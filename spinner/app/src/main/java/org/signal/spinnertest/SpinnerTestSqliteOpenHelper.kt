@@ -1,4 +1,4 @@
-package org.signal.spinnertest
+package org.sparkspinnertest
 
 import android.content.ContentValues
 import android.content.Context

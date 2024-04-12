@@ -1,4 +1,4 @@
-package org.signal.microbenchmark
+package org.spark.microbenchmark
 
 import android.util.Log
 import androidx.benchmark.junit4.BenchmarkRule
@@ -8,9 +8,9 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.libsignal.protocol.logging.SignalProtocolLogger
-import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
-import org.signal.util.SignalClient
+import org.spark.libsignal.protocol.logging.SignalProtocolLogger
+import org.spark.libsignal.protocol.logging.SignalProtocolLoggerProvider
+import org.spark.util.SignalClient
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.Optional
 

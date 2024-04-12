@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.groups;
 
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.util.FeatureFlags;

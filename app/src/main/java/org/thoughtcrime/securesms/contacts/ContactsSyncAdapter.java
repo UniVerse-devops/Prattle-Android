@@ -9,8 +9,8 @@ import android.os.Bundle;
 
 import com.annimon.stream.Stream;
 
-import org.signal.contacts.SystemContactsRepository;
-import org.signal.core.util.logging.Log;
+import org.sparkcontacts.SystemContactsRepository;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
@@ -18,7 +18,7 @@ import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.signal.core.util.SetUtil;
+import org.sparkcore.util.SetUtil;
 import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;

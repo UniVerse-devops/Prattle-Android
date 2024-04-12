@@ -1,15 +1,15 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.crypto.Aes256GcmDecryption;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.crypto.Aes256GcmDecryption;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.internal.util.Util;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.signal.libsignal.crypto.Aes256GcmDecryption.TAG_SIZE_IN_BYTES;
+import static org.spark.libsignal.crypto.Aes256GcmDecryption.TAG_SIZE_IN_BYTES;
 
 public class ProfileCipherInputStream extends FilterInputStream {
 

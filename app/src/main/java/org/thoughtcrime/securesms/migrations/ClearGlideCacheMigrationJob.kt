@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.migrations
 
 import com.bumptech.glide.Glide
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.jobmanager.Job
 
 /**

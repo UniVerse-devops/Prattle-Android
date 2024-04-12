@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.preferences;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.sparkcore.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.util.SignalProxyUtil;

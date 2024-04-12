@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.spinner
+package org.sparkspinner
 
 import android.os.Looper
 import android.util.Log
-import org.signal.core.util.logging.Log.Logger
+import org.sparkcore.util.logging.Log.Logger
 
 class SpinnerLogger : Logger() {
 

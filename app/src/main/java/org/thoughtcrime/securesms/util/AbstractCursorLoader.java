@@ -6,7 +6,7 @@ import android.database.Cursor;
 
 import androidx.loader.content.AsyncTaskLoader;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 /**
  * A Loader similar to CursorLoader that doesn't require queries to go through the ContentResolver

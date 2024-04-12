@@ -1,4 +1,4 @@
-package org.signal.buildtools
+package org.spark.buildtools
 
 import io.mockk.every
 import io.mockk.mockk

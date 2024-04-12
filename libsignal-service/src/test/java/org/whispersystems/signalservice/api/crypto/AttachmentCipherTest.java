@@ -2,10 +2,10 @@ package org.whispersystems.signalservice.api.crypto;
 
 import org.conscrypt.Conscrypt;
 import org.junit.Test;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice;
-import org.signal.libsignal.protocol.incrementalmac.InvalidMacException;
-import org.signal.libsignal.protocol.kdf.HKDFv3;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.protocol.incrementalmac.ChunkSizeChoice;
+import org.spark.libsignal.protocol.incrementalmac.InvalidMacException;
+import org.spark.libsignal.protocol.kdf.HKDFv3;
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream;
 import org.whispersystems.signalservice.internal.push.http.AttachmentCipherOutputStreamFactory;
 import org.whispersystems.signalservice.internal.util.Util;

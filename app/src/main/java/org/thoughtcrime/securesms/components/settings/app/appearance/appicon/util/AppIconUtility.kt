@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,7 +8,7 @@ package org.thoughtcrime.securesms.components.settings.app.appearance.appicon.ut
 import android.content.ComponentName
 import android.content.Context
 import android.content.pm.PackageManager
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 class AppIconUtility(context: Context) {
   private val applicationContext: Context = context.applicationContext

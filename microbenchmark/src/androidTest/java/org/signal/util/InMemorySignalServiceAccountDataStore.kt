@@ -1,14 +1,14 @@
-package org.signal.util
+package org.spark.util
 
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
-import org.signal.libsignal.protocol.state.IdentityKeyStore
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.state.SessionRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import org.spark.libsignal.protocol.IdentityKey
+import org.spark.libsignal.protocol.IdentityKeyPair
+import org.spark.libsignal.protocol.SignalProtocolAddress
+import org.spark.libsignal.protocol.groups.state.SenderKeyRecord
+import org.spark.libsignal.protocol.state.IdentityKeyStore
+import org.spark.libsignal.protocol.state.KyberPreKeyRecord
+import org.spark.libsignal.protocol.state.PreKeyRecord
+import org.spark.libsignal.protocol.state.SessionRecord
+import org.spark.libsignal.protocol.state.SignedPreKeyRecord
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID

@@ -7,7 +7,7 @@ import org.hamcrest.Matchers.`is`
 import org.junit.Test
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock
-import org.signal.core.util.Base64
+import org.spark.core.util.Base64
 import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
 import org.thoughtcrime.securesms.groups.v2.ChangeBuilder
 import org.whispersystems.signalservice.api.push.ServiceId.ACI

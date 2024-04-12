@@ -14,10 +14,10 @@ import androidx.media.AudioManagerCompat
 import androidx.window.layout.WindowMetricsCalculator
 import com.bumptech.glide.Glide
 import com.bumptech.glide.MemoryCategory
-import org.signal.core.util.dp
-import org.signal.core.util.getParcelableCompat
-import org.signal.core.util.getParcelableExtraCompat
-import org.signal.core.util.sp
+import org.sparkcore.util.dp
+import org.sparkcore.util.getParcelableCompat
+import org.sparkcore.util.getParcelableExtraCompat
+import org.sparkcore.util.sp
 import org.thoughtcrime.securesms.PassphraseRequiredActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController

@@ -5,7 +5,7 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.BadgeDisplay112
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration

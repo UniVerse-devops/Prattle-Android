@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -9,8 +9,8 @@ import android.os.Parcel;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.imageeditor.core.ColorableRenderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.ColorableRenderer;
+import org.sparkimageeditor.core.RendererContext;
 
 /**
  * Renders a {@link AutomaticControlPointBezierLine} with {@link #thickness}, {@link #color} and {@link #cap} end type.

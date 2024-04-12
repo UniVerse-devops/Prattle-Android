@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -12,7 +12,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.IBinder
 import androidx.core.app.ServiceCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
 import org.thoughtcrime.securesms.jobs.UnableToStartException
 import java.util.concurrent.locks.ReentrantLock

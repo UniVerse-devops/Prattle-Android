@@ -1,15 +1,15 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.concurrent
+package org.spark.core.util.concurrent
 
 import android.os.Debug
 import android.os.Looper
 import androidx.annotation.MainThread
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
+import org.spark.core.util.ThreadUtil
+import org.spark.core.util.logging.Log
 import java.lang.IllegalStateException
 import java.lang.RuntimeException
 import java.text.SimpleDateFormat

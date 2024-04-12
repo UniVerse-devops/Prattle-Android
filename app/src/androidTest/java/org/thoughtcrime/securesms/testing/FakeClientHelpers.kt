@@ -1,16 +1,16 @@
 package org.thoughtcrime.securesms.testing
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.Base64
-import org.signal.libsignal.internal.Native
-import org.signal.libsignal.internal.NativeHandleGuard
-import org.signal.libsignal.metadata.certificate.CertificateValidator
-import org.signal.libsignal.metadata.certificate.SenderCertificate
-import org.signal.libsignal.metadata.certificate.ServerCertificate
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.spark.core.util.Base64
+import org.spark.libsignal.internal.Native
+import org.spark.libsignal.internal.NativeHandleGuard
+import org.spark.libsignal.metadata.certificate.CertificateValidator
+import org.spark.libsignal.metadata.certificate.SenderCertificate
+import org.spark.libsignal.metadata.certificate.ServerCertificate
+import org.spark.libsignal.protocol.ecc.Curve
+import org.spark.libsignal.protocol.ecc.ECKeyPair
+import org.spark.libsignal.protocol.ecc.ECPublicKey
+import org.spark.libsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeContent

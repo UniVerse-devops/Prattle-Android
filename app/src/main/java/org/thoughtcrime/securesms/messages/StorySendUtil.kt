@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.messages
 
-import org.signal.core.util.Base64
+import org.sparkcore.util.Base64
 import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
 import org.thoughtcrime.securesms.mms.OutgoingMessage
 import org.whispersystems.signalservice.api.messages.SignalServicePreview

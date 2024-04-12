@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,15 +8,15 @@ package org.thoughtcrime.securesms.backup.v2.database
 import android.database.Cursor
 import com.annimon.stream.Stream
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.Base64
-import org.signal.core.util.Base64.decode
-import org.signal.core.util.Base64.decodeOrThrow
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireBlob
-import org.signal.core.util.requireBoolean
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireString
+import org.sparkcore.util.Base64
+import org.sparkcore.util.Base64.decode
+import org.sparkcore.util.Base64.decodeOrThrow
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireBlob
+import org.sparkcore.util.requireBoolean
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireString
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.backup.v2.proto.CallChatUpdate
 import org.thoughtcrime.securesms.backup.v2.proto.ChatItem

@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import android.net.Uri
 import android.os.Parcelable
@@ -16,10 +16,10 @@ import okhttp3.Request
 import okhttp3.Response
 import okio.ByteString.Companion.encodeUtf8
 import org.json.JSONObject
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
-import org.signal.donations.json.StripePaymentIntent
-import org.signal.donations.json.StripeSetupIntent
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
+import org.sparkdonations.json.StripePaymentIntent
+import org.sparkdonations.json.StripeSetupIntent
 import java.math.BigDecimal
 import java.util.Locale
 

@@ -204,11 +204,11 @@ android {
     buildConfigField("String", "BACKUP_SERVER_PUBLIC_PARAMS", "\"AJwNSU55fsFCbgaxGRD11wO1juAs8Yr5GF8FPlGzzvdJJIKH5/4CC7ZJSOe3yL2vturVaRU2Cx0n751Vt8wkj1bozK3CBV1UokxV09GWf+hdVImLGjXGYLLhnI1J2TWEe7iWHyb553EEnRb5oxr9n3lUbNAJuRmFM7hrr0Al0F0wrDD4S8lo2mGaXe0MJCOM166F8oYRQqpFeEHfiLnxA1O8ZLh7vMdv4g9jI5phpRBTsJ5IjiJrWeP0zdIGHEssUeprDZ9OUJ14m0v61eYJMKsf59Bn+mAT2a7YfB+Don9O\"")
     buildConfigField("String[]", "LANGUAGES", "new String[]{ ${languageList().map { "\"$it\"" }.joinToString(separator = ", ")} }")
     buildConfigField("int", "CANONICAL_VERSION_CODE", "$canonicalVersionCode")
-    buildConfigField("String", "DEFAULT_CURRENCIES", "\"EUR,AUD,GBP,CAD,CNY\"")
+    buildConfigField("String", "DEFAULT_CURRENCIES", "\"INR\"")
     buildConfigField("String", "GIPHY_API_KEY", "\"3o6ZsYH6U6Eri53TXy\"")
     buildConfigField("String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/registration/generate.html\"")
     buildConfigField("String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/challenge/generate.html\"")
-    buildConfigField("org.signal.libsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "org.signal.libsignal.net.Network.Environment.PRODUCTION")
+    buildConfigField("org.sparklibsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "oorg.sparkibsignal.net.Network.Environment.PRODUCTION")
 
     buildConfigField("String", "BUILD_DISTRIBUTION_TYPE", "\"unset\"")
     buildConfigField("String", "BUILD_ENVIRONMENT_TYPE", "\"unset\"")
@@ -387,7 +387,7 @@ android {
       buildConfigField("String", "MOBILE_COIN_ENVIRONMENT", "\"testnet\"")
       buildConfigField("String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/staging/registration/generate.html\"")
       buildConfigField("String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/staging/challenge/generate.html\"")
-      buildConfigField("org.signal.libsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "org.signal.libsignal.net.Network.Environment.STAGING")
+      buildConfigField("org.sparklibsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "oorg.sparkibsignal.net.Network.Environment.STAGING")
 
       buildConfigField("String", "BUILD_ENVIRONMENT_TYPE", "\"Staging\"")
       buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_test_sngOd8FnXNkpce9nPXawKrJD00kIDngZkD\"")

@@ -1,12 +1,12 @@
 package org.whispersystems.signalservice.internal.contacts.crypto;
 
 
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.Curve;
-import org.signal.libsignal.protocol.ecc.ECKeyPair;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.libsignal.protocol.kdf.HKDFv3;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.ecc.Curve;
+import org.spark.libsignal.protocol.ecc.ECKeyPair;
+import org.spark.libsignal.protocol.ecc.ECPublicKey;
+import org.spark.libsignal.protocol.kdf.HKDFv3;
+import org.spark.libsignal.protocol.util.ByteUtil;
 
 public class RemoteAttestationKeys {
 

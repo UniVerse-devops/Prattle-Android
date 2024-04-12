@@ -49,10 +49,10 @@ import androidx.transition.TransitionManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
-import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.signal.core.util.concurrent.RxExtensions;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.RxExtensions;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
 import org.thoughtcrime.securesms.contacts.ContactChipViewModel;
 import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;

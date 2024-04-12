@@ -1,8 +1,8 @@
 package org.whispersystems.signalservice.api.groupsv2
 
-import org.signal.storageservice.protos.groups.GroupChange
-import org.signal.storageservice.protos.groups.GroupChange.Actions.AddMemberAction
-import org.signal.storageservice.protos.groups.GroupChange.Actions.AddRequestingMemberAction
+import org.spark.storageservice.protos.groups.GroupChange
+import org.spark.storageservice.protos.groups.GroupChange.Actions.AddMemberAction
+import org.spark.storageservice.protos.groups.GroupChange.Actions.AddRequestingMemberAction
 
 internal class GroupChangeActionsBuilderChangeSetModifier(private val result: GroupChange.Actions.Builder) : ChangeSetModifier {
   override fun removeAddMembers(i: Int) {

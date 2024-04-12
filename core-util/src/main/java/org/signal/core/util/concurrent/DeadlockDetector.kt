@@ -1,7 +1,7 @@
-package org.signal.core.util.concurrent
+package org.spark.core.util.concurrent
 
 import android.os.Handler
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.ThreadPoolExecutor
 

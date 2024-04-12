@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.NoSessionException
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.state.SessionRecord
+import org.sparklibsignal.protocol.NoSessionException
+import org.sparklibsignal.protocol.SignalProtocolAddress
+import org.sparklibsignal.protocol.state.SessionRecord
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceSessionStore

@@ -31,9 +31,9 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.LifecycleOwner
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.signal.core.ui.Dialogs
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.qr.QrScannerView
+import org.sparkcore.ui.Dialogs
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkqr.QrScannerView
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist
 import org.thoughtcrime.securesms.recipients.Recipient

@@ -1,4 +1,4 @@
-package org.signal.qr
+package org.spark.qr
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,7 +7,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 
 /**
  * View for starting up a camera and scanning a QR-Code. Safe to use on an API version and

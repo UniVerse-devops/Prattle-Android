@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.imageeditor.core.model.EditorElement;
-import org.signal.imageeditor.core.renderers.MultiLineTextRenderer;
+import org.sparkimageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.renderers.MultiLineTextRenderer;
 
 import java.util.Collection;
 import java.util.LinkedList;

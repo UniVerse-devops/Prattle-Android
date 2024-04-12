@@ -1,8 +1,8 @@
 package org.whispersystems.signalservice.internal.push.http;
 
-import org.signal.protos.resumableuploads.ResumableUpload;
+import org.spark.protos.resumableuploads.ResumableUpload;
 import org.whispersystems.signalservice.api.push.exceptions.ResumeLocationInvalidException;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.util.HashMap;

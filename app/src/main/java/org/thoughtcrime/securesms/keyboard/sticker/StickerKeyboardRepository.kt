@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyboard.sticker
 
 import android.net.Uri
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.StickerTable
 import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader

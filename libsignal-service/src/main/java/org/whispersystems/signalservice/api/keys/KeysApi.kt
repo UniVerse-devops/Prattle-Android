@@ -1,14 +1,14 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api.keys
 
-import org.signal.core.util.toByteArray
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.kem.KEMPublicKey
+import org.spark.core.util.toByteArray
+import org.spark.libsignal.protocol.IdentityKey
+import org.spark.libsignal.protocol.ecc.ECPublicKey
+import org.spark.libsignal.protocol.kem.KEMPublicKey
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.push.ServiceIdType
 import org.whispersystems.signalservice.internal.push.PushServiceSocket

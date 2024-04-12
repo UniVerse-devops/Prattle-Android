@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
-import org.signal.core.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.databinding.FragmentTransferRestoreBinding;

@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.InvalidKeyIdException
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.state.PreKeyStore
+import org.sparklibsignal.protocol.InvalidKeyIdException
+import org.sparklibsignal.protocol.state.PreKeyRecord
+import org.sparklibsignal.protocol.state.PreKeyStore
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.ServiceId

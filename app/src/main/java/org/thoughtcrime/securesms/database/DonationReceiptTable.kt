@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.database
 import android.content.Context
 import android.database.Cursor
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.CursorUtil
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.CursorUtil
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.database.model.DonationReceiptRecord
 import java.math.BigDecimal
 import java.util.Currency

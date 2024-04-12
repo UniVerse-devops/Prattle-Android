@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.graphics.Canvas;
 import android.graphics.Matrix;

@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -34,13 +34,13 @@ import androidx.core.app.ShareCompat
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.ui.BottomSheets
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dividers
-import org.signal.core.ui.Rows
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.logging.Log
-import org.signal.ringrtc.CallLinkState
+import org.sparkcore.ui.BottomSheets
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dividers
+import org.sparkcore.ui.Rows
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.logging.Log
+import org.sparkringrtc.CallLinkState
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.calls.links.CallLinks
 import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment

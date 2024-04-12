@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.database
 
 import android.net.Uri
-import org.signal.core.util.Bitmask
-import org.signal.core.util.toOptional
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.spark.core.util.Bitmask
+import org.spark.core.util.toOptional
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.conversation.colors.AvatarColor
 import org.thoughtcrime.securesms.conversation.colors.ChatColors

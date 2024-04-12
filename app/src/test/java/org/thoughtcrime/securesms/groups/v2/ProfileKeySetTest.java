@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.groups.v2;
 
 import org.junit.Test;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
 import org.thoughtcrime.securesms.testutil.LogRecorder;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;

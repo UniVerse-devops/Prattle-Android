@@ -6,10 +6,10 @@ import android.database.Cursor
 import android.text.TextUtils
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import org.intellij.lang.annotations.Language
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.jobs.RebuildMessageSearchIndexJob
 
 /**

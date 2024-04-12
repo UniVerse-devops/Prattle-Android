@@ -1,4 +1,4 @@
-package org.signal.spinner
+package org.sparkspinner
 
 sealed class PluginResult(val type: String) {
   data class TableResult(

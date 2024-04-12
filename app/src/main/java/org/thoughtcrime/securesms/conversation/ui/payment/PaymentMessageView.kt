@@ -10,7 +10,7 @@ import androidx.annotation.ColorInt
 import androidx.core.view.ViewCompat
 import com.google.android.material.progressindicator.CircularProgressIndicatorSpec
 import com.google.android.material.progressindicator.IndeterminateDrawable
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.quotes.QuoteViewColorTheme
 import org.thoughtcrime.securesms.conversation.colors.Colorizer

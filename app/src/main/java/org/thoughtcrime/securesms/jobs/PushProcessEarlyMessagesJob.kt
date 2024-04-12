@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
-import org.signal.core.util.logging.Log
-import org.signal.core.util.orNull
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.ServiceMessageId
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

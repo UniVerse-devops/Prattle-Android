@@ -7,7 +7,7 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.core.util.concurrent.SignalExecutors
+import org.spark.core.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.atomic.AtomicBoolean

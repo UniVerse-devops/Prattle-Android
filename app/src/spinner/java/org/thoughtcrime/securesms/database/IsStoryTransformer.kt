@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.requireInt
-import org.signal.spinner.ColumnTransformer
+import org.spark.core.util.requireInt
+import org.spark.spinner.ColumnTransformer
 import org.thoughtcrime.securesms.database.model.StoryType.Companion.fromCode
 
 object IsStoryTransformer : ColumnTransformer {

@@ -10,16 +10,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
-import org.signal.core.util.Conversions;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.state.PreKeyRecord;
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
+import org.sparkcore.util.Conversions;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparklibsignal.protocol.InvalidMessageException;
+import org.sparklibsignal.protocol.state.PreKeyRecord;
+import org.sparklibsignal.protocol.state.SignedPreKeyRecord;
 import org.thoughtcrime.securesms.database.OneTimePreKeyTable;
 import org.thoughtcrime.securesms.database.SignedPreKeyTable;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.JsonUtils;
 
 import java.io.File;

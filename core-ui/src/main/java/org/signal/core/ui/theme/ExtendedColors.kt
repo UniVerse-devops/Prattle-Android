@@ -1,4 +1,4 @@
-package org.signal.core.ui.theme
+package org.spark.core.ui.theme
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf

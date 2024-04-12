@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.conversation
 
 import androidx.core.view.doOnNextLayout
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 
 /**
  * Adds necessary padding to each side of the given RecyclerView in order to ensure that

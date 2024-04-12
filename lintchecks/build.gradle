@@ -12,6 +12,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes('Lint-Registry-v2': 'org.signal.lint.Registry')
+        attributes('Lint-Registry-v2': 'org.sparklint.Registry')
     }
 }

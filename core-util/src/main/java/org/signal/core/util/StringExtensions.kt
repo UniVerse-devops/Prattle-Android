@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 import kotlin.contracts.ExperimentalContracts
 import kotlin.contracts.contract

@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.BreakIteratorCompat;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.BreakIteratorCompat;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
 import org.thoughtcrime.securesms.contactshare.Contact;
 import org.thoughtcrime.securesms.database.model.Mention;

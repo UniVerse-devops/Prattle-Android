@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.util;
 
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.logging.Log;
 
 import java.io.Closeable;
 import java.io.IOException;

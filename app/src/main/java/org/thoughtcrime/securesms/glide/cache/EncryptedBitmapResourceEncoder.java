@@ -11,7 +11,7 @@ import com.bumptech.glide.load.ResourceEncoder;
 import com.bumptech.glide.load.engine.Resource;
 import com.bumptech.glide.load.resource.bitmap.BitmapEncoder;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.io.File;
 import java.io.IOException;

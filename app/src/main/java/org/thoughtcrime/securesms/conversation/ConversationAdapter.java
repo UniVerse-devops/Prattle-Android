@@ -41,8 +41,8 @@ import androidx.media3.common.MediaItem;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.core.util.logging.Log;
-import org.signal.paging.PagingController;
+import org.sparkcore.util.logging.Log;
+import org.sparkpaging.PagingController;
 import org.thoughtcrime.securesms.BindableConversationItem;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.conversation.colors.Colorizable;

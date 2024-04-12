@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -17,8 +17,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import org.signal.donations.StripeDeclineCode
-import org.signal.donations.StripeFailureCode
+import org.sparkdonations.StripeDeclineCode
+import org.sparkdonations.StripeFailureCode
 import org.thoughtcrime.securesms.components.settings.app.subscription.errors.PayPalDeclineCode
 import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
 import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation

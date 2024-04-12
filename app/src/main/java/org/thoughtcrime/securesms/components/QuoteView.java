@@ -21,8 +21,8 @@ import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.shape.CornerFamily;
 import com.google.android.material.shape.ShapeAppearanceModel;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.components.emoji.EmojiImageView;

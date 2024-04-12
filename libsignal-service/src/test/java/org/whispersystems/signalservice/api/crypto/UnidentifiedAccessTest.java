@@ -4,8 +4,8 @@ import junit.framework.TestCase;
 
 import org.conscrypt.Conscrypt;
 import org.conscrypt.OpenSSLProvider;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 
 import java.security.Security;
 import java.util.Arrays;

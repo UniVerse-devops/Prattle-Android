@@ -22,7 +22,7 @@ import androidx.core.view.children
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.util.Projection
 import kotlin.math.PI

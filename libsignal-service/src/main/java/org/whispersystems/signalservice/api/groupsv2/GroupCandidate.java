@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.util.ExpiringProfileCredentialUtil;
 

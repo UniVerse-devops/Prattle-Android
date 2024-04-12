@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -14,7 +14,7 @@ import com.squareup.wire.ProtoReader
 import com.squareup.wire.ProtoWriter
 import okio.Buffer
 import okio.ByteString
-import org.signal.libsignal.protocol.logging.Log
+import org.spark.libsignal.protocol.logging.Log
 import java.util.LinkedList
 
 object ProtoUtil {

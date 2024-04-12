@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.logsubmit
 
 import android.app.Application
-import org.signal.core.util.logging.Scrubber
-import org.signal.paging.PagedDataSource
+import org.sparkcore.util.logging.Scrubber
+import org.sparkpaging.PagedDataSource
 import org.thoughtcrime.securesms.database.LogDatabase
 
 /**

@@ -1,4 +1,4 @@
-package org.signal.lint;
+package org.sparklint;
 
 import com.android.tools.lint.client.api.JavaEvaluator;
 import com.android.tools.lint.detector.api.Category;
@@ -62,17 +62,17 @@ public final class SignalLogDetector extends Detector implements Detector.UastSc
       context.report(LOG_NOT_SIGNAL, call, context.getLocation(call), "Using 'android.util.Log' instead of a Signal Logger", fix);
     }
 
-    if (evaluator.isMemberInClass(method, "org.signal.glide.Log")) {
+    if (evaluator.isMemberInClass(method, "org.sparkglide.Log")) {
       LintFix fix = quickFixIssueLog(call);
-      context.report(LOG_NOT_SIGNAL, call, context.getLocation(call), "Using 'org.signal.glide.Log' instead of a Signal Logger", fix);
+      context.report(LOG_NOT_SIGNAL, call, context.getLocation(call), "Using 'org.sparkglide.Log' instead of a Signal Logger", fix);
     }
 
-    if (evaluator.isMemberInClass(method, "org.signal.libsignal.protocol.logging.Log")) {
+    if (evaluator.isMemberInClass(method, "org.sparklibsignal.protocol.logging.Log")) {
       LintFix fix = quickFixIssueLog(call);
       context.report(LOG_NOT_APP, call, context.getLocation(call), "Using Signal server logger instead of app level Logger", fix);
     }
 
-    if (evaluator.isMemberInClass(method, "org.signal.core.util.logging.Log")) {
+    if (evaluator.isMemberInClass(method, "org.sparkcore.util.logging.Log")) {
       List<UExpression> arguments  = call.getValueArguments();
       UExpression       tag        = arguments.get(0);
       if (!(tag instanceof JavaUSimpleNameReferenceExpression || tag instanceof KotlinUSimpleReferenceExpression || tag instanceof KotlinUQualifiedReferenceExpression)) {
@@ -86,7 +86,7 @@ public final class SignalLogDetector extends Detector implements Detector.UastSc
     String            methodName = logCall.getMethodName();
     UExpression       tag        = arguments.get(0);
 
-    String fixSource = "org.signal.core.util.logging.Log.";
+    String fixSource = "org.sparkcore.util.logging.Log.";
 
     switch (arguments.size()) {
       case 2:

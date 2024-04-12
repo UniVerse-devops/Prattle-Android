@@ -10,8 +10,8 @@ import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.contacts.HeaderAction
 import org.thoughtcrime.securesms.database.AttachmentTable

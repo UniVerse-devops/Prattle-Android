@@ -1,11 +1,11 @@
 package org.whispersystems.signalservice.api.messages.multidevice;
 
 import org.junit.Test;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.ecc.Curve;
-import org.signal.libsignal.protocol.ecc.ECKeyPair;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.ecc.Curve;
+import org.spark.libsignal.protocol.ecc.ECKeyPair;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;

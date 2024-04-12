@@ -2,8 +2,8 @@ package org.whispersystems.signalservice.internal.push;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
-import org.signal.core.util.Base64;
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
+import org.spark.core.util.Base64;
 
 class BoostReceiptCredentialRequestJson {
   @JsonProperty("paymentIntentId")

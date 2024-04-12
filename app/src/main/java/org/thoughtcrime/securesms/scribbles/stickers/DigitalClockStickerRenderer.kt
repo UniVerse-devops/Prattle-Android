@@ -4,10 +4,10 @@ import android.graphics.Rect
 import android.graphics.RectF
 import android.os.Parcel
 import android.os.Parcelable
-import org.signal.imageeditor.core.Bounds
-import org.signal.imageeditor.core.RendererContext
-import org.signal.imageeditor.core.SelectableRenderer
-import org.signal.imageeditor.core.renderers.InvalidateableRenderer
+import org.sparkimageeditor.core.Bounds
+import org.sparkimageeditor.core.RendererContext
+import org.sparkimageeditor.core.SelectableRenderer
+import org.sparkimageeditor.core.renderers.InvalidateableRenderer
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 
 /**

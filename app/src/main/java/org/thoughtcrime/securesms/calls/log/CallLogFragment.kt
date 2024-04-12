@@ -29,10 +29,10 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.kotlin.Flowables
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.concurrent.addTo
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.addTo
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsActivity

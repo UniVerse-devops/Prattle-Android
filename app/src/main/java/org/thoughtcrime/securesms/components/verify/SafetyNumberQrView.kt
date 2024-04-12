@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -28,8 +28,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.core.widget.ImageViewCompat
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import org.signal.core.util.dp
-import org.signal.libsignal.protocol.fingerprint.Fingerprint
+import org.sparkcore.util.dp
+import org.sparklibsignal.protocol.fingerprint.Fingerprint
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.qr.QrCodeUtil
 import org.thoughtcrime.securesms.util.ContextUtil

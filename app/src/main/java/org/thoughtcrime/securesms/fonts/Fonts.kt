@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.fonts
 import android.content.Context
 import android.graphics.Typeface
 import androidx.annotation.WorkerThread
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.s3.S3
 import org.thoughtcrime.securesms.util.ListenableFutureTask
 import java.io.File

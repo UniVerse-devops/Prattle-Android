@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,8 +7,8 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
 
 /**
  * A while back we added an accountId to the prekey tables to support a mix of ACI and PNI identities.

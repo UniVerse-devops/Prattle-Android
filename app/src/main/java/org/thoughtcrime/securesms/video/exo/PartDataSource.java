@@ -11,13 +11,13 @@ import androidx.media3.datasource.DataSource;
 import androidx.media3.datasource.DataSpec;
 import androidx.media3.datasource.TransferListener;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMessageException;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
 import org.thoughtcrime.securesms.database.AttachmentTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.FeatureFlags;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream;
 

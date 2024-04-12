@@ -1,4 +1,4 @@
-package org.signal.qr
+package org.spark.qr
 
 import android.graphics.ImageFormat
 import androidx.camera.core.ImageProxy

@@ -4,8 +4,8 @@ import android.database.sqlite.SQLiteDatabaseCorruptException;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.ExceptionUtil;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.ExceptionUtil;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.LogDatabase;
 import org.thoughtcrime.securesms.database.SearchTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;

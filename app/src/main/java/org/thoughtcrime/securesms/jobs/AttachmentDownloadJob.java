@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -12,10 +12,10 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.Hex;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMacException;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import org.sparkcore.util.Hex;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMacException;
+import org.sparklibsignal.protocol.InvalidMessageException;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.attachments.AttachmentId;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
@@ -35,7 +35,7 @@ import org.thoughtcrime.securesms.releasechannel.ReleaseChannel;
 import org.thoughtcrime.securesms.s3.S3;
 import org.thoughtcrime.securesms.transport.RetryLaterException;
 import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.FeatureFlags;
 import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

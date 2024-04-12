@@ -6,8 +6,8 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMessageException;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream;
 
 import java.io.File;

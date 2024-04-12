@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.notifications.v2
 import android.content.Context
 import android.net.Uri
 import android.os.Build
-import org.signal.core.util.asListContains
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.spark.core.util.asListContains
+import org.spark.core.util.concurrent.SignalExecutors
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.database.model.MessageId
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader

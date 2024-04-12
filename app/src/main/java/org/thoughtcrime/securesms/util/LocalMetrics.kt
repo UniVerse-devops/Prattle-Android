@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.util
 
 import android.os.SystemClock
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.spark.core.util.ThreadUtil
+import org.spark.core.util.concurrent.SignalExecutors
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.database.LocalMetricsDatabase
 import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
 import org.thoughtcrime.securesms.database.model.LocalMetricsSplit

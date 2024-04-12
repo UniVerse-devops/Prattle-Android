@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.accounts.Account
 import android.content.AbstractThreadedSyncAdapter
@@ -6,7 +6,7 @@ import android.content.ContentProviderClient
 import android.content.Context
 import android.content.SyncResult
 import android.os.Bundle
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 class ContactsSyncAdapter(context: Context?, autoInitialize: Boolean) : AbstractThreadedSyncAdapter(context, autoInitialize) {
   override fun onPerformSync(

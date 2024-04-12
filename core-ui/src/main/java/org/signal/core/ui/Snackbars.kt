@@ -1,9 +1,9 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.ui
+package org.spark.core.ui
 
 import android.content.res.Configuration
 import androidx.compose.material3.Snackbar
@@ -14,8 +14,8 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.SnackbarVisuals
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import org.signal.core.ui.theme.LocalSnackbarColors
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.theme.LocalSnackbarColors
+import org.spark.core.ui.theme.SignalTheme
 
 /**
  * Properly themed Snackbars. Since these use internal color state, we need to

@@ -1,11 +1,11 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.storageservice.protos.groups.Group;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.spark.libsignal.zkgroup.VerificationFailedException;
+import org.spark.libsignal.zkgroup.groups.GroupSecretParams;
+import org.spark.storageservice.protos.groups.Group;
+import org.spark.storageservice.protos.groups.local.DecryptedGroup;
+import org.spark.storageservice.protos.groups.local.DecryptedMember;
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMember;
 
 import java.io.IOException;
 import java.util.List;

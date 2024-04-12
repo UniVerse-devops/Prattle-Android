@@ -1,13 +1,13 @@
 package org.whispersystems.signalservice.api.services;
 
-import org.signal.cdsi.proto.ClientRequest;
-import org.signal.cdsi.proto.ClientResponse;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.net.CdsiLookupRequest;
-import org.signal.libsignal.net.CdsiLookupResponse;
-import org.signal.libsignal.net.Network;
-import org.signal.libsignal.protocol.util.ByteUtil;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.cdsi.proto.ClientRequest;
+import org.spark.cdsi.proto.ClientResponse;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.net.CdsiLookupRequest;
+import org.spark.libsignal.net.CdsiLookupResponse;
+import org.spark.libsignal.net.Network;
+import org.spark.libsignal.protocol.util.ByteUtil;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
@@ -167,7 +167,7 @@ public final class CdsiV2Service {
   }
 
   private static CdsiLookupRequest buildLibsignalRequest(Request request) {
-    HashMap<org.signal.libsignal.protocol.ServiceId, ProfileKey> serviceIds = new HashMap<>(request.serviceIds.size());
+    HashMap<org.spark.libsignal.protocol.ServiceId, ProfileKey> serviceIds = new HashMap<>(request.serviceIds.size());
     request.serviceIds.forEach((key, value) -> serviceIds.put(key.getLibSignalServiceId(), value));
     return new CdsiLookupRequest(request.previousE164s, request.newE164s, serviceIds, false, Optional.ofNullable(request.token));
   }

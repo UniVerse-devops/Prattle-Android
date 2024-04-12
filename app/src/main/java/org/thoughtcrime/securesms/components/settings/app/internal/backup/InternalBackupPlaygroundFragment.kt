@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -50,13 +50,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dividers
-import org.signal.core.ui.Snackbars
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.bytes
-import org.signal.core.util.getLength
-import org.signal.core.util.roundedString
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dividers
+import org.sparkcore.ui.Snackbars
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.bytes
+import org.sparkcore.util.getLength
+import org.sparkcore.util.roundedString
 import org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.BackupState
 import org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.BackupUploadState
 import org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.ScreenState

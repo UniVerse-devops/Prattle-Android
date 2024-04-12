@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.messages
 
 import android.content.Context
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.orNull
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.database.MessageTable.InsertResult
 import org.thoughtcrime.securesms.database.MessageType
 import org.thoughtcrime.securesms.database.SignalDatabase

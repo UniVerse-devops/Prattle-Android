@@ -10,8 +10,8 @@ import android.os.IBinder
 import androidx.annotation.DrawableRes
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
-import org.signal.core.util.PendingIntentFlags.mutable
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.PendingIntentFlags.mutable
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil

@@ -29,8 +29,8 @@ import androidx.core.view.inputmethod.EditorInfoCompat;
 import androidx.core.view.inputmethod.InputConnectionCompat;
 import androidx.core.view.inputmethod.InputContentInfoCompat;
 
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
 import org.thoughtcrime.securesms.components.mention.MentionAnnotation;

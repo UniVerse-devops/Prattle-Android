@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.stories.viewer.views
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.AvatarImageView
 import org.thoughtcrime.securesms.components.menu.ActionItem

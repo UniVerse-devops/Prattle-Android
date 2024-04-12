@@ -9,7 +9,7 @@ import com.google.android.gms.tasks.Tasks;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.messaging.FirebaseMessaging;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.util.Optional;
 import java.util.concurrent.ExecutionException;

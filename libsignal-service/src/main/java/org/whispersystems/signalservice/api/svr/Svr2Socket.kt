@@ -7,11 +7,11 @@ import okhttp3.WebSocket
 import okhttp3.WebSocketListener
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
-import org.signal.libsignal.attest.AttestationDataException
-import org.signal.libsignal.protocol.logging.Log
-import org.signal.libsignal.protocol.util.Pair
-import org.signal.libsignal.sgxsession.SgxCommunicationFailureException
-import org.signal.libsignal.svr2.Svr2Client
+import org.spark.libsignal.attest.AttestationDataException
+import org.spark.libsignal.protocol.logging.Log
+import org.spark.libsignal.protocol.util.Pair
+import org.spark.libsignal.sgxsession.SgxCommunicationFailureException
+import org.spark.libsignal.svr2.Svr2Client
 import org.whispersystems.signalservice.api.push.TrustStore
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.util.Tls12SocketFactory
@@ -34,8 +34,8 @@ import javax.net.ssl.SSLSocketFactory
 import javax.net.ssl.X509TrustManager
 import kotlin.jvm.Throws
 import okhttp3.Response as OkHttpResponse
-import org.signal.svr2.proto.Request as Svr2Request
-import org.signal.svr2.proto.Response as Svr2Response
+import org.spark.svr2.proto.Request as Svr2Request
+import org.spark.svr2.proto.Response as Svr2Response
 
 /**
  * Handles the websocket and general lifecycle of an SVR2 request.

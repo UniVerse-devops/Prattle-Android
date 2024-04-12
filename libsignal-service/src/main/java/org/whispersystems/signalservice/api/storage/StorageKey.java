@@ -1,12 +1,12 @@
 package org.whispersystems.signalservice.api.storage;
 
 import org.whispersystems.signalservice.api.kbs.MasterKey;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 import org.whispersystems.util.StringUtil;
 
 import java.util.Arrays;
 
-import static org.signal.core.util.CryptoUtil.hmacSha256;
+import static org.spark.core.util.CryptoUtil.hmacSha256;
 
 /**
  * Key used to encrypt data on the storage service. Not used directly -- instead we used keys that

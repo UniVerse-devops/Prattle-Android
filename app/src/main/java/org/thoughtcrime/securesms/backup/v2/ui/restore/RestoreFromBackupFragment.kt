@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -28,9 +28,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Previews
-import org.signal.core.ui.theme.SignalTheme
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Previews
+import org.sparkcore.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.backup.v2.ui.MessageBackupsTypeFeature
 import org.thoughtcrime.securesms.backup.v2.ui.MessageBackupsTypeFeatureRow

@@ -1,11 +1,11 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.conversation.v2
 
-import org.signal.paging.ObservablePagedData
+import org.sparkpaging.ObservablePagedData
 import org.thoughtcrime.securesms.conversation.ConversationData
 import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
 import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel

@@ -2,10 +2,10 @@ package org.thoughtcrime.securesms.contacts.paged
 
 import androidx.annotation.VisibleForTesting
 import io.reactivex.rxjava3.core.Single
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.concurrent.safeBlockingGet
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.safeBlockingGet
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.recipients.Recipient

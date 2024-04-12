@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 import android.database.Cursor
 import androidx.core.database.getLongOrNull

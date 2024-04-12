@@ -24,8 +24,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.components.ContactFilterView;
 import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
 import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;

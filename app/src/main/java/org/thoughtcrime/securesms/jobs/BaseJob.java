@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.tracing.Tracer;
+import org.sparkcore.util.logging.Log;
+import org.sparkcore.util.tracing.Tracer;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.JobLogger;
 import org.thoughtcrime.securesms.jobmanager.JobManager.Chain;
@@ -65,7 +65,7 @@ public abstract class BaseJob extends Job {
   protected abstract boolean onShouldRetry(@NonNull Exception e);
 
   /**
-   * Whether or not the job should be traced with the {@link org.signal.core.util.tracing.Tracer}.
+   * Whether or not the job should be traced with the {@link org.sparkcore.util.tracing.Tracer}.
    */
   protected boolean shouldTrace() {
     return false;

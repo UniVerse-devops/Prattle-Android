@@ -21,7 +21,7 @@ import android.os.Bundle;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.SelectedContact;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 

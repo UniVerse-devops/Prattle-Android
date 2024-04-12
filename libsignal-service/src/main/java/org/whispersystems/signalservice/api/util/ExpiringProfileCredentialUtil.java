@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.util;
 
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 
 import java.time.temporal.ChronoField;
 import java.util.concurrent.TimeUnit;

@@ -8,18 +8,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.RecipientTable.MissingRecipientException;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.ThreadTable;
 import org.thoughtcrime.securesms.database.model.ThreadRecord;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.signal.core.util.CursorUtil;
+import org.sparkcore.util.CursorUtil;
 import org.thoughtcrime.securesms.util.LRUCache;
-import org.signal.core.util.Stopwatch;
+import org.sparkcore.util.Stopwatch;
 import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 

@@ -1,4 +1,4 @@
-package org.signal.glide;
+package org.sparkglide;
 
 public class Log {
 

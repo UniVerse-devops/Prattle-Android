@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.safety
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.menu.ActionItem
 import org.thoughtcrime.securesms.components.menu.SignalContextMenu

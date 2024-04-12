@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyvalue
 
 import org.json.JSONObject
-import org.signal.core.util.StringSerializer
+import org.sparkcore.util.StringSerializer
 import org.thoughtcrime.securesms.database.model.DistributionListId
 import org.thoughtcrime.securesms.groups.GroupId
 

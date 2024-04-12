@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package androidx.recyclerview.widget
 
 import android.content.Context
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 
 /**
  * Variation of a vertical, reversed [LinearLayoutManager] that makes specific assumptions in how it will

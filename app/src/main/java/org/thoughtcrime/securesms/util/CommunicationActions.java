@@ -22,13 +22,13 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.concurrent.RxExtensions;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.usernames.BaseUsernameException;
-import org.signal.libsignal.usernames.Username;
-import org.signal.ringrtc.CallLinkRootKey;
+import org.spark.core.util.concurrent.RxExtensions;
+import org.spark.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.concurrent.SimpleTask;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.usernames.BaseUsernameException;
+import org.spark.libsignal.usernames.Username;
+import org.spark.ringrtc.CallLinkRootKey;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.WebRtcCallActivity;
 import org.thoughtcrime.securesms.calls.links.CallLinks;

@@ -7,9 +7,9 @@ import io.reactivex.rxjava3.core.BackpressureStrategy
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.signal.paging.PagedData
-import org.signal.paging.PagingConfig
-import org.signal.paging.ProxyPagingController
+import org.sparkpaging.PagedData
+import org.sparkpaging.PagingConfig
+import org.sparkpaging.ProxyPagingController
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSource

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -13,9 +13,9 @@ import android.media.AudioManager
 import android.media.SoundPool
 import android.net.Uri
 import android.os.Build
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.audio.AudioDeviceUpdatedListener
 import org.thoughtcrime.securesms.audio.SignalBluetoothManager

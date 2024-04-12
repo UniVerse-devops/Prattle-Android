@@ -4,7 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 
 public class PersistentConnectionBootListener extends BroadcastReceiver {

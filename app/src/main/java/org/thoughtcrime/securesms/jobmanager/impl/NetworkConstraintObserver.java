@@ -9,7 +9,7 @@ import android.net.ConnectivityManager;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
 
 public class NetworkConstraintObserver implements ConstraintObserver {

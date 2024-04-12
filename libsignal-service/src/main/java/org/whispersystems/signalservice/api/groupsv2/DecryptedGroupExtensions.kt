@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api.groupsv2
 
-import org.signal.storageservice.protos.groups.local.DecryptedMember
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember
-import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember
+import org.spark.storageservice.protos.groups.local.DecryptedMember
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMember
+import org.spark.storageservice.protos.groups.local.DecryptedRequestingMember
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import java.util.Optional

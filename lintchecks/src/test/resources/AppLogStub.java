@@ -1,4 +1,4 @@
-package org.signal.core.util.logging;
+package org.sparkcore.util.logging;
 
 public class Log {
 

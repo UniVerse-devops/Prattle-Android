@@ -12,10 +12,10 @@ import androidx.core.util.Consumer;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.BreakIteratorCompat;
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.BreakIteratorCompat;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.attachments.UriAttachment;
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
@@ -46,7 +46,7 @@ import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.sms.MessageSender;
 import org.thoughtcrime.securesms.sms.MessageSender.SendType;
 import org.thoughtcrime.securesms.stories.Stories;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.MediaUtil;
 import org.thoughtcrime.securesms.util.MessageUtil;
 import org.thoughtcrime.securesms.util.Util;

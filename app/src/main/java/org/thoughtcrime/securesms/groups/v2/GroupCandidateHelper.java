@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.groups.v2;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

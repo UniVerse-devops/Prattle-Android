@@ -1,15 +1,15 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.conversation.v2.data
 
 import android.content.Context
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
-import org.signal.core.util.toInt
-import org.signal.paging.PagedDataSource
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.toInt
+import org.sparkpaging.PagedDataSource
 import org.thoughtcrime.securesms.conversation.ConversationData
 import org.thoughtcrime.securesms.conversation.ConversationMessage
 import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory

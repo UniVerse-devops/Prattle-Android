@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.usernames.BaseUsernameException;
-import org.signal.libsignal.usernames.Username;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.usernames.BaseUsernameException;
+import org.sparklibsignal.usernames.Username;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Job;

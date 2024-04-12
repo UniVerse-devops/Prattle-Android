@@ -2,9 +2,9 @@ package org.thoughtcrime.securesms.service.webrtc;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallManager;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.CallManager;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
 import org.thoughtcrime.securesms.ringrtc.Camera;

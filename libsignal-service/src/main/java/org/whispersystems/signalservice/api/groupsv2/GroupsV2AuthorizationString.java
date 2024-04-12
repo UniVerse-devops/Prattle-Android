@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.auth.AuthCredentialPresentation;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import org.spark.libsignal.zkgroup.auth.AuthCredentialPresentation;
+import org.spark.libsignal.zkgroup.groups.GroupSecretParams;
 import org.whispersystems.signalservice.internal.util.Hex;
 
 import okhttp3.Credentials;

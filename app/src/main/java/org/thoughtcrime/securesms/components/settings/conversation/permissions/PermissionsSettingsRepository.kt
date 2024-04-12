@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.components.settings.conversation.permissions
 
 import android.content.Context
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.groups.GroupAccessControl
 import org.thoughtcrime.securesms.groups.GroupChangeException
 import org.thoughtcrime.securesms.groups.GroupId

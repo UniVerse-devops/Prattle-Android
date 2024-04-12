@@ -8,16 +8,16 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.CallManager;
-import org.signal.ringrtc.CallManager.RingUpdate;
-import org.signal.ringrtc.GroupCall;
-import org.signal.ringrtc.NetworkRoute;
-import org.signal.ringrtc.PeekInfo;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.IdentityKey;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.CallManager;
+import org.sparkringrtc.CallManager.RingUpdate;
+import org.sparkringrtc.GroupCall;
+import org.sparkringrtc.NetworkRoute;
+import org.sparkringrtc.PeekInfo;
 import org.thoughtcrime.securesms.components.sensors.Orientation;
 import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
 import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;

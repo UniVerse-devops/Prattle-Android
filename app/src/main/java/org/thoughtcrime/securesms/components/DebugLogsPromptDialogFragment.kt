@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -14,8 +14,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
-import org.signal.core.util.ResourceUtil
-import org.signal.core.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.ResourceUtil
+import org.sparkcore.util.concurrent.LifecycleDisposable
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.databinding.PromptLogsBottomSheetBinding
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

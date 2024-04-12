@@ -4,18 +4,18 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.delete
-import org.signal.core.util.deleteAll
-import org.signal.core.util.forEach
-import org.signal.core.util.readToList
-import org.signal.core.util.requireBoolean
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.select
-import org.signal.core.util.update
-import org.signal.core.util.withinTransaction
-import org.signal.libsignal.protocol.util.Pair
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.delete
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.forEach
+import org.sparkcore.util.readToList
+import org.sparkcore.util.requireBoolean
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.select
+import org.sparkcore.util.update
+import org.sparkcore.util.withinTransaction
+import org.sparklibsignal.protocol.util.Pair
 import org.thoughtcrime.securesms.recipients.RecipientId
 
 class GroupReceiptTable(context: Context?, databaseHelper: SignalDatabase?) : DatabaseTable(context, databaseHelper), RecipientIdDatabaseReference {

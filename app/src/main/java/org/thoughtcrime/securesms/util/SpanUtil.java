@@ -35,7 +35,7 @@ import androidx.annotation.StringRes;
 import androidx.annotation.StyleRes;
 import androidx.core.content.ContextCompat;
 
-import org.signal.core.util.DimensionUnit;
+import org.spark.core.util.DimensionUnit;
 import org.thoughtcrime.securesms.R;
 
 public final class SpanUtil {

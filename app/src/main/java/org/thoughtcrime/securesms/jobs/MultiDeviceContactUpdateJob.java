@@ -10,9 +10,9 @@ import android.provider.ContactsContract;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.IdentityKey;
+import org.sparklibsignal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.conversation.colors.ChatColorsMapper;
 import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;

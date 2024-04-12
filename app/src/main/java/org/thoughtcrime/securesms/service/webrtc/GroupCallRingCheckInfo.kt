@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.service.webrtc
 
-import org.signal.ringrtc.CallManager
+import org.sparkringrtc.CallManager
 import org.thoughtcrime.securesms.groups.GroupId
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI

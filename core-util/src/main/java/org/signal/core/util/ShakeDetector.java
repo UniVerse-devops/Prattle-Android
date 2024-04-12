@@ -1,7 +1,7 @@
 // Copyright 2010 Square, Inc.
 // Modified 2020 Signal
 
-package org.signal.core.util;
+package org.spark.core.util;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

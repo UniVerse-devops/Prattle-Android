@@ -16,8 +16,8 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.verify
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.signal.core.util.Base64
-import org.signal.core.util.getParcelableExtraCompat
+import org.spark.core.util.Base64
+import org.spark.core.util.getParcelableExtraCompat
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.database.FakeMessageRecords
 import org.thoughtcrime.securesms.database.model.StoryType

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -48,9 +48,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.fragment.findNavController
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.signal.core.ui.Scaffolds
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.logging.Log
+import org.sparkcore.ui.Scaffolds
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconPreset
 import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility

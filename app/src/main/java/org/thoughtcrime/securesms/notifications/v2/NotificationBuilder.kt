@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.RemoteInput
 import androidx.core.content.LocusIdCompat
 import androidx.core.graphics.drawable.IconCompat
-import org.signal.core.util.PendingIntentFlags.mutable
+import org.spark.core.util.PendingIntentFlags.mutable
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.ConversationIntents
 import org.thoughtcrime.securesms.database.RecipientTable

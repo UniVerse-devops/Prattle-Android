@@ -5,10 +5,10 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.signal.core.util.Base64;
-import org.signal.core.util.SetUtil;
+import org.sparkcore.util.Base64;
+import org.sparkcore.util.SetUtil;
 import org.whispersystems.signalservice.api.storage.SignalContactRecord;
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest;
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord;

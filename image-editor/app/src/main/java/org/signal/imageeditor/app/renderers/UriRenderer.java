@@ -1,4 +1,4 @@
-package org.signal.imageeditor.app.renderers;
+package org.sparkimageeditor.app.renderers;
 
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -17,9 +17,9 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 public final class UriRenderer implements Renderer, Parcelable {
 

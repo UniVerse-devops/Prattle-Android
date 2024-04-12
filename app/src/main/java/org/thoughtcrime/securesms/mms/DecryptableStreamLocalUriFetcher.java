@@ -7,7 +7,7 @@ import android.net.Uri;
 
 import com.bumptech.glide.load.data.StreamLocalUriFetcher;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;

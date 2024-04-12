@@ -15,10 +15,10 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.ContactSelectionActivity;
 import org.thoughtcrime.securesms.ContactSelectionListFragment;
 import org.thoughtcrime.securesms.R;

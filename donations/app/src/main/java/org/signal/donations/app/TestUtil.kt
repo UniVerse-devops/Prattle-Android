@@ -1,6 +1,6 @@
-package org.signal.donations.app
+package org.sparkdonations.app
 
-import org.signal.donations.GooglePayApi
+import org.sparkdonations.GooglePayApi
 
 object TestUtil : GooglePayApi.Gateway {
   override fun getTokenizationSpecificationParameters(): Map<String, String> {

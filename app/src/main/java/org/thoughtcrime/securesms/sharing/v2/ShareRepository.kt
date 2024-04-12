@@ -8,7 +8,7 @@ import androidx.annotation.WorkerThread
 import androidx.core.util.toKotlinPair
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.mediasend.Media
 import org.thoughtcrime.securesms.providers.BlobProvider
 import org.thoughtcrime.securesms.util.FeatureFlags

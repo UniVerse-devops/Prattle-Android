@@ -2,12 +2,12 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.delete
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.requireLong
-import org.signal.core.util.update
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.delete
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.update
 
 /**
  * When we ran [V166_ThreadAndMessageForeignKeys], we forgot to update the actual table definition in [ThreadTable].

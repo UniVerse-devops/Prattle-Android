@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.components.settings.app.subscription
 
 import okio.ByteString
-import org.signal.core.util.money.FiatMoney
-import org.signal.donations.PaymentSourceType
+import org.sparkcore.util.money.FiatMoney
+import org.sparkdonations.PaymentSourceType
 import org.thoughtcrime.securesms.badges.Badges
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.database.model.databaseprotos.DecimalValue

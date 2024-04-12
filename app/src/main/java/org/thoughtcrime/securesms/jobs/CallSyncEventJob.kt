@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
-import org.signal.core.util.logging.Log
-import org.signal.ringrtc.CallId
+import org.sparkcore.util.logging.Log
+import org.sparkringrtc.CallId
 import org.thoughtcrime.securesms.database.CallTable
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

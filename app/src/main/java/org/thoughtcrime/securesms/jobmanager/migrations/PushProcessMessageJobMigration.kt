@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.jobmanager.migrations
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.Base64
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Base64
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.jobmanager.JobMigration
 import org.thoughtcrime.securesms.jobmanager.JsonJobData
 import org.thoughtcrime.securesms.jobs.FailingJob

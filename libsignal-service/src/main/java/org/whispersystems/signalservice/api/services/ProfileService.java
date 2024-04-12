@@ -1,15 +1,15 @@
 package org.whispersystems.signalservice.api.services;
 
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyVersion;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.util.Pair;
+import org.spark.libsignal.zkgroup.VerificationFailedException;
+import org.spark.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
+import org.spark.libsignal.zkgroup.profiles.ProfileKeyVersion;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.SignalWebSocket;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;

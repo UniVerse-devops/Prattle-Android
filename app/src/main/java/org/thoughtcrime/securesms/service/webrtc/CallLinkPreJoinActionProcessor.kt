@@ -1,17 +1,17 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.service.webrtc
 
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.zkgroup.GenericServerPublicParams
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.VerificationFailedException
-import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams
-import org.signal.ringrtc.CallException
-import org.signal.ringrtc.CallLinkRootKey
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.zkgroup.GenericServerPublicParams
+import org.sparklibsignal.zkgroup.InvalidInputException
+import org.sparklibsignal.zkgroup.VerificationFailedException
+import org.sparklibsignal.zkgroup.calllinks.CallLinkSecretParams
+import org.sparkringrtc.CallException
+import org.sparkringrtc.CallLinkRootKey
 import org.thoughtcrime.securesms.database.SignalDatabase.Companion.callLinks
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.events.WebRtcViewModel

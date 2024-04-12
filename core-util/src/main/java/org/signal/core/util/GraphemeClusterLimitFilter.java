@@ -1,9 +1,9 @@
-package org.signal.core.util;
+package org.spark.core.util;
 
 import android.text.InputFilter;
 import android.text.Spanned;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 
 /**

@@ -8,8 +8,8 @@ import android.content.pm.Signature;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.Base64;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.Base64;
+import org.spark.core.util.logging.Log;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

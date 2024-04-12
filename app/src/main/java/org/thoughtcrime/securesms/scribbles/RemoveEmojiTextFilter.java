@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.scribbles;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.HiddenEditText;
+import org.sparkimageeditor.core.HiddenEditText;
 import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
 
 class RemoveEmojiTextFilter implements HiddenEditText.TextFilter {

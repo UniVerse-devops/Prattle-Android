@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.util;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.ThreadUtil;
+import org.spark.core.util.ThreadUtil;
 
 public final class AsynchronousCallback {
 

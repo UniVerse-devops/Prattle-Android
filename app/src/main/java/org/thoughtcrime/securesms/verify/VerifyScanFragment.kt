@@ -8,9 +8,9 @@ import android.widget.ImageView
 import androidx.core.view.OneShotPreDrawListener
 import androidx.fragment.app.Fragment
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.qr.QrScannerView
-import org.signal.qr.kitkat.ScanListener
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkqr.QrScannerView
+import org.sparkqr.kitkat.ScanListener
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ShapeScrim
 import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist

@@ -1,4 +1,4 @@
-package org.signal.devicetransfer.app;
+package org.sparkdevicetransfer.app;
 
 import android.Manifest;
 import android.app.NotificationChannel;
@@ -25,12 +25,12 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.devicetransfer.ClientTask;
-import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.signal.devicetransfer.DeviceToDeviceTransferService.TransferNotificationData;
-import org.signal.devicetransfer.ServerTask;
-import org.signal.devicetransfer.TransferStatus;
+import org.sparkcore.util.PendingIntentFlags;
+import org.sparkdevicetransfer.ClientTask;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService.TransferNotificationData;
+import org.sparkdevicetransfer.ServerTask;
+import org.sparkdevicetransfer.TransferStatus;
 
 import java.io.IOException;
 import java.io.InputStream;

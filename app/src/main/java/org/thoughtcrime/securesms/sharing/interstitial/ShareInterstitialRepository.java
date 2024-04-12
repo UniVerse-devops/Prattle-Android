@@ -6,7 +6,7 @@ import androidx.core.util.Consumer;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.sparkcore.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
 import org.thoughtcrime.securesms.recipients.Recipient;
 

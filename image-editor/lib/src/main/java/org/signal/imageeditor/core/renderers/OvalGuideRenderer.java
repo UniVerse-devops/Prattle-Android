@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,10 +10,10 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.signal.imageeditor.R;
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.R;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 /**
  * Renders an oval inside of the {@link Bounds}.

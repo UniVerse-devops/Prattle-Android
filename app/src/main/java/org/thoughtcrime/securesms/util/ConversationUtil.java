@@ -14,8 +14,8 @@ import androidx.core.content.pm.ShortcutManagerCompat;
 import com.annimon.stream.Stream;
 import com.google.common.collect.Sets;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility;
 import org.thoughtcrime.securesms.conversation.ConversationIntents;

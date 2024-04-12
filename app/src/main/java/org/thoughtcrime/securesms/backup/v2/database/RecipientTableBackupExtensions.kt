@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,22 +8,22 @@ package org.thoughtcrime.securesms.backup.v2.database
 import android.content.ContentValues
 import android.database.Cursor
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.Base64
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.deleteAll
-import org.signal.core.util.logging.Log
-import org.signal.core.util.nullIfBlank
-import org.signal.core.util.requireBoolean
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireNonNullBlob
-import org.signal.core.util.requireString
-import org.signal.core.util.select
-import org.signal.core.util.toInt
-import org.signal.core.util.update
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.storageservice.protos.groups.local.DecryptedGroup
+import org.sparkcore.util.Base64
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.nullIfBlank
+import org.sparkcore.util.requireBoolean
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireNonNullBlob
+import org.sparkcore.util.requireString
+import org.sparkcore.util.select
+import org.sparkcore.util.toInt
+import org.sparkcore.util.update
+import org.sparklibsignal.zkgroup.InvalidInputException
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup
 import org.thoughtcrime.securesms.backup.v2.BackupState
 import org.thoughtcrime.securesms.backup.v2.proto.AccountData
 import org.thoughtcrime.securesms.backup.v2.proto.Contact

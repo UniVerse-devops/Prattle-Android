@@ -6,7 +6,7 @@ import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
 import androidx.core.os.HandlerCompat;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 /**
  * Imagine a bucket. Now imagine your tasks as little droplets. As your tasks are thrown into the

@@ -15,9 +15,9 @@ import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.model.KeyPath
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.dp
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ViewBinderDelegate
 import org.thoughtcrime.securesms.databinding.ConversationListTabsBinding

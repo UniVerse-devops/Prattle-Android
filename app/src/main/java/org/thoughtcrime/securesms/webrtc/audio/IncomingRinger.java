@@ -13,7 +13,7 @@ import android.os.Vibrator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.util.RingtoneUtil;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 

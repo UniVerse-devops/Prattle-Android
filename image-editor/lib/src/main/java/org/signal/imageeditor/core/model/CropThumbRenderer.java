@@ -1,14 +1,14 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
 import android.graphics.Matrix;
 import android.os.Parcel;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.R;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.R;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 import java.util.UUID;
 

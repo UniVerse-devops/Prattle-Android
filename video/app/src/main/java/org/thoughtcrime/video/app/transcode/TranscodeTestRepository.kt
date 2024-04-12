@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -15,7 +15,7 @@ import androidx.work.WorkManager
 import androidx.work.WorkQuery
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
-import org.signal.core.util.readToList
+import org.spark.core.util.readToList
 import org.thoughtcrime.securesms.video.TranscodingPreset
 import java.util.UUID
 import kotlin.math.absoluteValue

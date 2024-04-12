@@ -6,7 +6,7 @@ import android.animation.ObjectAnimator
 import android.view.View
 import androidx.core.animation.doOnEnd
 import androidx.lifecycle.DefaultLifecycleObserver
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.components.settings.PreferenceModel

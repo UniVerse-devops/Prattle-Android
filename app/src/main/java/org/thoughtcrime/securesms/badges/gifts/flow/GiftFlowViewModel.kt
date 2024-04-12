@@ -9,8 +9,8 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationEvent
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey

@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -31,9 +31,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dividers
-import org.signal.core.util.getLength
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dividers
+import org.sparkcore.util.getLength
 import org.thoughtcrime.securesms.BaseActivity
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

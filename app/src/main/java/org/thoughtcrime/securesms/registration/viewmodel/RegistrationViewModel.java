@@ -9,8 +9,8 @@ import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
 import androidx.savedstate.SavedStateRegistryOwner;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.ReclaimUsernameAndLinkJob;
 import org.thoughtcrime.securesms.jobs.StorageAccountRestoreJob;
@@ -35,7 +35,7 @@ import org.whispersystems.signalservice.api.push.exceptions.IncorrectCodeExcepti
 import org.whispersystems.signalservice.api.push.exceptions.IncorrectRegistrationRecoveryPasswordException;
 import org.whispersystems.signalservice.internal.ServiceResponse;
 import org.whispersystems.signalservice.internal.push.RegistrationSessionMetadataResponse;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

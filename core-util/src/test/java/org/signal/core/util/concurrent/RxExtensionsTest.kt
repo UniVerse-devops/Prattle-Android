@@ -1,4 +1,4 @@
-package org.signal.core.util.concurrent
+package org.spark.core.util.concurrent
 
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.subjects.BehaviorSubject

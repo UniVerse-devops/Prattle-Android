@@ -11,8 +11,8 @@ import android.service.notification.StatusBarNotification
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.core.content.ContextCompat
 import me.leolin.shortcutbadger.ShortcutBadger
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.logging.Log
+import org.spark.core.util.PendingIntentFlags
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

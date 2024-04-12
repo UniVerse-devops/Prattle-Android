@@ -2,15 +2,15 @@ package org.thoughtcrime.securesms.groups;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.GenericServerPublicParams;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredential;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.GenericServerPublicParams;
+import org.sparklibsignal.zkgroup.VerificationFailedException;
+import org.sparklibsignal.zkgroup.auth.AuthCredentialWithPniResponse;
+import org.sparklibsignal.zkgroup.calllinks.CallLinkAuthCredential;
+import org.sparklibsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation;
+import org.sparklibsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
+import org.sparklibsignal.zkgroup.calllinks.CallLinkSecretParams;
+import org.sparklibsignal.zkgroup.groups.GroupSecretParams;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2AuthorizationString;

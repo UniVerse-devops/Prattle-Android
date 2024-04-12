@@ -19,8 +19,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.PassphraseRequiredActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;

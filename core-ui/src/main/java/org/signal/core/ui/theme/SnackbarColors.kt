@@ -1,9 +1,9 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.ui.theme
+package org.spark.core.ui.theme
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Color
 /**
  * Borrowed from [androidx.compose.material3.Snackbar]
  *
- * Works in conjunction with [org.signal.core.ui.Snackbars] for properly
+ * Works in conjunction with [org.spark.core.ui.Snackbars] for properly
  * themed snackbars in light and dark modes.
  */
 @Immutable

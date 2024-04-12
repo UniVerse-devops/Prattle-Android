@@ -1,13 +1,13 @@
-package org.signal.qr
+package org.spark.qr
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.widget.FrameLayout
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.signal.qr.kitkat.QrCameraView
-import org.signal.qr.kitkat.ScanListener
-import org.signal.qr.kitkat.ScanningThread
+import org.spark.qr.kitkat.QrCameraView
+import org.spark.qr.kitkat.ScanListener
+import org.spark.qr.kitkat.ScanningThread
 
 /**
  * API19 version of QR scanning. Uses deprecated camera APIs.

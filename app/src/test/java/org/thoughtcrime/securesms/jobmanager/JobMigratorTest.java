@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
 import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
 

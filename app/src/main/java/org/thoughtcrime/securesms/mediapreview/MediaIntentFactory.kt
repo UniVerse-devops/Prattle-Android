@@ -6,8 +6,8 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.signal.core.util.dp
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.dp
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.database.MediaTable
 import org.thoughtcrime.securesms.database.MediaTable.MediaRecord

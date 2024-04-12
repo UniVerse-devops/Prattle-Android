@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.components.settings.app.notifications.manual
 
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration
 import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter

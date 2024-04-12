@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.net.Uri
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.contacts.SystemContactsRepository
+import org.sparkcontacts.SystemContactsRepository
 
 class ContactsAdapter(private val onContactClickedListener: (Uri) -> Unit) : ListAdapter<SystemContactsRepository.ContactDetails, ContactsAdapter.ContactViewHolder>(object : DiffUtil.ItemCallback<SystemContactsRepository.ContactDetails>() {
   override fun areItemsTheSame(oldItem: SystemContactsRepository.ContactDetails, newItem: SystemContactsRepository.ContactDetails): Boolean {

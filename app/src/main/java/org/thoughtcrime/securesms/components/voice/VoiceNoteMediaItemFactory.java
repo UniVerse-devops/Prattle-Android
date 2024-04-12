@@ -10,7 +10,7 @@ import androidx.annotation.WorkerThread;
 import androidx.media3.common.MediaItem;
 import androidx.media3.common.MediaMetadata;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.MessageRecord;

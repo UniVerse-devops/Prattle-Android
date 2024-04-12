@@ -9,9 +9,9 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.addTo
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.paging.PagedData
-import org.signal.paging.PagingConfig
-import org.signal.paging.ProxyPagingController
+import org.sparkpaging.PagedData
+import org.sparkpaging.PagingConfig
+import org.sparkpaging.ProxyPagingController
 import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
 import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
 import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterSource

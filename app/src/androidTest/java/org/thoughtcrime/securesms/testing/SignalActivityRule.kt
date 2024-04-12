@@ -10,9 +10,9 @@ import androidx.test.core.app.ActivityScenario
 import androidx.test.platform.app.InstrumentationRegistry
 import okhttp3.mockwebserver.MockResponse
 import org.junit.rules.ExternalResource
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.spark.libsignal.protocol.IdentityKey
+import org.spark.libsignal.protocol.IdentityKeyPair
+import org.spark.libsignal.protocol.SignalProtocolAddress
 import org.thoughtcrime.securesms.SignalInstrumentationApplicationContext
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
 import org.thoughtcrime.securesms.crypto.MasterSecretUtil

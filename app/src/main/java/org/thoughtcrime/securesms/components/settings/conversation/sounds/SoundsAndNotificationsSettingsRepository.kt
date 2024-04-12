@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.components.settings.conversation.sounds
 
 import android.content.Context
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.database.RecipientTable
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.notifications.NotificationChannels

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.core.util.DatabaseId
-import org.signal.core.util.IntSerializer
+import org.sparkcore.util.DatabaseId
+import org.sparkcore.util.IntSerializer
 
 /**
  * Export status for a message.

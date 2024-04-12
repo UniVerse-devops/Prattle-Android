@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.testing
 
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.util.KeyHelper
-import org.signal.libsignal.protocol.util.Medium
+import org.spark.libsignal.protocol.IdentityKeyPair
+import org.spark.libsignal.protocol.ecc.Curve
+import org.spark.libsignal.protocol.state.PreKeyRecord
+import org.spark.libsignal.protocol.util.KeyHelper
+import org.spark.libsignal.protocol.util.Medium
 import org.thoughtcrime.securesms.crypto.PreKeyUtil
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo

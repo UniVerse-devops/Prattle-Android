@@ -20,7 +20,7 @@ import androidx.preference.Preference;
 import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.sparkcore.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.settings.BaseSettingsAdapter;
 import org.thoughtcrime.securesms.components.settings.BaseSettingsFragment;
@@ -36,7 +36,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.preferences.widgets.StoragePreferenceCategory;
-import org.signal.core.util.StringUtil;
+import org.sparkcore.util.StringUtil;
 import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
 
 import java.text.NumberFormat;

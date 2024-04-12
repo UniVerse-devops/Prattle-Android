@@ -1,11 +1,11 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.whispersystems.signalservice.api.services
 
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
+import org.spark.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
+import org.spark.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations
 import org.whispersystems.signalservice.api.util.CredentialsProvider
 import org.whispersystems.signalservice.internal.ServiceResponse

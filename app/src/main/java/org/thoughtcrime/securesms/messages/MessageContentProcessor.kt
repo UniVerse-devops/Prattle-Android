@@ -1,13 +1,13 @@
 package org.thoughtcrime.securesms.messages
 
 import android.content.Context
-import org.signal.core.util.logging.Log
-import org.signal.core.util.orNull
-import org.signal.core.util.toOptional
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.orNull
+import org.sparkcore.util.toOptional
+import org.sparklibsignal.protocol.SignalProtocolAddress
+import org.sparklibsignal.protocol.ecc.ECPublicKey
+import org.sparklibsignal.protocol.message.DecryptionErrorMessage
+import org.sparklibsignal.zkgroup.groups.GroupSecretParams
 import org.thoughtcrime.securesms.database.MessageType
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.GroupRecord

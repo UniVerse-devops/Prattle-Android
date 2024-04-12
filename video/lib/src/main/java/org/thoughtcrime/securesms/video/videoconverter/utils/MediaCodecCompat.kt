@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -11,7 +11,7 @@ import android.media.MediaCodecList
 import android.media.MediaFormat
 import android.os.Build
 import androidx.annotation.RequiresApi
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import java.io.IOException
 
 object MediaCodecCompat {

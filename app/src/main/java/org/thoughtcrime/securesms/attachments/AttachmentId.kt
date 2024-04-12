@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.attachments
 import android.os.Parcelable
 import com.fasterxml.jackson.annotation.JsonProperty
 import kotlinx.parcelize.Parcelize
-import org.signal.core.util.DatabaseId
+import org.sparkcore.util.DatabaseId
 
 @Parcelize
 data class AttachmentId(

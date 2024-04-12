@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers
+package org.sparkimageeditor.core.renderers
 
 import android.graphics.Color
 import android.graphics.Paint
@@ -9,11 +9,11 @@ import android.os.Parcelable
 import android.view.animation.Interpolator
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import org.signal.core.util.DimensionUnit
-import org.signal.imageeditor.R
-import org.signal.imageeditor.core.Bounds
-import org.signal.imageeditor.core.Renderer
-import org.signal.imageeditor.core.RendererContext
+import org.sparkcore.util.DimensionUnit
+import org.sparkimageeditor.R
+import org.sparkimageeditor.core.Bounds
+import org.sparkimageeditor.core.Renderer
+import org.sparkimageeditor.core.RendererContext
 
 internal class TrashRenderer : InvalidateableRenderer, Renderer, Parcelable {
 

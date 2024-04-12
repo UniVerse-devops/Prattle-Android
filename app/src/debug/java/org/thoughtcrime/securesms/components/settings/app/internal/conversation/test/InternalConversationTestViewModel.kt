@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.components.settings.app.internal.conversation.test
 
 import androidx.lifecycle.ViewModel
-import org.signal.paging.PagedData
-import org.signal.paging.PagingConfig
+import org.spark.paging.PagedData
+import org.spark.paging.PagingConfig
 
 class InternalConversationTestViewModel : ViewModel() {
   private val generator = ConversationElementGenerator()

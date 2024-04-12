@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
 import androidx.core.content.ContextCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.Avatar
 import org.thoughtcrime.securesms.avatar.AvatarRenderer

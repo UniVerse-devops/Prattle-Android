@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -10,11 +10,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.signal.libsignal.protocol.fingerprint.NumericFingerprintGenerator
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.protocol.IdentityKey
+import org.sparklibsignal.protocol.fingerprint.Fingerprint
+import org.sparklibsignal.protocol.fingerprint.NumericFingerprintGenerator
 import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
 import org.thoughtcrime.securesms.database.IdentityTable
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

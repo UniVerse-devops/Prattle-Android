@@ -28,7 +28,7 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.StringDef;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.video.videoconverter.exceptions.EncodingException;
 import org.thoughtcrime.securesms.video.interfaces.MediaInput;
 import org.thoughtcrime.securesms.video.interfaces.Muxer;

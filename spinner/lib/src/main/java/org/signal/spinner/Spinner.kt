@@ -1,10 +1,10 @@
-package org.signal.spinner
+package org.sparkspinner
 
 import android.app.Application
 import android.content.ContentValues
 import android.database.sqlite.SQLiteQueryBuilder
 import androidx.sqlite.db.SupportSQLiteDatabase
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import java.io.IOException
 
 /**

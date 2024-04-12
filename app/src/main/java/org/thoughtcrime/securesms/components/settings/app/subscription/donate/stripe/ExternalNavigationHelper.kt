@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -11,7 +11,7 @@ import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.donations.StripeApi
+import org.sparkdonations.StripeApi
 import org.thoughtcrime.securesms.R
 
 /**

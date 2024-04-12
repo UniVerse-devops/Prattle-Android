@@ -18,7 +18,7 @@ import androidx.annotation.StringRes;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.ringrtc.CallLinkRootKey;
+import org.sparkringrtc.CallLinkRootKey;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.calls.links.CallLinks;
 import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash;

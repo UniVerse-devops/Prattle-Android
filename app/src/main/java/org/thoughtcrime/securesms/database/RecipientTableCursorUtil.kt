@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,21 +8,21 @@ package org.thoughtcrime.securesms.database
 import android.content.Context
 import android.database.Cursor
 import com.google.protobuf.InvalidProtocolBufferException
-import org.signal.core.util.Base64
-import org.signal.core.util.Bitmask
-import org.signal.core.util.logging.Log
-import org.signal.core.util.optionalBlob
-import org.signal.core.util.optionalBoolean
-import org.signal.core.util.optionalInt
-import org.signal.core.util.optionalLong
-import org.signal.core.util.optionalString
-import org.signal.core.util.requireBlob
-import org.signal.core.util.requireBoolean
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireString
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.sparkcore.util.Base64
+import org.sparkcore.util.Bitmask
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.optionalBlob
+import org.sparkcore.util.optionalBoolean
+import org.sparkcore.util.optionalInt
+import org.sparkcore.util.optionalLong
+import org.sparkcore.util.optionalString
+import org.sparkcore.util.requireBlob
+import org.sparkcore.util.requireBoolean
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireString
+import org.sparklibsignal.zkgroup.InvalidInputException
+import org.sparklibsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.thoughtcrime.securesms.badges.Badges
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.conversation.colors.AvatarColor

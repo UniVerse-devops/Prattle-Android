@@ -1,14 +1,14 @@
 package org.thoughtcrime.securesms.messages.protocol
 
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
-import org.signal.libsignal.protocol.state.IdentityKeyStore
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.state.SessionRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import org.sparklibsignal.protocol.IdentityKey
+import org.sparklibsignal.protocol.IdentityKeyPair
+import org.sparklibsignal.protocol.SignalProtocolAddress
+import org.sparklibsignal.protocol.groups.state.SenderKeyRecord
+import org.sparklibsignal.protocol.state.IdentityKeyStore
+import org.sparklibsignal.protocol.state.KyberPreKeyRecord
+import org.sparklibsignal.protocol.state.PreKeyRecord
+import org.sparklibsignal.protocol.state.SessionRecord
+import org.sparklibsignal.protocol.state.SignedPreKeyRecord
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.DistributionId

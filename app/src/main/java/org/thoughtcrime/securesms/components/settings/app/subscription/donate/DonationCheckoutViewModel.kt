@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate
 
 import androidx.lifecycle.ViewModel
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
 import org.whispersystems.signalservice.api.util.Preconditions
 

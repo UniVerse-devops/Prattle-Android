@@ -5,8 +5,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.conscrypt.ConscryptSignal;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.push.AccountManagerFactory;

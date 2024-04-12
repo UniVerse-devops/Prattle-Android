@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.profiles;
 
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.spark.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 
 import java.util.Optional;
 

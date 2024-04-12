@@ -1,4 +1,4 @@
-package org.signal.core.util.concurrent;
+package org.spark.core.util.concurrent;
 
 import android.os.AsyncTask;
 
@@ -7,8 +7,8 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleEventObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.ThreadUtil;
+import org.spark.core.util.concurrent.SignalExecutors;
 
 import java.util.concurrent.Executor;
 

@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.database.helpers
 import android.app.Application
 import android.content.Context
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.areForeignKeyConstraintsEnabled
-import org.signal.core.util.logging.Log
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.areForeignKeyConstraintsEnabled
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.database.helpers.migration.SignalDatabaseMigration
 import org.thoughtcrime.securesms.database.helpers.migration.V149_LegacyMigrations
 import org.thoughtcrime.securesms.database.helpers.migration.V150_UrgentMslFlagMigration

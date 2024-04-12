@@ -26,7 +26,7 @@ import android.opengl.EGLExt;
 import android.opengl.EGLSurface;
 import android.view.Surface;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 
 /**

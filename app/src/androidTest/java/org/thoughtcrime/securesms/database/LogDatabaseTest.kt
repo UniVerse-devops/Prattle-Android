@@ -1,16 +1,16 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.database
 
 import org.junit.Test
-import org.signal.core.util.forEach
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.select
-import org.signal.core.util.updateAll
+import org.spark.core.util.forEach
+import org.spark.core.util.requireLong
+import org.spark.core.util.requireNonNullString
+import org.spark.core.util.select
+import org.spark.core.util.updateAll
 import org.thoughtcrime.securesms.crash.CrashConfig
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.testing.assertIs

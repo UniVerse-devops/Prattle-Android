@@ -2,11 +2,11 @@ package org.thoughtcrime.securesms.keyvalue;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
-import org.signal.libsignal.zkgroup.internal.ByteArray;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.auth.AuthCredentialWithPniResponse;
+import org.sparklibsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
+import org.sparklibsignal.zkgroup.internal.ByteArray;
 import org.thoughtcrime.securesms.database.model.databaseprotos.TemporalAuthCredentialResponse;
 import org.thoughtcrime.securesms.database.model.databaseprotos.TemporalAuthCredentialResponses;
 import org.thoughtcrime.securesms.groups.GroupsV2Authorization;

@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.service.webrtc
 
 import android.os.Build
-import org.signal.core.util.asListContains
-import org.signal.ringrtc.CallManager.AudioProcessingMethod
+import org.sparkcore.util.asListContains
+import org.sparkringrtc.CallManager.AudioProcessingMethod
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.util.FeatureFlags
 

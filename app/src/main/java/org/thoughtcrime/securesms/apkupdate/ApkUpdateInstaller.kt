@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -10,10 +10,10 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.os.Build
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.getDownloadManager
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.PendingIntentFlags
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.getDownloadManager
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobs.ApkUpdateJob
 import org.thoughtcrime.securesms.keyvalue.SignalStore

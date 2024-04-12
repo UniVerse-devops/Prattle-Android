@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import org.spark.core.util.StringUtil;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.GroupTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;

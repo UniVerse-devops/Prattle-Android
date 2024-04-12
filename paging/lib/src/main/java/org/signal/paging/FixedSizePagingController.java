@@ -1,10 +1,10 @@
-package org.signal.paging;
+package org.spark.paging;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.ThreadUtil;
+import org.spark.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.logging.Log;
 
 import java.util.Collections;
 import java.util.HashMap;

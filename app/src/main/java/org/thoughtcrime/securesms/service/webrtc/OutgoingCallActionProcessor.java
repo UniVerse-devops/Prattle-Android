@@ -5,11 +5,11 @@ import android.os.ResultReceiver;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.CallManager;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.CallManager;
 import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
 import org.thoughtcrime.securesms.database.CallTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;

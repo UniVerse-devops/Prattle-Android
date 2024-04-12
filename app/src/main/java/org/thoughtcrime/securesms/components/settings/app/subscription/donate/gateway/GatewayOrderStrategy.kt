@@ -1,12 +1,12 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
-import org.signal.core.util.orNull
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
 import org.thoughtcrime.securesms.recipients.Recipient
 

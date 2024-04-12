@@ -64,11 +64,11 @@ import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import com.google.accompanist.permissions.rememberPermissionState
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import kotlinx.coroutines.CoroutineScope
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dialogs
-import org.signal.core.ui.Snackbars
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.concurrent.LifecycleDisposable
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dialogs
+import org.sparkcore.ui.Snackbars
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.concurrent.LifecycleDisposable
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData

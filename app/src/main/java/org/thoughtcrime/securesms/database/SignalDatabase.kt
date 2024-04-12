@@ -4,9 +4,9 @@ import android.app.Application
 import android.content.Context
 import androidx.annotation.VisibleForTesting
 import net.zetetic.database.sqlcipher.SQLiteOpenHelper
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.crypto.AttachmentSecret
 import org.thoughtcrime.securesms.crypto.DatabaseSecret
 import org.thoughtcrime.securesms.crypto.MasterSecret

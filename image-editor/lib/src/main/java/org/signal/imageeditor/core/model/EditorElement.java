@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
 import android.graphics.Matrix;
 import android.os.Parcel;
@@ -7,9 +7,9 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.imageeditor.core.MatrixUtils;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.MatrixUtils;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 import java.util.Collections;
 import java.util.Comparator;

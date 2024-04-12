@@ -1,13 +1,13 @@
-package org.signal.pagingtest;
+package org.spark.pagingtest;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.signal.paging.LivePagedData;
-import org.signal.paging.PagingController;
-import org.signal.paging.PagingConfig;
-import org.signal.paging.PagedData;
+import org.spark.paging.LivePagedData;
+import org.spark.paging.PagingController;
+import org.spark.paging.PagingConfig;
+import org.spark.paging.PagedData;
 
 import java.util.List;
 

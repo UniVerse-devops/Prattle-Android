@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import com.fasterxml.jackson.databind.exc.InvalidDefinitionException
 

@@ -19,8 +19,8 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
-import org.signal.core.util.getParcelableExtraCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.getParcelableExtraCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.PromptBatterySaverDialogFragment
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration

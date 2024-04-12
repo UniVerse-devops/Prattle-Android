@@ -1,4 +1,4 @@
-package org.signal.pagingtest;
+package org.spark.pagingtest;
 
 interface EventListener {
   void onItemClicked(String key);

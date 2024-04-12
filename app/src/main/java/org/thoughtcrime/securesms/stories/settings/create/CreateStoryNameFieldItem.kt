@@ -4,7 +4,7 @@ import android.view.View
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.textfield.TextInputLayout
-import org.signal.core.util.EditTextUtil
+import org.sparkcore.util.EditTextUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.PreferenceModel
 import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory

@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.push;
 
 import android.content.Context;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.crypto.SecurityEvent;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;

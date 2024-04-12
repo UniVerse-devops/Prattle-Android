@@ -22,10 +22,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.getParcelableArrayListExtraCompat
-import org.signal.core.util.getParcelableExtraCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.getParcelableArrayListExtraCompat
+import org.sparkcore.util.getParcelableExtraCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.PassphraseRequiredActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiEventListener

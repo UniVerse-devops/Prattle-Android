@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.qr"
+  namespace = "org.spark.qr"
 }
 
 dependencies {

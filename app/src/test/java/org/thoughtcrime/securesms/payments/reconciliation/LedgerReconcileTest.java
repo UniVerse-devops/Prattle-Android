@@ -7,8 +7,8 @@ import com.annimon.stream.Stream;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.protocol.util.ByteUtil;
 import org.thoughtcrime.securesms.payments.Direction;
 import org.thoughtcrime.securesms.payments.FailureReason;
 import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;

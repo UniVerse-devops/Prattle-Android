@@ -1,17 +1,17 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util
+package org.spark.core.util
 
 import android.app.ActivityManager
 import android.content.Context
 import android.os.Debug
 import android.os.Handler
 import androidx.annotation.RequiresApi
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.spark.core.util.concurrent.SignalExecutors
+import org.spark.core.util.logging.Log
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds
 

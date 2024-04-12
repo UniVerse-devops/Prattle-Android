@@ -10,11 +10,11 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.logging.Log
-import org.signal.donations.GooglePayPaymentSource
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeApi
-import org.signal.donations.StripeIntentAccessor
+import org.sparkcore.util.logging.Log
+import org.sparkdonations.GooglePayPaymentSource
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeApi
+import org.sparkdonations.StripeIntentAccessor
 import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository

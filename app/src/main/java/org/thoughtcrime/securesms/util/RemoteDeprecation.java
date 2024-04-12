@@ -7,7 +7,7 @@ import androidx.annotation.VisibleForTesting;
 import com.annimon.stream.Stream;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
 
 import java.io.IOException;

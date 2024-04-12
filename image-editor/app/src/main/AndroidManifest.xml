@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Signal">
 
         <activity
-            android:name="org.signal.imageeditor.app.MainActivity"
+            android:name="org.sparkimageeditor.app.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

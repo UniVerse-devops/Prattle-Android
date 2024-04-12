@@ -15,7 +15,7 @@ import com.airbnb.lottie.LottieDrawable
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.materialswitch.MaterialSwitch
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener
 import org.thoughtcrime.securesms.badges.BadgeImageView

@@ -26,7 +26,7 @@ import androidx.fragment.app.viewModels
 import androidx.transition.TransitionManager
 import com.airbnb.lottie.SimpleColorFilter
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.LifecycleDisposable
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
 import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations

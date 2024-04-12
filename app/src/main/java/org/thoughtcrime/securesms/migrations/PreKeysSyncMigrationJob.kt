@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.migrations
 
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
 import org.thoughtcrime.securesms.keyvalue.SignalStore

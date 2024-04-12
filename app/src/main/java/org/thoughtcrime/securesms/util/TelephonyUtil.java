@@ -10,7 +10,7 @@ import android.telephony.TelephonyManager;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.util.Locale;
 

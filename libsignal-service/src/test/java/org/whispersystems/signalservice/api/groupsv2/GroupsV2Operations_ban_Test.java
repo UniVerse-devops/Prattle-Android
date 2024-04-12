@@ -2,11 +2,11 @@ package org.whispersystems.signalservice.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.storageservice.protos.groups.GroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedBannedMember;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey;
+import org.spark.libsignal.zkgroup.groups.GroupSecretParams;
+import org.spark.storageservice.protos.groups.GroupChange;
+import org.spark.storageservice.protos.groups.local.DecryptedBannedMember;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.internal.util.Util;

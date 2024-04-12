@@ -8,8 +8,8 @@ import org.junit.Assert.assertNull
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.ringrtc.CallId
-import org.signal.ringrtc.CallManager
+import org.spark.ringrtc.CallId
+import org.spark.ringrtc.CallManager
 import org.thoughtcrime.securesms.calls.log.CallLogFilter
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.testing.SignalActivityRule

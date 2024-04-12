@@ -5,10 +5,10 @@ import android.accounts.Account
 import android.content.Context
 import android.content.OperationApplicationException
 import android.os.RemoteException
-import org.signal.contacts.ContactLinkConfiguration
-import org.signal.contacts.SystemContactsRepository
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
+import org.sparkcontacts.ContactLinkConfiguration
+import org.sparkcontacts.SystemContactsRepository
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.SignalDatabase

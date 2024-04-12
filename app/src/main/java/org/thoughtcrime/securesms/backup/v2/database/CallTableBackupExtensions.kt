@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,10 +8,10 @@ package org.thoughtcrime.securesms.backup.v2.database
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.isNull
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.select
+import org.sparkcore.util.isNull
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.select
 import org.thoughtcrime.securesms.backup.v2.BackupState
 import org.thoughtcrime.securesms.backup.v2.proto.Call
 import org.thoughtcrime.securesms.database.CallTable

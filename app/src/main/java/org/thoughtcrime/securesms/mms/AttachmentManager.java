@@ -43,12 +43,12 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.ListenableFuture.Listener;
-import org.signal.core.util.concurrent.SettableFuture;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.ListenableFuture.Listener;
+import org.sparkcore.util.concurrent.SettableFuture;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.components.AudioView;

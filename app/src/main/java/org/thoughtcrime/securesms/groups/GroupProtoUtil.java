@@ -4,12 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.storageservice.protos.groups.GroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
+import org.sparkstorageservice.protos.groups.GroupChange;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange;
+import org.sparkstorageservice.protos.groups.local.DecryptedMember;
+import org.sparkstorageservice.protos.groups.local.DecryptedPendingMember;
 import org.thoughtcrime.securesms.backup.v2.proto.GroupChangeChatUpdate;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter;

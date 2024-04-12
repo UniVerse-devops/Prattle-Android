@@ -12,8 +12,8 @@ import android.widget.FrameLayout
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.setFragmentResult
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.getParcelableArrayListCompat
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.getParcelableArrayListCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter

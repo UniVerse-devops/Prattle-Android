@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.spark.storageservice.protos.groups.local.DecryptedGroup;
+import org.spark.storageservice.protos.groups.local.DecryptedGroupChange;
 
 import java.util.Optional;
 

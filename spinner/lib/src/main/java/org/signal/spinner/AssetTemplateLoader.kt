@@ -1,10 +1,10 @@
-package org.signal.spinner
+package org.sparkspinner
 
 import android.content.Context
 import com.github.jknack.handlebars.io.StringTemplateSource
 import com.github.jknack.handlebars.io.TemplateLoader
 import com.github.jknack.handlebars.io.TemplateSource
-import org.signal.core.util.StreamUtil
+import org.sparkcore.util.StreamUtil
 import java.nio.charset.Charset
 
 /**

@@ -6,8 +6,8 @@ import androidx.annotation.WorkerThread;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.SetUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.SetUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.MessageTable;
 import org.thoughtcrime.securesms.database.NoSuchMessageException;
 import org.thoughtcrime.securesms.database.SignalDatabase;

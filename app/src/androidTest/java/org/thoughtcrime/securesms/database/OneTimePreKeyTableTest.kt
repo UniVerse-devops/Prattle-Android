@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -9,12 +9,12 @@ import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertNotNull
 import junit.framework.TestCase.assertNull
 import org.junit.Test
-import org.signal.core.util.readToSingleObject
-import org.signal.core.util.requireLongOrNull
-import org.signal.core.util.select
-import org.signal.core.util.update
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.state.PreKeyRecord
+import org.spark.core.util.readToSingleObject
+import org.spark.core.util.requireLongOrNull
+import org.spark.core.util.select
+import org.spark.core.util.update
+import org.spark.libsignal.protocol.ecc.Curve
+import org.spark.libsignal.protocol.state.PreKeyRecord
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI

@@ -1,4 +1,4 @@
-package org.signal.lint;
+package org.sparklint;
 
 import com.android.tools.lint.checks.infrastructure.TestFile;
 

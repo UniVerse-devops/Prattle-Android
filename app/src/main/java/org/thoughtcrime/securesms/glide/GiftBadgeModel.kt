@@ -10,7 +10,7 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import okhttp3.OkHttpClient
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.sparklibsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import org.thoughtcrime.securesms.components.settings.app.subscription.getBadge
 import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies

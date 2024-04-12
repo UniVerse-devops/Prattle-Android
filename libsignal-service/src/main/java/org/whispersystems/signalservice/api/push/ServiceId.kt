@@ -1,16 +1,16 @@
 package org.whispersystems.signalservice.api.push
 
 import okio.ByteString
-import org.signal.libsignal.protocol.ServiceId.InvalidServiceIdException
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.logging.Log
+import org.spark.libsignal.protocol.ServiceId.InvalidServiceIdException
+import org.spark.libsignal.protocol.SignalProtocolAddress
+import org.spark.libsignal.protocol.logging.Log
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI
 import org.whispersystems.signalservice.api.util.UuidUtil
 import java.util.UUID
-import org.signal.libsignal.protocol.ServiceId as LibSignalServiceId
-import org.signal.libsignal.protocol.ServiceId.Aci as LibSignalAci
-import org.signal.libsignal.protocol.ServiceId.Pni as LibSignalPni
+import org.spark.libsignal.protocol.ServiceId as LibSignalServiceId
+import org.spark.libsignal.protocol.ServiceId.Aci as LibSignalAci
+import org.spark.libsignal.protocol.ServiceId.Pni as LibSignalPni
 
 /**
  * A wrapper around a UUID that represents an identifier for an account. Today, that is either an [ACI] or a [PNI].

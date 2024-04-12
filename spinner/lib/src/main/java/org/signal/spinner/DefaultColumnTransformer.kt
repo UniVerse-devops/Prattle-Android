@@ -1,4 +1,4 @@
-package org.signal.spinner
+package org.sparkspinner
 
 import android.database.Cursor
 import android.util.Base64

@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -15,8 +15,8 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.isNotNullOrBlank
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.isNotNullOrBlank
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.profiles.ProfileName
 import org.thoughtcrime.securesms.recipients.Recipient

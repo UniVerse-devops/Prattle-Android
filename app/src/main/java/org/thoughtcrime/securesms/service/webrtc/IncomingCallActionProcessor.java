@@ -6,10 +6,10 @@ import android.os.ResultReceiver;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CallException;
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.CallManager;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CallException;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.CallManager;
 import org.thoughtcrime.securesms.database.CallTable;
 import org.thoughtcrime.securesms.database.RecipientTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;

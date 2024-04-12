@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
 import org.junit.Test;
-import org.signal.storageservice.protos.groups.GroupChange;
+import org.spark.storageservice.protos.groups.GroupChange;
 
 import java.util.List;
 

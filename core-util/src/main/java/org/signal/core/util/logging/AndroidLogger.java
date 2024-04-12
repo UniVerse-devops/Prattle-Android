@@ -1,8 +1,8 @@
-package org.signal.core.util.logging;
+package org.spark.core.util.logging;
 
 import android.annotation.SuppressLint;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 @SuppressLint("LogNotSignal")
 public final class AndroidLogger extends Log.Logger {

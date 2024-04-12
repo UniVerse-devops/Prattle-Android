@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyvalue
 
 import com.squareup.wire.ProtoAdapter
-import org.signal.core.util.LongSerializer
+import org.sparkcore.util.LongSerializer
 import kotlin.reflect.KProperty
 
 internal fun SignalStoreValues.longValue(key: String, default: Long): SignalStoreValueDelegate<Long> {

@@ -6,9 +6,9 @@ import android.util.TypedValue
 import android.view.Gravity
 import android.widget.EditText
 import android.widget.TextView
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.EditTextUtil
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.EditTextUtil
 import org.thoughtcrime.securesms.util.doOnEachLayout
 
 class TextStoryTextWatcher private constructor(private val textView: TextView) : TextWatcher {

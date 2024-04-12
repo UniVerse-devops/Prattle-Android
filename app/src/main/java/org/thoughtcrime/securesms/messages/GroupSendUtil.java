@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidRegistrationIdException;
-import org.signal.libsignal.protocol.NoSessionException;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparklibsignal.protocol.InvalidRegistrationIdException;
+import org.sparklibsignal.protocol.NoSessionException;
 import org.thoughtcrime.securesms.crypto.SenderKeyUtil;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
 import org.thoughtcrime.securesms.database.model.GroupRecord;

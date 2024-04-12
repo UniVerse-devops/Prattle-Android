@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.video.exo
 import android.content.Context
 import android.net.Uri
 import androidx.annotation.WorkerThread
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.util.storage.FileStorage
 import java.io.IOException
 import java.io.InputStream

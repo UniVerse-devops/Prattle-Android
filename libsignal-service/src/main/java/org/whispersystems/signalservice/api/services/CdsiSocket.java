@@ -1,12 +1,12 @@
 package org.whispersystems.signalservice.api.services;
 
-import org.signal.cdsi.proto.ClientRequest;
-import org.signal.cdsi.proto.ClientResponse;
-import org.signal.libsignal.attest.AttestationDataException;
-import org.signal.libsignal.cds2.Cds2Client;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
-import org.signal.libsignal.sgxsession.SgxCommunicationFailureException;
+import org.spark.cdsi.proto.ClientRequest;
+import org.spark.cdsi.proto.ClientResponse;
+import org.spark.libsignal.attest.AttestationDataException;
+import org.spark.libsignal.cds2.Cds2Client;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.util.Pair;
+import org.spark.libsignal.sgxsession.SgxCommunicationFailureException;
 import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.api.push.exceptions.CdsiInvalidArgumentException;
 import org.whispersystems.signalservice.api.push.exceptions.CdsiInvalidTokenException;
@@ -22,7 +22,7 @@ import org.whispersystems.signalservice.internal.util.BlacklistingTrustManager;
 import org.whispersystems.signalservice.internal.util.Hex;
 import org.whispersystems.signalservice.internal.util.JsonUtil;
 import org.whispersystems.signalservice.internal.util.Util;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

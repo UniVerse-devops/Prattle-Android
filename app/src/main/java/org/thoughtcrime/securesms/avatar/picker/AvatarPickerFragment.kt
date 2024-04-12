@@ -16,8 +16,8 @@ import androidx.fragment.app.setFragmentResultListener
 import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.getParcelableExtraCompat
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.getParcelableExtraCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.Avatar
 import org.thoughtcrime.securesms.avatar.AvatarBundler

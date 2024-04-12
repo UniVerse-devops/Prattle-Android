@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer;
 
 import com.bumptech.glide.RequestManager;
 
-import org.signal.ringrtc.CallLinkRootKey;
+import org.sparkringrtc.CallLinkRootKey;
 import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
 import org.thoughtcrime.securesms.contactshare.Contact;
 import org.thoughtcrime.securesms.conversation.ConversationItem;

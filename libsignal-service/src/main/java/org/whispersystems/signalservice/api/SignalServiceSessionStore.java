@@ -1,8 +1,8 @@
 package org.whispersystems.signalservice.api;
 
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.state.SessionRecord;
-import org.signal.libsignal.protocol.state.SessionStore;
+import org.spark.libsignal.protocol.SignalProtocolAddress;
+import org.spark.libsignal.protocol.state.SessionRecord;
+import org.spark.libsignal.protocol.state.SessionStore;
 
 import java.util.List;
 import java.util.Map;

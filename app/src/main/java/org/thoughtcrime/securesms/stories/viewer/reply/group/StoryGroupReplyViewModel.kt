@@ -7,7 +7,7 @@ import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.paging.ProxyPagingController
+import org.sparkpaging.ProxyPagingController
 import org.thoughtcrime.securesms.database.model.MessageId
 import org.thoughtcrime.securesms.util.rx.RxStore
 

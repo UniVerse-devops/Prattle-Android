@@ -6,11 +6,11 @@
 
 package org.whispersystems.signalservice.internal.crypto;
 
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.Curve;
-import org.signal.libsignal.protocol.ecc.ECKeyPair;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.libsignal.protocol.kdf.HKDF;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.ecc.Curve;
+import org.spark.libsignal.protocol.ecc.ECKeyPair;
+import org.spark.libsignal.protocol.ecc.ECPublicKey;
+import org.spark.libsignal.protocol.kdf.HKDF;
 import org.whispersystems.signalservice.internal.push.ProvisionEnvelope;
 import org.whispersystems.signalservice.internal.push.ProvisionMessage;
 import org.whispersystems.signalservice.internal.util.Util;

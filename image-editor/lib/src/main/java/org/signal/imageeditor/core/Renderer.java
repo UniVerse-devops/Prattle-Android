@@ -1,10 +1,10 @@
-package org.signal.imageeditor.core;
+package org.sparkimageeditor.core;
 
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorElement;
 
 /**
  * Responsible for rendering a single {@link EditorElement} to the canvas.

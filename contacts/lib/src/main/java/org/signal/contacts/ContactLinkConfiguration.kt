@@ -1,4 +1,4 @@
-package org.signal.contacts
+package org.sparkcontacts
 
 import android.accounts.Account
 

@@ -8,12 +8,12 @@ import androidx.core.util.Consumer;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.groups.UuidCiphertext;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
+import org.sparkstorageservice.protos.groups.local.DecryptedPendingMember;
 import org.thoughtcrime.securesms.database.GroupTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.groups.GroupChangeException;

@@ -2,9 +2,9 @@ package org.thoughtcrime.securesms.contacts.sync
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import org.signal.contacts.SystemContactsRepository
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
+import org.sparkcontacts.SystemContactsRepository
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.InputResult
 import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.OutputResult

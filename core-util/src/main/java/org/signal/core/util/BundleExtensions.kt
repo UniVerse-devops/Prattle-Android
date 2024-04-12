@@ -1,4 +1,4 @@
-package org.signal.core.util
+package org.spark.core.util
 
 import android.os.Build
 import android.os.Bundle

@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.migrations;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.state.PreKeyRecord;
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.state.PreKeyRecord;
+import org.sparklibsignal.protocol.state.SignedPreKeyRecord;
 import org.thoughtcrime.securesms.crypto.PreKeyUtil;
 import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

@@ -1,19 +1,19 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.backup.v2.database
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.CursorUtil
-import org.signal.core.util.deleteAll
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.requireObject
-import org.signal.core.util.select
+import org.sparkcore.util.CursorUtil
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireNonNullString
+import org.sparkcore.util.requireObject
+import org.sparkcore.util.select
 import org.thoughtcrime.securesms.backup.v2.BackupState
 import org.thoughtcrime.securesms.database.DistributionListTables
 import org.thoughtcrime.securesms.database.SignalDatabase

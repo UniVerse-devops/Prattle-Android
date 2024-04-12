@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.components.settings.app.subscription
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
-import org.signal.donations.PaymentSourceType
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
+import org.sparkdonations.PaymentSourceType
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalConfirmationResult
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.recipients.RecipientId

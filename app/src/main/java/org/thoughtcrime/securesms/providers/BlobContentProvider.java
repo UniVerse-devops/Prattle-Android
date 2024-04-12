@@ -9,8 +9,8 @@ import android.os.ParcelFileDescriptor;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.util.MemoryFileUtil;
 import org.thoughtcrime.securesms.util.Util;

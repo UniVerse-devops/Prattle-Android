@@ -5,9 +5,9 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.node.ObjectNode
 import org.json.JSONObject
-import org.signal.core.util.Hex
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Hex
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
 import org.thoughtcrime.securesms.database.MessageTable

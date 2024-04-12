@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.badges.gifts.flow
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadgeAmounts
 import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadges

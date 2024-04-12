@@ -1,9 +1,9 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.ui
+package org.spark.core.ui
 
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.PaddingValues
@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.copied.androidx.compose.material3.DropdownMenu
+import org.spark.core.ui.copied.androidx.compose.material3.DropdownMenu
 
 /**
  * Properly styled dropdown menus and items.

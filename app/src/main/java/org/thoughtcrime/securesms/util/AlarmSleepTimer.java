@@ -11,8 +11,8 @@ import android.os.SystemClock;
 
 import androidx.core.app.AlarmManagerCompat;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.PendingIntentFlags;
+import org.spark.core.util.logging.Log;
 import org.whispersystems.signalservice.api.util.SleepTimer;
 
 import java.util.concurrent.ConcurrentSkipListSet;

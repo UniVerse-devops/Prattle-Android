@@ -15,7 +15,7 @@ val signalJavaVersion: JavaVersion by rootProject.extra
 val signalKotlinJvmTarget: String by rootProject.extra
 
 android {
-  namespace = "org.signal.microbenchmark"
+  namespace = "org.spark.microbenchmark"
   compileSdkVersion = signalCompileSdkVersion
 
   compileOptions {

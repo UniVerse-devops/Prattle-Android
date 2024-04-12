@@ -12,8 +12,8 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.signal.core.util.Result
-import org.signal.core.util.concurrent.subscribeWithSubject
+import org.sparkcore.util.Result
+import org.sparkcore.util.concurrent.subscribeWithSubject
 import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
 import org.thoughtcrime.securesms.database.GroupTable
 import org.thoughtcrime.securesms.database.model.GroupRecord

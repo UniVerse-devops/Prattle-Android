@@ -14,7 +14,7 @@ import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.common.api.Status;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.service.VerificationCodeParser;
 
 import java.util.Optional;

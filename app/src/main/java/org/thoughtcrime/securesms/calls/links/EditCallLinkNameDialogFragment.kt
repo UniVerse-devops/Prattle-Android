@@ -1,5 +1,5 @@
 /**
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -36,8 +36,8 @@ import androidx.compose.ui.unit.dp
 import androidx.core.os.bundleOf
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.navArgs
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Scaffolds
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Scaffolds
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.ComposeDialogFragment
 
@@ -86,7 +86,7 @@ class EditCallLinkNameDialogFragment : ComposeDialogFragment() {
         Column(
           modifier = Modifier
             .padding(
-              horizontal = dimensionResource(id = org.signal.core.ui.R.dimen.core_ui__gutter)
+              horizontal = dimensionResource(id = org.sparkcore.ui.R.dimen.core_ui__gutter)
             )
             .padding(top = 20.dp, bottom = 16.dp)
         ) {

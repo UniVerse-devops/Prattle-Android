@@ -14,8 +14,8 @@ import com.annimon.stream.function.BiFunction;
 
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMessageException;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
 import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
@@ -26,7 +26,7 @@ import org.thoughtcrime.securesms.jobs.UnableToStartException;
 import org.thoughtcrime.securesms.migrations.LegacyMigrationJob;
 import org.thoughtcrime.securesms.service.GenericForegroundService;
 import org.thoughtcrime.securesms.service.NotificationController;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.IOException;

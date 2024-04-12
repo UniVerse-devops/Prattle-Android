@@ -7,7 +7,7 @@ import android.text.SpannableStringBuilder
 import android.text.TextUtils
 import androidx.annotation.StringRes
 import androidx.core.graphics.drawable.IconCompat
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.contactshare.Contact
 import org.thoughtcrime.securesms.contactshare.ContactUtil

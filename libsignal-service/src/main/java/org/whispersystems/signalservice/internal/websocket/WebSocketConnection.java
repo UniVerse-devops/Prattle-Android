@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.internal.websocket;
 
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.util.Pair;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.api.util.CredentialsProvider;

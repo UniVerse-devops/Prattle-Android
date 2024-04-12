@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.accounts.Account
 import android.app.Application
@@ -6,11 +6,11 @@ import android.telephony.PhoneNumberUtils
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import org.signal.contacts.SystemContactsRepository
-import org.signal.contacts.SystemContactsRepository.ContactDetails
-import org.signal.contacts.SystemContactsRepository.ContactIterator
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcontacts.SystemContactsRepository
+import org.sparkcontacts.SystemContactsRepository.ContactDetails
+import org.sparkcontacts.SystemContactsRepository.ContactIterator
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 
 class ContactListViewModel(application: Application) : AndroidViewModel(application) {
 

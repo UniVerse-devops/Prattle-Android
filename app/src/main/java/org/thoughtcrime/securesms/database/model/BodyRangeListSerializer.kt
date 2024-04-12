@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.core.util.Base64
-import org.signal.core.util.StringSerializer
+import org.sparkcore.util.Base64
+import org.sparkcore.util.StringSerializer
 import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
 
 object BodyRangeListSerializer : StringSerializer<BodyRangeList> {

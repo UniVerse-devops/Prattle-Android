@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,15 +7,15 @@ package org.thoughtcrime.securesms.database.model
 
 import ProtoUtil.isNullOrEmpty
 import okio.ByteString
-import org.signal.core.util.StringUtil
-import org.signal.storageservice.protos.groups.AccessControl
-import org.signal.storageservice.protos.groups.AccessControl.AccessRequired
-import org.signal.storageservice.protos.groups.Member
-import org.signal.storageservice.protos.groups.local.DecryptedGroup
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember
-import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember
-import org.signal.storageservice.protos.groups.local.EnabledState
+import org.sparkcore.util.StringUtil
+import org.sparkstorageservice.protos.groups.AccessControl
+import org.sparkstorageservice.protos.groups.AccessControl.AccessRequired
+import org.sparkstorageservice.protos.groups.Member
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange
+import org.sparkstorageservice.protos.groups.local.DecryptedPendingMember
+import org.sparkstorageservice.protos.groups.local.DecryptedRequestingMember
+import org.sparkstorageservice.protos.groups.local.EnabledState
 import org.thoughtcrime.securesms.backup.v2.proto.GenericGroupUpdate
 import org.thoughtcrime.securesms.backup.v2.proto.GroupAdminStatusUpdate
 import org.thoughtcrime.securesms.backup.v2.proto.GroupAnnouncementOnlyChangeUpdate

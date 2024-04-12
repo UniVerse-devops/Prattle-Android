@@ -15,8 +15,8 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
-import org.signal.core.util.ByteSize;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.ByteSize;
+import org.spark.core.util.logging.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;

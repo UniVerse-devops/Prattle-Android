@@ -48,9 +48,9 @@ import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.makeramen.roundedimageview.RoundedDrawable;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.BindableConversationListItem;
 import org.thoughtcrime.securesms.OverlayTransformation;
 import org.thoughtcrime.securesms.R;

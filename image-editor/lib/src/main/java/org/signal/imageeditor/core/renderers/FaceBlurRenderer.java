@@ -1,12 +1,12 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import android.os.Parcel;
 
 import androidx.annotation.NonNull;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
 
 /**
  * A rectangle that will be rendered on the blur mask layer. Intended for blurring faces.

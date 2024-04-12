@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 
 import com.bumptech.glide.load.Key;
 
-import org.signal.core.util.Conversions;
+import org.sparkcore.util.Conversions;
 
 import java.security.MessageDigest;
 

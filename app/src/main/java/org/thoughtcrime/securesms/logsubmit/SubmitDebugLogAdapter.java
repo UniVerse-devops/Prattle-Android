@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.signal.paging.PagingController;
+import org.sparkpaging.PagingController;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.ListenableHorizontalScrollView;
 

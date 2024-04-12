@@ -7,8 +7,8 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.ThreadUtil;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 
 import java.util.concurrent.atomic.AtomicLong;

@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api
 
-import org.signal.libsignal.protocol.state.PreKeyStore
+import org.spark.libsignal.protocol.state.PreKeyStore
 
 /**
  * And extension of the normal protocol prekey store interface that has additional methods that are

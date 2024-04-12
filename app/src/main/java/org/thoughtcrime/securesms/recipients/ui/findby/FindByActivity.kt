@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -67,16 +67,16 @@ import androidx.navigation.compose.dialog
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import kotlinx.coroutines.launch
-import org.signal.core.ui.Animations.navHostSlideInTransition
-import org.signal.core.ui.Animations.navHostSlideOutTransition
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dialogs
-import org.signal.core.ui.Dividers
-import org.signal.core.ui.Previews
-import org.signal.core.ui.Scaffolds
-import org.signal.core.ui.TextFields
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.getParcelableExtraCompat
+import org.sparkcore.ui.Animations.navHostSlideInTransition
+import org.sparkcore.ui.Animations.navHostSlideOutTransition
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dialogs
+import org.sparkcore.ui.Dividers
+import org.sparkcore.ui.Previews
+import org.sparkcore.ui.Scaffolds
+import org.sparkcore.ui.TextFields
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.getParcelableExtraCompat
 import org.thoughtcrime.securesms.PassphraseRequiredActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameQrScannerActivity

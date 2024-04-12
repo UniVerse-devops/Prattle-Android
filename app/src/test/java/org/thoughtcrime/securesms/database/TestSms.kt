@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.database
 
 import android.content.ContentValues
-import org.signal.core.util.orNull
+import org.spark.core.util.orNull
 import org.thoughtcrime.securesms.groups.GroupId
 import org.thoughtcrime.securesms.mms.IncomingMessage
 import org.thoughtcrime.securesms.recipients.RecipientId

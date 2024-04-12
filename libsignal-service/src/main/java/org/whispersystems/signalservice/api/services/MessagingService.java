@@ -19,7 +19,7 @@ import org.whispersystems.signalservice.internal.util.Util;
 import org.whispersystems.signalservice.internal.websocket.DefaultResponseMapper;
 import org.whispersystems.signalservice.internal.websocket.ResponseMapper;
 import org.whispersystems.signalservice.internal.websocket.WebSocketRequestMessage;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.security.SecureRandom;
 import java.util.LinkedList;

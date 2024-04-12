@@ -12,7 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.doOnNextLayout
 import androidx.core.view.isVisible
-import org.signal.core.util.concurrent.ListenableFuture
+import org.sparkcore.util.concurrent.ListenableFuture
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ClippedCardView
 import org.thoughtcrime.securesms.conversation.MessageStyler

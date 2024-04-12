@@ -12,9 +12,9 @@ import android.os.SystemClock;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.PendingIntentFlags;
+import org.spark.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.JobTracker;
 import org.thoughtcrime.securesms.jobs.MessageFetchJob;

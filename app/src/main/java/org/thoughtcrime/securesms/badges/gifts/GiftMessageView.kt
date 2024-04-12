@@ -11,7 +11,7 @@ import androidx.core.content.res.use
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.RequestManager
 import com.google.android.material.button.MaterialButton
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.BadgeImageView
 import org.thoughtcrime.securesms.badges.gifts.Gifts.formatExpiry

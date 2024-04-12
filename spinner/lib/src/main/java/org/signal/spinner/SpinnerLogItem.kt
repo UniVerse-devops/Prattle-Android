@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.spinner
+package org.sparkspinner
 
 import android.util.Log
 import org.json.JSONObject
-import org.signal.core.util.ExceptionUtil
+import org.sparkcore.util.ExceptionUtil
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

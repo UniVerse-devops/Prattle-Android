@@ -6,7 +6,7 @@
 
 package org.whispersystems.signalservice.api.messages.multidevice;
 
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentStream;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;

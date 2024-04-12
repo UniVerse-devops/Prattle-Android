@@ -13,7 +13,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
 
-    <org.signal.qr.QrScannerView
+    <org.sparkqr.QrScannerView
         android:id="@+id/scanner"
         android:layout_width="0dp"
         android:layout_height="0dp"

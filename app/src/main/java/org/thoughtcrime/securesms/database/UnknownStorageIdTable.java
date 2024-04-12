@@ -7,9 +7,9 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.Base64;
-import org.signal.core.util.SqlUtil;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.Base64;
+import org.sparkcore.util.SqlUtil;
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord;
 import org.whispersystems.signalservice.api.storage.StorageId;
 import org.whispersystems.signalservice.api.util.Preconditions;

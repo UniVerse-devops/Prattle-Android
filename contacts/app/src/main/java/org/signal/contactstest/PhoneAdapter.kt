@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.graphics.BitmapFactory
 import android.net.Uri
@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.contacts.SystemContactsRepository
+import org.sparkcontacts.SystemContactsRepository
 
 class PhoneAdapter(private val onContactClickedListener: (Uri) -> Unit) : ListAdapter<SystemContactsRepository.ContactPhoneDetails, PhoneAdapter.PhoneViewHolder>(object : DiffUtil.ItemCallback<SystemContactsRepository.ContactPhoneDetails>() {
   override fun areItemsTheSame(oldItem: SystemContactsRepository.ContactPhoneDetails, newItem: SystemContactsRepository.ContactPhoneDetails): Boolean {

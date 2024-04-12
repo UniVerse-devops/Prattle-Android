@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.signal.devicetransfer.DeviceToDeviceTransferService.TransferNotificationData;
+import org.sparkcore.util.PendingIntentFlags;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService.TransferNotificationData;
 import org.thoughtcrime.securesms.MainActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.devicetransfer.DeviceTransferSetupFragment;

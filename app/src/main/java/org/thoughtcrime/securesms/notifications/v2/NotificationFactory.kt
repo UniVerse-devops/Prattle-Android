@@ -14,9 +14,9 @@ import android.os.TransactionTooLargeException
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.spark.core.util.PendingIntentFlags
+import org.spark.core.util.concurrent.SignalExecutors
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiStrings

@@ -6,12 +6,12 @@
 
 package org.whispersystems.signalservice.api.messages.multidevice;
 
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentStream;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;

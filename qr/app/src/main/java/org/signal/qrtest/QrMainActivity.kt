@@ -1,4 +1,4 @@
-package org.signal.qrtest
+package org.spark.qrtest
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
@@ -13,12 +13,12 @@ import androidx.appcompat.widget.AppCompatImageView
 import com.google.zxing.PlanarYUVLuminanceSource
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.AndroidLogger
-import org.signal.core.util.logging.Log
-import org.signal.qr.ImageProxyLuminanceSource
-import org.signal.qr.QrProcessor
-import org.signal.qr.QrScannerView
+import org.spark.core.util.ThreadUtil
+import org.spark.core.util.logging.AndroidLogger
+import org.spark.core.util.logging.Log
+import org.spark.qr.ImageProxyLuminanceSource
+import org.spark.qr.QrProcessor
+import org.spark.qr.QrScannerView
 
 class QrMainActivity : AppCompatActivity() {
 

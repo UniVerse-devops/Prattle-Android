@@ -8,9 +8,9 @@ import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.not
 import org.hamcrest.Matchers.notNullValue
 import org.hamcrest.Matchers.nullValue
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.select
+import org.spark.core.util.logging.Log
+import org.spark.core.util.readToList
+import org.spark.core.util.select
 import org.thoughtcrime.securesms.database.MessageTable
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.util.MessageTableTestUtils

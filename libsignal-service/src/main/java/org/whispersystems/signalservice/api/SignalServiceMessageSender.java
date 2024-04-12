@@ -5,24 +5,24 @@
  */
 package org.whispersystems.signalservice.api;
 
-import org.signal.core.util.Base64;
-import org.signal.libsignal.metadata.certificate.SenderCertificate;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.IdentityKeyPair;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidRegistrationIdException;
-import org.signal.libsignal.protocol.NoSessionException;
-import org.signal.libsignal.protocol.SessionBuilder;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.groups.GroupSessionBuilder;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
-import org.signal.libsignal.protocol.message.PlaintextContent;
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
-import org.signal.libsignal.protocol.state.PreKeyBundle;
-import org.signal.libsignal.protocol.state.SessionRecord;
-import org.signal.libsignal.protocol.util.Pair;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.spark.core.util.Base64;
+import org.spark.libsignal.metadata.certificate.SenderCertificate;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.IdentityKeyPair;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.InvalidRegistrationIdException;
+import org.spark.libsignal.protocol.NoSessionException;
+import org.spark.libsignal.protocol.SessionBuilder;
+import org.spark.libsignal.protocol.SignalProtocolAddress;
+import org.spark.libsignal.protocol.groups.GroupSessionBuilder;
+import org.spark.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.message.DecryptionErrorMessage;
+import org.spark.libsignal.protocol.message.PlaintextContent;
+import org.spark.libsignal.protocol.message.SenderKeyDistributionMessage;
+import org.spark.libsignal.protocol.state.PreKeyBundle;
+import org.spark.libsignal.protocol.state.SessionRecord;
+import org.spark.libsignal.protocol.util.Pair;
+import org.spark.libsignal.zkgroup.profiles.ClientZkProfileOperations;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherStreamUtil;
 import org.whispersystems.signalservice.api.crypto.ContentHint;
 import org.whispersystems.signalservice.api.crypto.EnvelopeContent;
@@ -2528,7 +2528,7 @@ public class SignalServiceMessageSender {
       byte[] ciphertext;
       try {
         ciphertext = cipher.encryptForGroup(distributionId, targetInfo.destinations, targetInfo.sessions, senderCertificate, content.encode(), contentHint, groupId);
-      } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+      } catch (org.spark.libsignal.protocol.UntrustedIdentityException e) {
         throw new UntrustedIdentityException("Untrusted during group encrypt", e.getName(), e.getUntrustedIdentity());
       }
 
@@ -2776,7 +2776,7 @@ public class SignalServiceMessageSender {
             SignalProtocolAddress preKeyAddress  = new SignalProtocolAddress(recipient.getIdentifier(), preKey.getDeviceId());
             SignalSessionBuilder  sessionBuilder = new SignalSessionBuilder(sessionLock, new SessionBuilder(aciStore, preKeyAddress));
             sessionBuilder.process(preKey);
-          } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+          } catch (org.spark.libsignal.protocol.UntrustedIdentityException e) {
             throw new UntrustedIdentityException("Untrusted identity key!", recipient.getIdentifier(), preKey.getIdentityKey());
           }
         }
@@ -2791,7 +2791,7 @@ public class SignalServiceMessageSender {
 
     try {
       return cipher.encrypt(signalProtocolAddress, unidentifiedAccess, plaintext);
-    } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+    } catch (org.spark.libsignal.protocol.UntrustedIdentityException e) {
       throw new UntrustedIdentityException("Untrusted on send", recipient.getIdentifier(), e.getUntrustedIdentity());
     }
   }
@@ -2828,7 +2828,7 @@ public class SignalServiceMessageSender {
         try {
           SignalSessionBuilder sessionBuilder = new SignalSessionBuilder(sessionLock, new SessionBuilder(aciStore, new SignalProtocolAddress(recipient.getIdentifier(), missingDeviceId)));
           sessionBuilder.process(preKey);
-        } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+        } catch (org.spark.libsignal.protocol.UntrustedIdentityException e) {
           throw new UntrustedIdentityException("Untrusted identity key!", recipient.getIdentifier(), preKey.getIdentityKey());
         }
       }

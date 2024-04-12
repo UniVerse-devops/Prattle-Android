@@ -9,7 +9,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 /**
  * Easy access to various properties of the device, typically to make performance-related decisions.

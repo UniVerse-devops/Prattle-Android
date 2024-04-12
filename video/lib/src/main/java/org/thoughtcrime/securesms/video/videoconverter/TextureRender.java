@@ -23,7 +23,7 @@ import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

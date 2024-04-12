@@ -25,8 +25,8 @@ import androidx.camera.core.CameraSelector;
 import androidx.camera.core.ImageCapture;
 import androidx.camera.core.ImageProxy;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.util.BitmapDecodingException;
 import org.thoughtcrime.securesms.util.BitmapUtil;
 

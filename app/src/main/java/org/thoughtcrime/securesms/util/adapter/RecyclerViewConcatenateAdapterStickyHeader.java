@@ -4,7 +4,7 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.signal.libsignal.protocol.util.Pair;
+import org.spark.libsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
 import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
 

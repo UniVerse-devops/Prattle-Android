@@ -1,10 +1,10 @@
-package org.signal.core.util
+package org.spark.core.util
 
 import android.content.ContentValues
 import android.text.TextUtils
 import androidx.annotation.VisibleForTesting
 import androidx.sqlite.db.SupportSQLiteDatabase
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import java.lang.Exception
 import java.util.LinkedList
 import java.util.Locale

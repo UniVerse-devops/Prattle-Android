@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.avatar
 
 import android.net.Uri
 import android.os.Bundle
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.getParcelableCompat
 
 /**
  * Utility class which encapsulates reading and writing Avatar objects to and from Bundles.

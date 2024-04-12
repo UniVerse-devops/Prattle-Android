@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.imageeditor.core.model.EditorModel;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparkimageeditor.core.model.EditorModel;
 import org.thoughtcrime.securesms.fonts.FontTypefaceProvider;
 import org.thoughtcrime.securesms.providers.BlobProvider;
 import org.thoughtcrime.securesms.util.MediaUtil;

@@ -3,15 +3,15 @@ package org.thoughtcrime.securesms.database
 import android.content.Context
 import android.net.Uri
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.delete
-import org.signal.core.util.deleteAll
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.select
-import org.signal.core.util.update
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.delete
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.requireNonNullString
+import org.sparkcore.util.select
+import org.sparkcore.util.update
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.R
 import java.util.LinkedList
 

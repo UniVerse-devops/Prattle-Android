@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -21,8 +21,8 @@ import androidx.work.Data
 import androidx.work.ForegroundInfo
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import org.signal.core.util.getLength
-import org.signal.core.util.readLength
+import org.spark.core.util.getLength
+import org.spark.core.util.readLength
 import org.thoughtcrime.securesms.video.StreamingTranscoder
 import org.thoughtcrime.securesms.video.TranscodingPreset
 import org.thoughtcrime.securesms.video.postprocessing.Mp4FaststartPostProcessor

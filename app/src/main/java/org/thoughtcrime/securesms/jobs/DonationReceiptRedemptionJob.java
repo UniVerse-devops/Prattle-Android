@@ -3,9 +3,9 @@ package org.thoughtcrime.securesms.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.receipts.ReceiptCredentialPresentation;
 import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError;
 import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource;
 import org.thoughtcrime.securesms.database.MessageTable;

@@ -32,7 +32,7 @@ import androidx.core.view.GestureDetectorCompat;
 import androidx.core.view.ViewKt;
 import androidx.core.widget.TextViewCompat;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
 import org.thoughtcrime.securesms.components.mention.MentionAnnotation;

@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.StringUtil;
-import org.signal.libsignal.protocol.util.Pair;
+import org.spark.core.util.StringUtil;
+import org.spark.libsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
 
 import java.security.InvalidParameterException;

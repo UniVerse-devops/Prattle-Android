@@ -3,11 +3,11 @@ package org.thoughtcrime.securesms.groups.v2;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.Base64;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.storageservice.protos.groups.GroupInviteLink;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
+import org.sparkcore.util.Base64;
+import org.sparklibsignal.zkgroup.InvalidInputException;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
+import org.sparkstorageservice.protos.groups.GroupInviteLink;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
 
 import java.io.IOException;
 import java.net.URI;

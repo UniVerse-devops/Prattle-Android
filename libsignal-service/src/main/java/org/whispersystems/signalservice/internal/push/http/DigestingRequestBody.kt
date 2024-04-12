@@ -4,8 +4,8 @@ import okhttp3.MediaType
 import okhttp3.RequestBody
 import okhttp3.internal.http.UnrepeatableRequestBody
 import okio.BufferedSink
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
-import org.signal.libsignal.protocol.logging.Log
+import org.spark.libsignal.protocol.incrementalmac.ChunkSizeChoice
+import org.spark.libsignal.protocol.logging.Log
 import org.whispersystems.signalservice.api.crypto.DigestingOutputStream
 import org.whispersystems.signalservice.api.crypto.SkippingOutputStream
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment

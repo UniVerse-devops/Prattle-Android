@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.longmessage
 
 import android.content.Context
 import android.net.Uri
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.conversation.ConversationMessage
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord

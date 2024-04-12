@@ -5,9 +5,9 @@ import net.zetetic.database.DatabaseErrorHandler
 import net.zetetic.database.sqlcipher.SQLiteConnection
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import net.zetetic.database.sqlcipher.SQLiteDatabaseHook
-import org.signal.core.util.CursorUtil
-import org.signal.core.util.ExceptionUtil
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.CursorUtil
+import org.sparkcore.util.ExceptionUtil
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import java.util.concurrent.CountDownLatch

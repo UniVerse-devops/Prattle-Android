@@ -1,7 +1,7 @@
-package org.signal.imageeditor.app.renderers;
+package org.sparkimageeditor.app.renderers;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
 
 public abstract class StandardHitTestRenderer implements Renderer {
 

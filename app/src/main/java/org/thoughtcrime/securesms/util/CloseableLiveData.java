@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.util;
 
 import androidx.lifecycle.MutableLiveData;
 
-import org.signal.core.util.StreamUtil;
+import org.spark.core.util.StreamUtil;
 
 import java.io.Closeable;
 

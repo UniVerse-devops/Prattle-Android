@@ -10,7 +10,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.signal.devicetransfer.DeviceToDeviceTransferService;
+import org.sparkdevicetransfer.DeviceToDeviceTransferService;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.devicetransfer.DeviceTransferFragment;
 import org.thoughtcrime.securesms.util.navigation.SafeNavigation;

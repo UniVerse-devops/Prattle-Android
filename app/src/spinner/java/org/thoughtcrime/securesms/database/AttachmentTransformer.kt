@@ -1,13 +1,13 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.requireInt
-import org.signal.spinner.ColumnTransformer
+import org.spark.core.util.requireInt
+import org.spark.spinner.ColumnTransformer
 
 object AttachmentTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {

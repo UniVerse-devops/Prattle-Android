@@ -10,7 +10,7 @@ import android.telephony.TelephonyManager;
 
 import androidx.annotation.NonNull;
 
-import org.signal.ringrtc.CallManager;
+import org.spark.ringrtc.CallManager;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.webrtc.PeerConnection;
 

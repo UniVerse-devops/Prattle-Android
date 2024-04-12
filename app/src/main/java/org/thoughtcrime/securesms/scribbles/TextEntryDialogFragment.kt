@@ -12,10 +12,10 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.AppCompatSeekBar
 import androidx.fragment.app.FragmentManager
 import com.airbnb.lottie.SimpleColorFilter
-import org.signal.core.util.getParcelableCompat
-import org.signal.imageeditor.core.HiddenEditText
-import org.signal.imageeditor.core.model.EditorElement
-import org.signal.imageeditor.core.renderers.MultiLineTextRenderer
+import org.sparkcore.util.getParcelableCompat
+import org.sparkimageeditor.core.HiddenEditText
+import org.sparkimageeditor.core.model.EditorElement
+import org.sparkimageeditor.core.renderers.MultiLineTextRenderer
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
 import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor

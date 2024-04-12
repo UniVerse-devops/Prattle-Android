@@ -9,7 +9,7 @@ import android.media.MediaFormat;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.video.interfaces.MediaInput;
 import org.thoughtcrime.securesms.video.interfaces.Muxer;
 import org.thoughtcrime.securesms.video.videoconverter.utils.Preconditions;

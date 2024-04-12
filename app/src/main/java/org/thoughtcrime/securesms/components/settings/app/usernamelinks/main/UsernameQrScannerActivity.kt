@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -32,10 +32,10 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.signal.core.ui.Dialogs
-import org.signal.core.ui.theme.SignalTheme
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.getParcelableExtraCompat
+import org.sparkcore.ui.Dialogs
+import org.sparkcore.ui.theme.SignalTheme
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.getParcelableExtraCompat
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.permissions.PermissionCompat
 import org.thoughtcrime.securesms.recipients.Recipient

@@ -9,11 +9,11 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.signal.core.util.StringUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
-import org.signal.core.util.money.PlatformCurrencyUtil
-import org.signal.core.util.orNull
+import org.sparkcore.util.StringUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
+import org.sparkcore.util.money.PlatformCurrencyUtil
+import org.sparkcore.util.orNull
 import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.boost.Boost

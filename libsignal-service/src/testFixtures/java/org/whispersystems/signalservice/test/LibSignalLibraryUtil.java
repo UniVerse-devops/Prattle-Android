@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.test;
 
-import org.signal.libsignal.internal.Native;
+import org.spark.libsignal.internal.Native;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;

@@ -13,10 +13,10 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.signal.core.util.Result
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.readToList
+import org.sparkcore.util.Result
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.readToList
 import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
 import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
 import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference

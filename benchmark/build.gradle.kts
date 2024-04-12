@@ -19,7 +19,7 @@ plugins {
 }
 
 android {
-    namespace = "org.signal.benchmark"
+    namespace = "org.spark.benchmark"
     compileSdkVersion = signalCompileSdkVersion
 
     compileOptions {

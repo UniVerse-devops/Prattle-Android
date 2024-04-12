@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers;
+package org.sparkimageeditor.core.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

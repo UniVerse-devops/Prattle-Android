@@ -6,8 +6,8 @@ import android.widget.TextView
 import androidx.core.app.DialogCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.concurrent.SimpleTask
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SimpleTask
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
 import org.thoughtcrime.securesms.database.model.MessageRecord

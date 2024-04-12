@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.fonts
 import android.content.Context
 import android.graphics.Typeface
 import android.os.Build
-import org.signal.imageeditor.core.Renderer
-import org.signal.imageeditor.core.RendererContext
+import org.sparkimageeditor.core.Renderer
+import org.sparkimageeditor.core.RendererContext
 import java.util.Locale
 
 /**

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms
 
-import org.signal.spinner.Plugin
-import org.signal.spinner.PluginResult
+import org.spark.spinner.Plugin
+import org.spark.spinner.PluginResult
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 

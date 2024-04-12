@@ -1,4 +1,4 @@
-package org.signal.core.ui
+package org.spark.core.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -25,7 +25,7 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.theme.SignalTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 object Scaffolds {

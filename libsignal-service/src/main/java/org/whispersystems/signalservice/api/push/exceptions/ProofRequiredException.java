@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.push.exceptions;
 
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.logging.Log;
 import org.whispersystems.signalservice.internal.push.ProofRequiredResponse;
 
 import java.util.HashSet;

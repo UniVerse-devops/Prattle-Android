@@ -5,8 +5,8 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.storageservice.protos.groups.AccessControl;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkstorageservice.protos.groups.AccessControl;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
 import org.thoughtcrime.securesms.groups.GroupChangeFailedException;

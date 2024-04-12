@@ -1,4 +1,4 @@
-package org.signal.contacts
+package org.sparkcontacts
 
 import android.accounts.Account
 import android.accounts.AccountManager
@@ -11,12 +11,12 @@ import android.net.Uri
 import android.os.RemoteException
 import android.provider.BaseColumns
 import android.provider.ContactsContract
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.requireString
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.requireNonNullString
+import org.sparkcore.util.requireString
 import java.io.Closeable
 import java.util.Objects
 

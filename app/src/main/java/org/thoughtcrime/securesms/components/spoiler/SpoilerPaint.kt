@@ -8,8 +8,8 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.graphics.Shader
 import androidx.annotation.MainThread
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.dp
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.components.spoiler.SpoilerPaint.update
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.util.Util

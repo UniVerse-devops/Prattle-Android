@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.devicetransfer.app"
+  namespace = "org.spark.devicetransfer.app"
 
   defaultConfig {
-    applicationId = "org.signal.devicetransfer.app"
+    applicationId = "org.spark.devicetransfer.app"
 
     ndk {
       abiFilters += setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")

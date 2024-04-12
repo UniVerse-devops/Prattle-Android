@@ -9,8 +9,8 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.signal.core.util.dp
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.dp
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.gifts.ExpiredGiftSheet
 import org.thoughtcrime.securesms.badges.gifts.flow.GiftFlowActivity

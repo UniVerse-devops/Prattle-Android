@@ -1,4 +1,4 @@
-package org.signal.spinner
+package org.sparkspinner
 
 import android.app.Application
 import android.database.Cursor
@@ -8,12 +8,12 @@ import com.github.jknack.handlebars.Template
 import com.github.jknack.handlebars.helper.ConditionalHelpers
 import fi.iki.elonen.NanoHTTPD
 import fi.iki.elonen.NanoWSD
-import org.signal.core.util.ExceptionUtil
-import org.signal.core.util.ForeignKeyConstraint
-import org.signal.core.util.getForeignKeys
-import org.signal.core.util.logging.Log
-import org.signal.core.util.tracing.Tracer
-import org.signal.spinner.Spinner.DatabaseConfig
+import org.sparkcore.util.ExceptionUtil
+import org.sparkcore.util.ForeignKeyConstraint
+import org.sparkcore.util.getForeignKeys
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.tracing.Tracer
+import org.sparkspinner.Spinner.DatabaseConfig
 import java.io.ByteArrayInputStream
 import java.lang.IllegalArgumentException
 import java.security.NoSuchAlgorithmException

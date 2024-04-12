@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 import org.conscrypt.Conscrypt;
 import org.whispersystems.signalservice.internal.contacts.crypto.SigningCertificate;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.net.URLDecoder;

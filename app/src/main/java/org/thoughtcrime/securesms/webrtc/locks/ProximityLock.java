@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.webrtc.locks;
 import android.os.Build;
 import android.os.PowerManager;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

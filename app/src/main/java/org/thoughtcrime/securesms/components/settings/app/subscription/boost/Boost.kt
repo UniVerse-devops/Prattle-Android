@@ -16,8 +16,8 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.animation.doOnEnd
 import androidx.core.text.isDigitsOnly
 import com.google.android.material.button.MaterialButton
-import org.signal.core.util.StringUtil
-import org.signal.core.util.money.FiatMoney
+import org.sparkcore.util.StringUtil
+import org.sparkcore.util.money.FiatMoney
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.BadgeImageView
 import org.thoughtcrime.securesms.badges.models.Badge

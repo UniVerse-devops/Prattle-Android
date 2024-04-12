@@ -1,11 +1,11 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.protocol.DuplicateMessageException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.LegacyMessageException;
-import org.signal.libsignal.protocol.NoSessionException;
-import org.signal.libsignal.protocol.groups.GroupCipher;
-import org.signal.libsignal.protocol.message.CiphertextMessage;
+import org.spark.libsignal.protocol.DuplicateMessageException;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.protocol.LegacyMessageException;
+import org.spark.libsignal.protocol.NoSessionException;
+import org.spark.libsignal.protocol.groups.GroupCipher;
+import org.spark.libsignal.protocol.message.CiphertextMessage;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 
 import java.util.UUID;

@@ -1,9 +1,9 @@
-package org.signal.pagingtest;
+package org.spark.pagingtest;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.paging.PagedDataSource;
+import org.spark.paging.PagedDataSource;
 
 import java.util.ArrayList;
 import java.util.List;

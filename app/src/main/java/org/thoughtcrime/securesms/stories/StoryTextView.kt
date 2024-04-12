@@ -8,7 +8,7 @@ import android.graphics.Rect
 import android.graphics.RectF
 import android.util.AttributeSet
 import androidx.annotation.ColorInt
-import org.signal.core.util.DimensionUnit
+import org.sparkcore.util.DimensionUnit
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView
 
 class StoryTextView @JvmOverloads constructor(

@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.database.helpers.migration
 import android.app.Application
 import androidx.sqlite.db.SupportSQLiteDatabase
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
 
 /**

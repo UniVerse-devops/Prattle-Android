@@ -1,6 +1,6 @@
 @file:JvmName("RxExtensions")
 
-package org.signal.core.util.concurrent
+package org.spark.core.util.concurrent
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.LifecycleOwner

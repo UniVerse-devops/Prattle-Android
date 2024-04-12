@@ -7,7 +7,7 @@ import android.net.Uri
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import org.signal.core.util.PendingIntentFlags
+import org.sparkcore.util.PendingIntentFlags
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
 import org.thoughtcrime.securesms.help.HelpFragment

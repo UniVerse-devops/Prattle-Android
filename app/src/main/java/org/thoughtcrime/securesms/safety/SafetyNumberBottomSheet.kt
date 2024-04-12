@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.safety
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
-import org.signal.core.util.getParcelableCompat
+import org.sparkcore.util.getParcelableCompat
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog
 import org.thoughtcrime.securesms.database.model.IdentityRecord

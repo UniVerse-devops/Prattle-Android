@@ -10,8 +10,8 @@ import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.core.util.ThreadUtil
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import org.spark.core.util.ThreadUtil
+import org.spark.libsignal.protocol.state.SignedPreKeyRecord
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
 import org.thoughtcrime.securesms.keyvalue.SignalStore

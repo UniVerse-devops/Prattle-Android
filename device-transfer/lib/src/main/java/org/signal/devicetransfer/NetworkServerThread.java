@@ -1,4 +1,4 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import android.content.Context;
 import android.os.Handler;
@@ -6,8 +6,8 @@ import android.os.Handler;
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.StreamUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.StreamUtil;
+import org.sparkcore.util.logging.Log;
 
 import java.io.IOException;
 import java.io.InputStream;

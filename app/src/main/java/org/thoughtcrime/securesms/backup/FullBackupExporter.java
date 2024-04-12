@@ -16,11 +16,11 @@ import com.annimon.stream.function.Predicate;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.SetUtil;
-import org.signal.core.util.SqlUtil;
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.SetUtil;
+import org.sparkcore.util.SqlUtil;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.attachments.AttachmentId;
 import org.thoughtcrime.securesms.backup.proto.KeyValue;
 import org.thoughtcrime.securesms.backup.proto.SharedPreference;

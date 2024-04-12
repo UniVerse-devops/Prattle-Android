@@ -8,9 +8,9 @@ import org.mockito.Mockito.mock
 import org.mockito.Mockito.times
 import org.mockito.Mockito.verify
 import org.mockito.Mockito.`when`
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.spark.libsignal.protocol.IdentityKey
+import org.spark.libsignal.protocol.SignalProtocolAddress
+import org.spark.libsignal.protocol.ecc.ECPublicKey
 import org.thoughtcrime.securesms.database.IdentityTable
 import org.thoughtcrime.securesms.database.model.IdentityStoreRecord
 import org.whispersystems.signalservice.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS

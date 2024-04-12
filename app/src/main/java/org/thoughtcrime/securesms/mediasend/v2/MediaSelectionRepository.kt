@@ -7,10 +7,10 @@ import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.logging.Log
-import org.signal.imageeditor.core.model.EditorModel
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.logging.Log
+import org.sparkimageeditor.core.model.EditorModel
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.conversation.MessageSendType
 import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties

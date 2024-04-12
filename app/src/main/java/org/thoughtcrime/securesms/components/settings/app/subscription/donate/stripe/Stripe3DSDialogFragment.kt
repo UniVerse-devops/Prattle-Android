@@ -20,8 +20,8 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.button.MaterialButton
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeIntentAccessor
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeIntentAccessor
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ViewBinderDelegate
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback

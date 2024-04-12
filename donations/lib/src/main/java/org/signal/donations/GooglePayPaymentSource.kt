@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import com.google.android.gms.wallet.PaymentData
 import org.json.JSONObject

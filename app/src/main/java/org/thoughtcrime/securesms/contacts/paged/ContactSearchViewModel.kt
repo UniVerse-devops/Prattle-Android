@@ -10,10 +10,10 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.signal.paging.LivePagedData
-import org.signal.paging.PagedData
-import org.signal.paging.PagingConfig
-import org.signal.paging.PagingController
+import org.sparkpaging.LivePagedData
+import org.sparkpaging.PagedData
+import org.sparkpaging.PagingConfig
+import org.sparkpaging.PagingController
 import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
 import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
 import org.thoughtcrime.securesms.groups.SelectionLimits

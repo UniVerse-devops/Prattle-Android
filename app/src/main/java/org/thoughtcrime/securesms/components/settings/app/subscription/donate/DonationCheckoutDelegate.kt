@@ -15,11 +15,11 @@ import com.google.android.material.snackbar.Snackbar
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.getParcelableCompat
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
-import org.signal.donations.GooglePayApi
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.getParcelableCompat
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
+import org.sparkdonations.GooglePayApi
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
 import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations

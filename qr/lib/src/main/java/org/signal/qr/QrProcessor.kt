@@ -1,4 +1,4 @@
-package org.signal.qr
+package org.spark.qr
 
 import android.graphics.Bitmap
 import androidx.camera.core.ImageProxy
@@ -13,7 +13,7 @@ import com.google.zxing.RGBLuminanceSource
 import com.google.zxing.Result
 import com.google.zxing.common.HybridBinarizer
 import com.google.zxing.qrcode.QRCodeReader
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import java.nio.IntBuffer
 
 /**

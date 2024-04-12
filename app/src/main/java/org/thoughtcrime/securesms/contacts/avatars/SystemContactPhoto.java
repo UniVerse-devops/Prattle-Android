@@ -7,7 +7,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.Conversions;
+import org.sparkcore.util.Conversions;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 
 import java.io.FileNotFoundException;

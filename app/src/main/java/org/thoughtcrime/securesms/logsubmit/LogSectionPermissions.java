@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 
 import androidx.annotation.NonNull;
 
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.BuildConfig;
 
 import java.util.ArrayList;

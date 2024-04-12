@@ -1,7 +1,7 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
 
 import java.util.UUID;
 

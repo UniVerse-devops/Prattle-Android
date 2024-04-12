@@ -1,4 +1,4 @@
-package org.signal.libsignal.protocol.logging;
+package org.sparklibsignal.protocol.logging;
 
 public class Log {
 

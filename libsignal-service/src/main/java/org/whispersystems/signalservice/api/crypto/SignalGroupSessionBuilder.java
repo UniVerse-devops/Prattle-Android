@@ -1,9 +1,9 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.protocol.SessionBuilder;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.groups.GroupSessionBuilder;
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
+import org.spark.libsignal.protocol.SessionBuilder;
+import org.spark.libsignal.protocol.SignalProtocolAddress;
+import org.spark.libsignal.protocol.groups.GroupSessionBuilder;
+import org.spark.libsignal.protocol.message.SenderKeyDistributionMessage;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 
 import java.util.UUID;

@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import org.signal.core.util.concurrent.LifecycleDisposable;
+import org.sparkcore.util.concurrent.LifecycleDisposable;
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
 import org.thoughtcrime.securesms.conversation.ConversationIntents;
 import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;

@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.libsignal.protocol.IdentityKey
+import org.sparklibsignal.protocol.IdentityKey
 import org.thoughtcrime.securesms.database.IdentityTable
 import org.thoughtcrime.securesms.recipients.RecipientId
 

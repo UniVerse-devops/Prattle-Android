@@ -4,7 +4,7 @@
     <application>
         <profileable android:shell="true" />
 
-        <activity android:name="org.signal.benchmark.BenchmarkSetupActivity"
+        <activity android:name="org.spark.benchmark.BenchmarkSetupActivity"
             android:launchMode="singleTask"
             android:theme="@style/Theme.Signal.DayNight.NoActionBar"
             android:windowSoftInputMode="stateHidden"

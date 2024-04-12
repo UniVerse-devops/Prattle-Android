@@ -6,8 +6,8 @@ import android.net.NetworkInfo;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.GroupCall;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.GroupCall;
 import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;

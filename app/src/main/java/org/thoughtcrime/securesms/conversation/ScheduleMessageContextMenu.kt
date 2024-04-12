@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.conversation
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.menu.ActionItem
 import org.thoughtcrime.securesms.components.menu.SignalContextMenu

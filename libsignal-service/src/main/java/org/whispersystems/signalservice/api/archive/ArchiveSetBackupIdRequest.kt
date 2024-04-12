@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -10,8 +10,8 @@ import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.JsonSerializer
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
-import org.signal.core.util.Base64
-import org.signal.libsignal.zkgroup.backups.BackupAuthCredentialRequest
+import org.spark.core.util.Base64
+import org.spark.libsignal.zkgroup.backups.BackupAuthCredentialRequest
 
 /**
  * Represents the request body when setting the archive backupId.

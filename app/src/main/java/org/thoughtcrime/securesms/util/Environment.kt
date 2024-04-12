@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.util
 
 import com.google.android.gms.wallet.WalletConstants
-import org.signal.donations.GooglePayApi
-import org.signal.donations.StripeApi
+import org.spark.donations.GooglePayApi
+import org.spark.donations.StripeApi
 import org.thoughtcrime.securesms.BuildConfig
 
 object Environment {

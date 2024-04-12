@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.internal.contacts.crypto;
 
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.spark.libsignal.protocol.util.ByteUtil;
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException;
 import org.whispersystems.signalservice.internal.contacts.entities.RemoteAttestationResponse;
 import org.whispersystems.signalservice.internal.util.Hex;

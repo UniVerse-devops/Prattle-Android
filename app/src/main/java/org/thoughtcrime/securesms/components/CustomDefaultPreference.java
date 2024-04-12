@@ -20,7 +20,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.CustomDefaultPreference.CustomDefaultPreferenceDialogFragmentCompat.CustomPreferenceValidator;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;

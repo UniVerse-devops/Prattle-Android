@@ -6,8 +6,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.annotation.WorkerThread
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.PendingIntentFlags
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.conversation.ConversationIntents
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord

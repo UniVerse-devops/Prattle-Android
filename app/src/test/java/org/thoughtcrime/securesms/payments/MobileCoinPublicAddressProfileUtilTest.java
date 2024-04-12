@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.payments;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.IdentityKeyPair;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.IdentityKeyPair;
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
 import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.signalservice.internal.push.PaymentAddress;

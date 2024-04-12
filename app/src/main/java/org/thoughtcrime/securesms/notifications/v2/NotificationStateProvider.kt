@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.notifications.v2
 
 import androidx.annotation.WorkerThread
-import org.signal.core.util.CursorUtil
-import org.signal.core.util.logging.Log
+import org.spark.core.util.CursorUtil
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.database.MessageTable
 import org.thoughtcrime.securesms.database.NoSuchMessageException
 import org.thoughtcrime.securesms.database.RecipientTable

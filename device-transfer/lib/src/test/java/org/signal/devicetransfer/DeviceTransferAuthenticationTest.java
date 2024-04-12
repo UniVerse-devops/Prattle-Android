@@ -1,12 +1,12 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import androidx.annotation.NonNull;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.devicetransfer.DeviceTransferAuthentication.Client;
-import org.signal.devicetransfer.DeviceTransferAuthentication.DeviceTransferAuthenticationException;
-import org.signal.devicetransfer.DeviceTransferAuthentication.Server;
+import org.sparkdevicetransfer.DeviceTransferAuthentication.Client;
+import org.sparkdevicetransfer.DeviceTransferAuthentication.DeviceTransferAuthenticationException;
+import org.sparkdevicetransfer.DeviceTransferAuthentication.Server;
 
 import java.util.Random;
 

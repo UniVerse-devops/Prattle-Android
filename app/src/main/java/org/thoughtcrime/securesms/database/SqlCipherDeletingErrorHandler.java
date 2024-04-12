@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import net.zetetic.database.DatabaseErrorHandler;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.signal.core.util.CursorUtil;
+import org.sparkcore.util.CursorUtil;
 
 /**
  * Prints some diagnostics and then deletes the original so the database can be recreated.

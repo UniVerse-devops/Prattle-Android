@@ -1,4 +1,4 @@
-package org.signal.lint;
+package org.sparklint;
 
 import com.android.tools.lint.checks.infrastructure.TestFile;
 
@@ -38,10 +38,10 @@ public final class LogDetectorTest {
                 "    Log.d(\"TAG\", \"msg\");\n" +
                 "    ~~~~~~~~~~~~~~~~~~~\n" +
                 "1 errors, 0 warnings")
-      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
+      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
                         "@@ -5 +5\n" +
                         "-     Log.d(\"TAG\", \"msg\");\n" +
-                        "+     org.signal.core.util.logging.Log.d(\"TAG\", \"msg\");");
+                        "+     org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\");");
   }
 
   @Test
@@ -62,10 +62,10 @@ public final class LogDetectorTest {
                 "    Log.w(\"TAG\", \"msg\", new Exception());\n" +
                 "    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n" +
                 "1 errors, 0 warnings")
-      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.w(\"TAG\", \"msg\", new Exception()):\n" +
+      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.sparkcore.util.logging.Log.w(\"TAG\", \"msg\", new Exception()):\n" +
                         "@@ -5 +5\n" +
                         "-     Log.w(\"TAG\", \"msg\", new Exception());\n" +
-                        "+     org.signal.core.util.logging.Log.w(\"TAG\", \"msg\", new Exception());");
+                        "+     org.sparkcore.util.logging.Log.w(\"TAG\", \"msg\", new Exception());");
   }
 
   @Test
@@ -73,7 +73,7 @@ public final class LogDetectorTest {
     lint()
       .files(serviceLogStub,
         java("package foo;\n" +
-               "import org.signal.libsignal.protocol.logging.Log;\n" +
+               "import org.sparklibsignal.protocol.logging.Log;\n" +
                "public class Example {\n" +
                "  public void log() {\n" +
                "    Log.d(\"TAG\", \"msg\");\n" +
@@ -86,10 +86,10 @@ public final class LogDetectorTest {
                 "    Log.d(\"TAG\", \"msg\");\n" +
                 "    ~~~~~~~~~~~~~~~~~~~\n" +
                 "1 errors, 0 warnings")
-      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
+      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
                         "@@ -5 +5\n" +
                         "-     Log.d(\"TAG\", \"msg\");\n" +
-                        "+     org.signal.core.util.logging.Log.d(\"TAG\", \"msg\");");
+                        "+     org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\");");
   }
 
   @Test
@@ -97,7 +97,7 @@ public final class LogDetectorTest {
     lint()
       .files(serviceLogStub,
         java("package foo;\n" +
-               "import org.signal.libsignal.protocol.logging.Log;\n" +
+               "import org.sparklibsignal.protocol.logging.Log;\n" +
                "public class Example {\n" +
                "  public void log() {\n" +
                "    Log.w(\"TAG\", \"msg\", new Exception());\n" +
@@ -110,10 +110,10 @@ public final class LogDetectorTest {
                 "    Log.w(\"TAG\", \"msg\", new Exception());\n" +
                 "    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n" +
                 "1 errors, 0 warnings")
-      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.w(\"TAG\", \"msg\", new Exception()):\n" +
+      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.sparkcore.util.logging.Log.w(\"TAG\", \"msg\", new Exception()):\n" +
                         "@@ -5 +5\n" +
                         "-     Log.w(\"TAG\", \"msg\", new Exception());\n" +
-                        "+     org.signal.core.util.logging.Log.w(\"TAG\", \"msg\", new Exception());");
+                        "+     org.sparkcore.util.logging.Log.w(\"TAG\", \"msg\", new Exception());");
   }
 
   @Test
@@ -121,7 +121,7 @@ public final class LogDetectorTest {
     lint()
       .files(appLogStub,
         java("package foo;\n" +
-               "import org.signal.log.Log;\n" +
+               "import org.sparklog.Log;\n" +
                "public class Example {\n" +
                "  private static final String TAG = Log.tag(Example.class);\n" +
                "  public void log() {\n" +
@@ -139,7 +139,7 @@ public final class LogDetectorTest {
     lint()
       .files(appLogStub,
          kotlin("package foo\n" +
-              "import org.signal.core.util.logging.Log\n" +
+              "import org.sparkcore.util.logging.Log\n" +
               "class Example {\n" +
               "  const val TAG: String = Log.tag(Example::class.java)\n" +
               "  fun log() {\n" +
@@ -157,7 +157,7 @@ public final class LogDetectorTest {
     lint()
         .files(appLogStub,
                kotlin("package foo\n" +
-                      "import org.signal.core.util.logging.Log\n" +
+                      "import org.sparkcore.util.logging.Log\n" +
                       "class Example {\n" +
                       "  companion object { val TAG: String = Log.tag(Example::class.java) }\n" +
                       "  fun log() {\n" +
@@ -178,7 +178,7 @@ public final class LogDetectorTest {
     lint()
       .files(appLogStub,
         java("package foo;\n" +
-               "import org.signal.log.Log;\n" +
+               "import org.sparklog.Log;\n" +
                "public class Example {\n" +
                "  public void log() {\n" +
                "    Log.d(\"TAG\", \"msg\");\n" +
@@ -199,7 +199,7 @@ public final class LogDetectorTest {
     lint()
         .files(appLogStub,
                kotlin("package foo\n" +
-                      "import org.signal.core.util.logging.Log\n" +
+                      "import org.sparkcore.util.logging.Log\n" +
                       "class Example {\n" +
                       "  fun log() {\n" +
                       "    Log.d(\"TAG\", \"msg\")\n" +
@@ -219,7 +219,7 @@ public final class LogDetectorTest {
     lint()
       .files(glideLogStub,
         java("package foo;\n" +
-               "import org.signal.glide.Log;\n" +
+               "import org.sparkglide.Log;\n" +
                "public class Example {\n" +
                "  public void log() {\n" +
                "    Log.d(\"TAG\", \"msg\");\n" +
@@ -228,14 +228,14 @@ public final class LogDetectorTest {
       )
       .issues(SignalLogDetector.LOG_NOT_SIGNAL)
       .run()
-      .expect("src/foo/Example.java:5: Error: Using 'org.signal.glide.Log' instead of a Signal Logger [LogNotSignal]\n" +
+      .expect("src/foo/Example.java:5: Error: Using 'org.sparkglide.Log' instead of a Signal Logger [LogNotSignal]\n" +
                 "    Log.d(\"TAG\", \"msg\");\n" +
                 "    ~~~~~~~~~~~~~~~~~~~\n" +
                 "1 errors, 0 warnings")
-      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
+      .expectFixDiffs("Fix for src/foo/Example.java line 5: Replace with org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\"):\n" +
                         "@@ -5 +5\n" +
                         "-     Log.d(\"TAG\", \"msg\");\n" +
-                        "+     org.signal.core.util.logging.Log.d(\"TAG\", \"msg\");");
+                        "+     org.sparkcore.util.logging.Log.d(\"TAG\", \"msg\");");
   }
 
   private static String readResourceAsString(String resourceName) {

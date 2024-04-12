@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CameraControl;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CameraControl;
 import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
 import org.webrtc.Camera1Enumerator;
 import org.webrtc.Camera2Capturer;

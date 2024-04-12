@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.service.webrtc.state
 
 import com.annimon.stream.OptionalLong
-import org.signal.ringrtc.CallId
-import org.signal.ringrtc.GroupCall
+import org.sparkringrtc.CallId
+import org.sparkringrtc.GroupCall
 import org.thoughtcrime.securesms.events.CallParticipant
 import org.thoughtcrime.securesms.events.CallParticipantId
 import org.thoughtcrime.securesms.events.WebRtcViewModel

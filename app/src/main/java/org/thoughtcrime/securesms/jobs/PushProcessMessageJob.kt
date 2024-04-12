@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.jobs
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.database.SignalDatabase.Companion.groups
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.groups.GroupChangeBusyException

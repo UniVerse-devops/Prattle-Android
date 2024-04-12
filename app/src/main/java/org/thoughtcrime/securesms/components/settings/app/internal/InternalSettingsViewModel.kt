@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Observable
-import org.signal.ringrtc.CallManager
+import org.sparkringrtc.CallManager
 import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
 import org.thoughtcrime.securesms.jobs.StoryOnboardingDownloadJob
 import org.thoughtcrime.securesms.keyvalue.InternalValues

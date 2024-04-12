@@ -3,10 +3,10 @@ package org.thoughtcrime.securesms.messages
 import ProtoUtil.isNotEmpty
 import com.squareup.wire.Message
 import okio.ByteString
-import org.signal.core.util.orNull
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
+import org.sparkcore.util.orNull
+import org.sparklibsignal.protocol.message.DecryptionErrorMessage
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange
 import org.thoughtcrime.securesms.attachments.Attachment
 import org.thoughtcrime.securesms.attachments.PointerAttachment
 import org.thoughtcrime.securesms.database.model.StoryType

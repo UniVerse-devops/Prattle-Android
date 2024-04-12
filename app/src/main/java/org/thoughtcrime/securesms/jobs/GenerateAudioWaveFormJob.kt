@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.jobs
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import org.signal.core.util.concurrent.safeBlockingGet
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.safeBlockingGet
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.audio.AudioWaveForms

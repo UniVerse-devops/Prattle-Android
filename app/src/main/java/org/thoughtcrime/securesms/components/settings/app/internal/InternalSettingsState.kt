@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.components.settings.app.internal
 
-import org.signal.ringrtc.CallManager
+import org.sparkringrtc.CallManager
 import org.thoughtcrime.securesms.emoji.EmojiFiles
 
 data class InternalSettingsState(

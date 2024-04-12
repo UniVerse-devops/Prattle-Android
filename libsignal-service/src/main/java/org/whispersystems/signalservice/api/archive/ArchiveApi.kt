@@ -1,17 +1,17 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.whispersystems.signalservice.api.archive
 
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.zkgroup.GenericServerPublicParams
-import org.signal.libsignal.zkgroup.backups.BackupAuthCredential
-import org.signal.libsignal.zkgroup.backups.BackupAuthCredentialRequestContext
-import org.signal.libsignal.zkgroup.backups.BackupAuthCredentialResponse
+import org.spark.libsignal.protocol.ecc.Curve
+import org.spark.libsignal.protocol.ecc.ECPrivateKey
+import org.spark.libsignal.protocol.ecc.ECPublicKey
+import org.spark.libsignal.zkgroup.GenericServerPublicParams
+import org.spark.libsignal.zkgroup.backups.BackupAuthCredential
+import org.spark.libsignal.zkgroup.backups.BackupAuthCredentialRequestContext
+import org.spark.libsignal.zkgroup.backups.BackupAuthCredentialResponse
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.archive.ArchiveGetMediaItemsResponse.StoredMediaObject
 import org.whispersystems.signalservice.api.backup.BackupKey

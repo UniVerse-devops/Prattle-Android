@@ -6,9 +6,9 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.CallManager;
-import org.signal.ringrtc.GroupCall;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.CallManager;
+import org.sparkringrtc.GroupCall;
 import org.thoughtcrime.securesms.database.CallTable;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.recipients.Recipient;

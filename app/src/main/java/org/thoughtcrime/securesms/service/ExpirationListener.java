@@ -6,7 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.signal.core.util.PendingIntentFlags;
+import org.sparkcore.util.PendingIntentFlags;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 
 public class ExpirationListener extends BroadcastReceiver {

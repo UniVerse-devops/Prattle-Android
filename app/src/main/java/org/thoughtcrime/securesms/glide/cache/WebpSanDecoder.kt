@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -9,9 +9,9 @@ import android.graphics.Bitmap
 import com.bumptech.glide.load.Options
 import com.bumptech.glide.load.ResourceDecoder
 import com.bumptech.glide.load.engine.Resource
-import org.signal.core.util.StreamUtil
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.media.WebpSanitizer
+import org.sparkcore.util.StreamUtil
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.media.WebpSanitizer
 import java.io.IOException
 import java.io.InputStream
 

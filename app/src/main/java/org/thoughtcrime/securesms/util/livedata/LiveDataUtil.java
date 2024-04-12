@@ -12,7 +12,7 @@ import androidx.lifecycle.Transformations;
 
 import com.annimon.stream.function.Predicate;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor;
 import org.whispersystems.signalservice.api.util.Preconditions;
 

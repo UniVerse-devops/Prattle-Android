@@ -28,11 +28,11 @@ import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.Result
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.concurrent.addTo
-import org.signal.core.util.getParcelableArrayListExtraCompat
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.Result
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.addTo
+import org.sparkcore.util.getParcelableArrayListExtraCompat
 import org.thoughtcrime.securesms.AvatarPreviewActivity
 import org.thoughtcrime.securesms.BlockUnblockDialog
 import org.thoughtcrime.securesms.InviteActivity

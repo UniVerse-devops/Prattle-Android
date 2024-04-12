@@ -13,8 +13,8 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
 import androidx.documentfile.provider.DocumentFile;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.spark.core.util.logging.Log;
+import org.spark.libsignal.protocol.util.ByteUtil;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.backup.BackupPassphrase;
 import org.thoughtcrime.securesms.database.NoExternalStorageException;

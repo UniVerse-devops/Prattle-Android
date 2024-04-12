@@ -2,10 +2,10 @@ package org.thoughtcrime.securesms.dependencies;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.concurrent.DeadlockDetector;
-import org.signal.libsignal.net.Network;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations;
+import org.spark.core.util.concurrent.DeadlockDetector;
+import org.spark.libsignal.net.Network;
+import org.spark.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.spark.libsignal.zkgroup.receipts.ClientZkReceiptOperations;
 import org.thoughtcrime.securesms.components.TypingStatusRepository;
 import org.thoughtcrime.securesms.components.TypingStatusSender;
 import org.thoughtcrime.securesms.crypto.storage.SignalServiceDataStoreImpl;

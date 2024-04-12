@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.logging.Log;
-import org.signal.paging.PagedDataSource;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.logging.Log;
+import org.sparkpaging.PagedDataSource;
 import org.thoughtcrime.securesms.conversationlist.model.Conversation;
 import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter;
 import org.thoughtcrime.securesms.conversationlist.model.ConversationReader;

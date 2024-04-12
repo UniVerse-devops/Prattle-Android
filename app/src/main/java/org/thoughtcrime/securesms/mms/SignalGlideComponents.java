@@ -18,7 +18,7 @@ import com.bumptech.glide.load.resource.gif.ByteBufferGifDecoder;
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.load.resource.gif.StreamGifDecoder;
 
-import org.signal.glide.apng.decode.APNGDecoder;
+import org.sparkglide.apng.decode.APNGDecoder;
 import org.thoughtcrime.securesms.badges.models.Badge;
 import org.thoughtcrime.securesms.blurhash.BlurHash;
 import org.thoughtcrime.securesms.blurhash.BlurHashModelLoader;

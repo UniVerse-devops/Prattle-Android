@@ -8,10 +8,10 @@ import androidx.core.app.ShareCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
-import org.signal.core.util.Base64
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.libsignal.usernames.Username
+import org.sparkcore.util.Base64
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparklibsignal.usernames.Username
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration
 import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter

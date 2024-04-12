@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -80,17 +80,17 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.Result
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.concurrent.ListenableFuture
-import org.signal.core.util.concurrent.addTo
-import org.signal.core.util.dp
-import org.signal.core.util.logging.Log
-import org.signal.core.util.orNull
-import org.signal.core.util.setActionItemTint
-import org.signal.ringrtc.CallLinkRootKey
+import org.sparkcore.util.PendingIntentFlags
+import org.sparkcore.util.Result
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.ListenableFuture
+import org.sparkcore.util.concurrent.addTo
+import org.sparkcore.util.dp
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.orNull
+import org.sparkcore.util.setActionItemTint
+import org.sparkringrtc.CallLinkRootKey
 import org.thoughtcrime.securesms.BlockUnblockDialog
 import org.thoughtcrime.securesms.GroupMembersDialog
 import org.thoughtcrime.securesms.LoggingFragment

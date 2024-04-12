@@ -25,13 +25,13 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.signal.core.util.logging.Log;
-import org.signal.imageeditor.core.Bounds;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
-import org.signal.imageeditor.core.SelectableRenderer;
-import org.signal.imageeditor.core.model.EditorElement;
-import org.signal.imageeditor.core.model.EditorModel;
+import org.sparkcore.util.logging.Log;
+import org.sparkimageeditor.core.Bounds;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
+import org.sparkimageeditor.core.SelectableRenderer;
+import org.sparkimageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorModel;
 import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
 import org.thoughtcrime.securesms.util.BitmapUtil;
 

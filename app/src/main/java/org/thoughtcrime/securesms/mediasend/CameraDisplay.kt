@@ -5,7 +5,7 @@ import android.content.res.Resources
 import androidx.annotation.Dimension
 import androidx.annotation.Px
 import androidx.window.layout.WindowMetricsCalculator
-import org.signal.core.util.dp
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.stories.Stories
 

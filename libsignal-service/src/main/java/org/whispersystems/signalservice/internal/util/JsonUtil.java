@@ -19,15 +19,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.module.kotlin.KotlinModule;
 
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.IdentityKey;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.logging.Log;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.exceptions.MalformedResponseException;
 import org.whispersystems.signalservice.api.util.UuidUtil;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.util.UUID;

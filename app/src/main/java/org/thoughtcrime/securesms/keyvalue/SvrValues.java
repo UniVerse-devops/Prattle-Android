@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.keyvalue;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.StringStringSerializer;
+import org.sparkcore.util.StringStringSerializer;
 import org.thoughtcrime.securesms.util.JsonUtils;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
 import org.whispersystems.signalservice.api.kbs.PinHashUtil;

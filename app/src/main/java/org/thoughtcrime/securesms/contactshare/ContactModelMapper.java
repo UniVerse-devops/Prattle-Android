@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.contactshare;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.attachments.PointerAttachment;
 import org.whispersystems.signalservice.api.InvalidMessageStructureException;

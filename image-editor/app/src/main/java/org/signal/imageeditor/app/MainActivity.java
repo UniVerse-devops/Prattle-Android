@@ -1,4 +1,4 @@
-package org.signal.imageeditor.app;
+package org.sparkimageeditor.app;
 
 import android.Manifest;
 import android.content.Context;
@@ -24,15 +24,15 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import org.signal.imageeditor.app.renderers.UriRenderer;
-import org.signal.imageeditor.app.renderers.UrlRenderer;
-import org.signal.imageeditor.core.ImageEditorView;
-import org.signal.imageeditor.core.Renderer;
-import org.signal.imageeditor.core.RendererContext;
-import org.signal.imageeditor.core.UndoRedoStackListener;
-import org.signal.imageeditor.core.model.EditorElement;
-import org.signal.imageeditor.core.model.EditorModel;
-import org.signal.imageeditor.core.renderers.MultiLineTextRenderer;
+import org.sparkimageeditor.app.renderers.UriRenderer;
+import org.sparkimageeditor.app.renderers.UrlRenderer;
+import org.sparkimageeditor.core.ImageEditorView;
+import org.sparkimageeditor.core.Renderer;
+import org.sparkimageeditor.core.RendererContext;
+import org.sparkimageeditor.core.UndoRedoStackListener;
+import org.sparkimageeditor.core.model.EditorElement;
+import org.sparkimageeditor.core.model.EditorModel;
+import org.sparkimageeditor.core.renderers.MultiLineTextRenderer;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package org.signal.pagingtest;
+package org.spark.pagingtest;
 
 public final class Item {
   final String key;

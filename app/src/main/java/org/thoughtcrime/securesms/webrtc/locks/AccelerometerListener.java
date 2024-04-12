@@ -25,7 +25,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 /**
  * This class is used to listen to the accelerometer to monitor the

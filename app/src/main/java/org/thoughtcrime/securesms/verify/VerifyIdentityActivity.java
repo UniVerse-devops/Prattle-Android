@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.libsignal.protocol.IdentityKey;
+import org.sparklibsignal.protocol.IdentityKey;
 import org.thoughtcrime.securesms.PassphraseRequiredActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;

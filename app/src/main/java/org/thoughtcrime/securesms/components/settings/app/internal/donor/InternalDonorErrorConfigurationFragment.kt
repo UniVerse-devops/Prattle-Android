@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.components.settings.app.internal.donor
 
 import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.donations.StripeDeclineCode
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkdonations.StripeDeclineCode
 import org.thoughtcrime.securesms.components.settings.DSLConfiguration
 import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
 import org.thoughtcrime.securesms.components.settings.DSLSettingsText

@@ -7,7 +7,7 @@ import android.view.MotionEvent;
 
 import androidx.viewpager.widget.ViewPager;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 /**
  * Hacky fix for http://code.google.com/p/android/issues/detail?id=18990

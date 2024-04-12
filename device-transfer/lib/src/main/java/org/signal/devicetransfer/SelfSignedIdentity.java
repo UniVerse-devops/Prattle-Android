@@ -1,9 +1,9 @@
-package org.signal.devicetransfer;
+package org.sparkdevicetransfer;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.libsignal.devicetransfer.DeviceTransferKey;
+import org.sparklibsignal.devicetransfer.DeviceTransferKey;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

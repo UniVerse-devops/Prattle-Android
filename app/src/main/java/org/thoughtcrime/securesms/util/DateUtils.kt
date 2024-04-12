@@ -20,7 +20,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Build
 import android.text.format.DateFormat
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.v2.computed.FormattedDate
 import java.text.DateFormatSymbols

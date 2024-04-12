@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 
 import com.mobilecoin.lib.exceptions.FogSyncException;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.PaymentTable;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;

@@ -19,7 +19,7 @@ import org.mp4parser.streaming.input.h264.H264NalUnitTypes;
 import org.mp4parser.streaming.input.h264.spspps.PictureParameterSet;
 import org.mp4parser.streaming.input.h264.spspps.SeqParameterSet;
 import org.mp4parser.streaming.input.h264.spspps.SliceHeader;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

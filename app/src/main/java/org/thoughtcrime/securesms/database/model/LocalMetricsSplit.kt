@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.database.model
 
-import org.signal.core.util.roundedString
+import org.sparkcore.util.roundedString
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.nanoseconds
 import kotlin.time.DurationUnit

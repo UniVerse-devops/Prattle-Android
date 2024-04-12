@@ -8,9 +8,9 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.bumptech.glide.Glide
-import org.signal.core.util.concurrent.ListenableFuture
-import org.signal.core.util.concurrent.SettableFuture
-import org.signal.core.util.isAbsent
+import org.sparkcore.util.concurrent.ListenableFuture
+import org.sparkcore.util.concurrent.SettableFuture
+import org.sparkcore.util.isAbsent
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ThumbnailView
 import org.thoughtcrime.securesms.databinding.StoriesTextPostLinkPreviewBinding

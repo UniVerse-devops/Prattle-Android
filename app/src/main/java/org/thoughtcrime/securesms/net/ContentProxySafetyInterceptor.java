@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.net;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 import java.io.IOException;
 

@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <org.signal.imageeditor.core.ImageEditorView
+    <org.sparkimageeditor.core.ImageEditorView
         android:id="@+id/image_editor"
         android:layout_width="match_parent"
         android:layout_height="0dp"

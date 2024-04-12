@@ -32,10 +32,10 @@ import androidx.core.content.ContextCompat;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.StringUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.sparkcore.util.StringUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.EmojiProvider;
 import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
@@ -57,7 +57,7 @@ import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
 import org.thoughtcrime.securesms.profiles.ProfileName;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.thoughtcrime.securesms.util.DateUtils;
 import org.thoughtcrime.securesms.util.ExpirationUtil;
 import org.thoughtcrime.securesms.util.GroupUtil;

@@ -15,7 +15,7 @@ import org.mockito.internal.configuration.plugins.Plugins
 import org.mockito.internal.junit.JUnitRule
 import org.mockito.junit.MockitoRule
 import org.mockito.quality.Strictness
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.database.RecipientTable
 import org.thoughtcrime.securesms.keyvalue.AccountValues
 import org.thoughtcrime.securesms.keyvalue.SignalStore

@@ -3,11 +3,11 @@ package org.thoughtcrime.securesms.database
 import android.content.Context
 import android.text.TextUtils
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.readToSingleInt
-import org.signal.core.util.requireInt
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.select
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.readToSingleInt
+import org.sparkcore.util.requireInt
+import org.sparkcore.util.requireNonNullString
+import org.sparkcore.util.select
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.database.model.EmojiSearchData
 import kotlin.math.max
 

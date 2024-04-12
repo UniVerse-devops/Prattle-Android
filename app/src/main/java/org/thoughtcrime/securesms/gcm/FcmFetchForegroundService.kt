@@ -7,8 +7,8 @@ import android.content.Intent
 import android.os.IBinder
 import android.os.PowerManager
 import androidx.core.app.NotificationCompat
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.PendingIntentFlags
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil

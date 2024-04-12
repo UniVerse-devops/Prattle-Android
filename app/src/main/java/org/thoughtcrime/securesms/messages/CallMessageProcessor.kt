@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.messages
 
-import org.signal.ringrtc.CallId
+import org.sparkringrtc.CallId
 import org.thoughtcrime.securesms.database.model.IdentityRecord
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.messages.MessageContentProcessor.Companion.log

@@ -14,7 +14,7 @@ import androidx.sqlite.db.SupportSQLiteQuery;
 import net.zetetic.database.sqlcipher.SQLiteStatement;
 import net.zetetic.database.sqlcipher.SQLiteTransactionListener;
 
-import org.signal.core.util.tracing.Tracer;
+import org.sparkcore.util.tracing.Tracer;
 
 import java.io.IOException;
 import java.util.HashMap;

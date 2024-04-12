@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.glide"
+  namespace = "org.spark.glide"
 }
 
 dependencies {

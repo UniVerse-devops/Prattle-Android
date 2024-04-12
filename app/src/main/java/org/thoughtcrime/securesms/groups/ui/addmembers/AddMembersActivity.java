@@ -13,8 +13,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.concurrent.SimpleTask;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.concurrent.SimpleTask;
 import org.thoughtcrime.securesms.ContactSelectionActivity;
 import org.thoughtcrime.securesms.ContactSelectionListFragment;
 import org.thoughtcrime.securesms.PushContactSelectionActivity;

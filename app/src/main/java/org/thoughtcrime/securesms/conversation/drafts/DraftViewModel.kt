@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.core.Maybe
-import org.signal.core.util.Base64
+import org.sparkcore.util.Base64
 import org.thoughtcrime.securesms.components.location.SignalPlace
 import org.thoughtcrime.securesms.database.DraftTable.Draft
 import org.thoughtcrime.securesms.database.MentionUtil

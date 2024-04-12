@@ -46,7 +46,7 @@ import org.mp4parser.streaming.output.mp4.DefaultBoxes;
 import org.mp4parser.tools.Mp4Arrays;
 import org.mp4parser.tools.Mp4Math;
 import org.mp4parser.tools.Path;
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

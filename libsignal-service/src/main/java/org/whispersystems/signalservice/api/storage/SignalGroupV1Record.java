@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api.storage;
 
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.logging.Log;
 import org.whispersystems.signalservice.api.util.ProtoUtil;
 import org.whispersystems.signalservice.internal.storage.protos.GroupV1Record;
 

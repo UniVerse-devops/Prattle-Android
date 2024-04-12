@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.stream
+package org.spark.core.util.stream
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Test
-import org.signal.core.util.StreamUtil
+import org.spark.core.util.StreamUtil
 import java.io.ByteArrayOutputStream
 import java.io.OutputStream
 import javax.crypto.Mac

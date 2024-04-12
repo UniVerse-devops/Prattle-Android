@@ -6,8 +6,8 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.Hex;
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparkcore.util.Hex;
+import org.sparklibsignal.protocol.util.Pair;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
 import android.animation.ValueAnimator;
 import android.graphics.Matrix;
@@ -9,7 +9,7 @@ import android.view.animation.Interpolator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.imageeditor.core.CanvasMatrix;
+import org.sparkimageeditor.core.CanvasMatrix;
 
 /**
  * Animation Matrix provides a matrix that animates over time down to the identity matrix.

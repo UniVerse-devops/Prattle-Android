@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.stories.viewer.post
 
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.mms.VideoSlide
 import org.thoughtcrime.securesms.video.VideoPlayer
 

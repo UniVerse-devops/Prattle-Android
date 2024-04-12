@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -8,7 +8,7 @@ package org.thoughtcrime.securesms.apkupdate
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 /**
  * Receiver that is triggered based on various notification actions that can be taken on update-related notifications.

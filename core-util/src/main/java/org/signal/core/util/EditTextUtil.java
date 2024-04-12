@@ -1,4 +1,4 @@
-package org.signal.core.util;
+package org.spark.core.util;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

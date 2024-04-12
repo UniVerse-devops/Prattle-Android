@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.requireLong
-import org.signal.spinner.ColumnTransformer
-import org.signal.spinner.DefaultColumnTransformer
+import org.spark.core.util.requireLong
+import org.spark.spinner.ColumnTransformer
+import org.spark.spinner.DefaultColumnTransformer
 import org.thoughtcrime.securesms.util.toLocalDateTime
 import org.thoughtcrime.securesms.util.toMillis
 import java.time.LocalDateTime

@@ -8,8 +8,8 @@ import org.hamcrest.Matchers.nullValue
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.signal.core.util.Hex
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.spark.core.util.Hex
+import org.spark.libsignal.zkgroup.groups.GroupMasterKey
 import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
 import org.thoughtcrime.securesms.database.model.databaseprotos.addMember
 import org.thoughtcrime.securesms.database.model.databaseprotos.addRequestingMember

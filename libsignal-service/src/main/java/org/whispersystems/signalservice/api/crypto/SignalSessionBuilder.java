@@ -1,9 +1,9 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.SessionBuilder;
-import org.signal.libsignal.protocol.UntrustedIdentityException;
-import org.signal.libsignal.protocol.state.PreKeyBundle;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.SessionBuilder;
+import org.spark.libsignal.protocol.UntrustedIdentityException;
+import org.spark.libsignal.protocol.state.PreKeyBundle;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 
 /**

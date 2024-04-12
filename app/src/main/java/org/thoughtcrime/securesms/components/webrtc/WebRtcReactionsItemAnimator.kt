@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -13,7 +13,7 @@ import android.view.animation.DecelerateInterpolator
 import android.view.animation.Interpolator
 import androidx.core.animation.doOnEnd
 import androidx.recyclerview.widget.RecyclerView
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 /**
  * Reactions item animator based on [org.thoughtcrime.securesms.conversation.mutiselect.ConversationItemAnimator]

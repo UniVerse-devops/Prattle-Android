@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.conversation.v2.data
 
 import androidx.annotation.WorkerThread
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.roundedString
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.roundedString
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.database.CallTable
 import org.thoughtcrime.securesms.database.SignalDatabase

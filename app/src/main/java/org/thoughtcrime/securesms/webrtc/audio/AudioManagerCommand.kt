@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.webrtc.audio
 import android.net.Uri
 import android.os.Parcel
 import android.os.Parcelable
-import org.signal.core.util.readParcelableCompat
-import org.signal.core.util.readSerializableCompat
+import org.sparkcore.util.readParcelableCompat
+import org.sparkcore.util.readSerializableCompat
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.ParcelUtil
 

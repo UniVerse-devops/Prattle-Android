@@ -2,7 +2,7 @@ package org.whispersystems.signalservice.internal.push;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.logging.Log;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.HashSet;

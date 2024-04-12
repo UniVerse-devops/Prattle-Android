@@ -8,12 +8,12 @@ import android.os.HandlerThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.concurrent.DeadlockDetector;
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.libsignal.net.Network;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.concurrent.DeadlockDetector;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparklibsignal.net.Network;
+import org.sparklibsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.sparklibsignal.zkgroup.receipts.ClientZkReceiptOperations;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.components.TypingStatusRepository;
 import org.thoughtcrime.securesms.components.TypingStatusSender;

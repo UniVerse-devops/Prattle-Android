@@ -18,8 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.signal.core.util.concurrent.ListenableFuture;
-import org.signal.core.util.concurrent.SettableFuture;
+import org.sparkcore.util.concurrent.ListenableFuture;
+import org.sparkcore.util.concurrent.SettableFuture;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.NumericKeyboardView;
 import org.thoughtcrime.securesms.util.ViewUtil;

@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.calls.log
 
-import org.signal.paging.PagedDataSource
+import org.sparkpaging.PagedDataSource
 import org.thoughtcrime.securesms.util.FeatureFlags
 
 class CallLogPagedDataSource(

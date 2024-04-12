@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.donations.app"
+  namespace = "org.spark.donations.app"
 
   defaultConfig {
-    applicationId = "org.signal.donations.app"
+    applicationId = "org.spark.donations.app"
   }
 }
 

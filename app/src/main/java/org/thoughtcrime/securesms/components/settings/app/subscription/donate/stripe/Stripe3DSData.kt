@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
@@ -7,8 +7,8 @@ package org.thoughtcrime.securesms.components.settings.app.subscription.donate.s
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeIntentAccessor
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeIntentAccessor
 import org.thoughtcrime.securesms.badges.Badges
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toBigDecimal
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toDecimalValue

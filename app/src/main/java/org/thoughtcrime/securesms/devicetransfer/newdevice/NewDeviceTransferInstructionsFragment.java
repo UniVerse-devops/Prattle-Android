@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.navigation.Navigation;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.devicetransfer.TransferStatus;
+import org.sparkdevicetransfer.TransferStatus;
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.util.navigation.SafeNavigation;

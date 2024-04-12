@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.keyvalue;
 
 import androidx.annotation.NonNull;
 
-import org.signal.ringrtc.CallManager;
+import org.sparkringrtc.CallManager;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.util.Environment;
 import org.thoughtcrime.securesms.util.FeatureFlags;

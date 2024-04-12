@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.badges.gifts.Gifts
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.database.RecipientTable

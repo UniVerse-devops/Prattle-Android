@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.glide.cache
 
-import org.signal.glide.common.io.Reader
+import org.sparkglide.common.io.Reader
 import java.io.IOException
 
 /**

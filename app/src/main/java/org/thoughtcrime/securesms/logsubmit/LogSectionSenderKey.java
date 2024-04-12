@@ -5,7 +5,7 @@ import android.database.Cursor;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.AsciiArt;
+import org.sparkcore.util.AsciiArt;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 

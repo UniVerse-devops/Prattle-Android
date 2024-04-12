@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.qrtest"
+  namespace = "org.spark.qrtest"
 
   defaultConfig {
-    applicationId = "org.signal.qrtest"
+    applicationId = "org.spark.qrtest"
   }
 }
 

@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.util.ContentLengthInputStream;
 
-import org.signal.core.util.concurrent.SignalExecutors;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparkcore.util.concurrent.SignalExecutors;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.util.Util;
 
 import java.io.FilterInputStream;

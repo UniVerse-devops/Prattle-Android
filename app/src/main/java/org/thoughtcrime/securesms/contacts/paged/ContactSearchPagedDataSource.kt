@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.contacts.paged
 
 import android.database.Cursor
-import org.signal.core.util.requireLong
-import org.signal.paging.PagedDataSource
+import org.sparkcore.util.requireLong
+import org.sparkpaging.PagedDataSource
 import org.thoughtcrime.securesms.contacts.ContactRepository
 import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchCollection
 import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator

@@ -22,8 +22,8 @@ import com.bumptech.glide.Glide;
 import com.google.android.material.shape.MaterialShapeDrawable;
 import com.google.android.material.shape.ShapeAppearanceModel;
 
-import org.signal.core.util.DimensionUnit;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DimensionUnit;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 
 /**

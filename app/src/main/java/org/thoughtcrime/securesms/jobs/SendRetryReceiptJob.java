@@ -3,10 +3,10 @@ package org.thoughtcrime.securesms.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.InvalidMessageException;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparklibsignal.protocol.message.DecryptionErrorMessage;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.GroupId;

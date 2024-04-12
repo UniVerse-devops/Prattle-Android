@@ -1,9 +1,9 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
 import org.junit.Test;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMemberRemoval;
+import org.spark.storageservice.protos.groups.local.DecryptedGroupChange;
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMemberRemoval;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.internal.util.Util;

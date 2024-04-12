@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 class ScheduledMessagesViewModel @JvmOverloads constructor(
   private val threadId: Long,

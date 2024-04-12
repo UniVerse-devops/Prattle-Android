@@ -13,9 +13,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.BreakIteratorCompat
-import org.signal.core.util.EditTextUtil
-import org.signal.core.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.BreakIteratorCompat
+import org.sparkcore.util.EditTextUtil
+import org.sparkcore.util.concurrent.LifecycleDisposable
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiUtil
 import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment

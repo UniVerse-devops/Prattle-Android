@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.components.settings.app.internal
 
 import android.content.Context
 import org.json.JSONObject
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.database.MessageTable
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord

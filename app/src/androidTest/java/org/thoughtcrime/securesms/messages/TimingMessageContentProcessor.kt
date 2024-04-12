@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.messages
 
 import android.content.Context
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.testing.LogPredicate
 import org.thoughtcrime.securesms.util.SignalLocalMetrics
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata

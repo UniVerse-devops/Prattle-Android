@@ -9,7 +9,7 @@ import androidx.lifecycle.Lifecycle;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.components.SignalProgressDialog;
 
 public abstract class SnackbarAsyncTask<Params>

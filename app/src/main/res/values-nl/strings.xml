@@ -1049,7 +1049,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">Dit is een verouderde groep; om nieuwe functionaliteiten te kunnen gebruiken zoals @vermeldingen en beheerders,</string>
     <string name="ManageGroupActivity_legacy_group_too_large">Deze verouderde groep kan niet worden omgezet naar een nieuwe-stijl groep omdat het te veel leden bevat. Het maximum ledenaantal voor een groep is %1$d.</string>
     <string name="ManageGroupActivity_upgrade_this_group">moet je deze groep omzetten.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Dit is een onbeveiligde mms-groep. Om beveiligde berichten uit te wisselen en om functionaliteiten te kunnen gebruiken zoals groepsnamen en groepsbeheer, moet je je contactpersonen uitnodigen om Signal Messenger te gebruiken.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Dit is een onbeveiligde mms-groep. Om beveiligde berichten uit te wisselen en om functionaliteiten te kunnen gebruiken zoals groepsnamen en groepsbeheer, moet je je contactpersonen uitnodigen om Spark Messenger te gebruiken.</string>
     <string name="ManageGroupActivity_invite_now">Nu uitnodigen</string>
     <string name="ManageGroupActivity_more"> meer</string>
     <string name="ManageGroupActivity_add_group_description">Voeg een groepsomschrijving toe…</string>
@@ -4612,7 +4612,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">Licenties</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Gebruiksvoorwaarden &amp; privacybeleid</string>
-    <string name="HelpFragment__copyright_signal_messenger">Auteursrecht Signal Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Auteursrecht Spark Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Uitgegeven onder een GNU AGPLv3-licentie</string>
 
     <!-- DataAndStorageSettingsFragment -->

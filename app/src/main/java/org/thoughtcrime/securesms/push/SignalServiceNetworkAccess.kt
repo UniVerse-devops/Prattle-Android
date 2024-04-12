@@ -7,8 +7,8 @@ import okhttp3.ConnectionSpec
 import okhttp3.Dns
 import okhttp3.Interceptor
 import okhttp3.TlsVersion
-import org.signal.core.util.Base64
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.Base64
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.keyvalue.SettingsValues
 import org.thoughtcrime.securesms.keyvalue.SignalStore

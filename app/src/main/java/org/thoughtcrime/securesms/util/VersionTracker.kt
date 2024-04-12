@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.util
 
 import android.content.Context
 import android.content.pm.PackageManager
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
 import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob

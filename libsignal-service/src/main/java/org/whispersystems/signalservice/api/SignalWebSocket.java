@@ -1,6 +1,6 @@
 package org.whispersystems.signalservice.api;
 
-import org.signal.libsignal.protocol.logging.Log;
+import org.spark.libsignal.protocol.logging.Log;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;
 import org.whispersystems.signalservice.api.messages.EnvelopeResponse;
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState;
@@ -11,7 +11,7 @@ import org.whispersystems.signalservice.internal.websocket.WebSocketConnection;
 import org.whispersystems.signalservice.internal.websocket.WebSocketRequestMessage;
 import org.whispersystems.signalservice.internal.websocket.WebSocketResponseMessage;
 import org.whispersystems.signalservice.internal.websocket.WebsocketResponse;
-import org.signal.core.util.Base64;
+import org.spark.core.util.Base64;
 
 import java.io.IOException;
 import java.util.ArrayList;

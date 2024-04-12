@@ -5,12 +5,12 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.Base64;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.usernames.BaseUsernameException;
-import org.signal.libsignal.usernames.Username;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.sparkcore.util.Base64;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.usernames.BaseUsernameException;
+import org.sparklibsignal.usernames.Username;
+import org.sparklibsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.sparklibsignal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.badges.BadgeRepository;
 import org.thoughtcrime.securesms.badges.Badges;
 import org.thoughtcrime.securesms.badges.models.Badge;

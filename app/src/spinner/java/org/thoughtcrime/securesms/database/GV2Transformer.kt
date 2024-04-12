@@ -2,13 +2,13 @@ package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
 import okio.ByteString
-import org.signal.core.util.requireBlob
-import org.signal.spinner.ColumnTransformer
-import org.signal.storageservice.protos.groups.local.DecryptedBannedMember
-import org.signal.storageservice.protos.groups.local.DecryptedGroup
-import org.signal.storageservice.protos.groups.local.DecryptedMember
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember
-import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember
+import org.spark.core.util.requireBlob
+import org.spark.spinner.ColumnTransformer
+import org.spark.storageservice.protos.groups.local.DecryptedBannedMember
+import org.spark.storageservice.protos.groups.local.DecryptedGroup
+import org.spark.storageservice.protos.groups.local.DecryptedMember
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMember
+import org.spark.storageservice.protos.groups.local.DecryptedRequestingMember
 import org.whispersystems.signalservice.api.util.UuidUtil
 
 object GV2Transformer : ColumnTransformer {

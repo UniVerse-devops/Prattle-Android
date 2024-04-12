@@ -6,7 +6,7 @@ import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.processors.BehaviorProcessor
-import org.signal.donations.StripeApi
+import org.sparkdonations.StripeApi
 import org.thoughtcrime.securesms.util.rx.RxStore
 import java.util.Calendar
 

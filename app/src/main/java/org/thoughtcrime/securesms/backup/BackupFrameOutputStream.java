@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,10 +7,10 @@ package org.thoughtcrime.securesms.backup;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.Conversions;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.kdf.HKDF;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.sparkcore.util.Conversions;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.kdf.HKDF;
+import org.sparklibsignal.protocol.util.ByteUtil;
 import org.thoughtcrime.securesms.attachments.AttachmentId;
 import org.thoughtcrime.securesms.backup.proto.Attachment;
 import org.thoughtcrime.securesms.backup.proto.Avatar;

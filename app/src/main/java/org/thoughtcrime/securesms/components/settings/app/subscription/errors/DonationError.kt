@@ -4,11 +4,11 @@ import android.content.Context
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.signal.core.util.logging.Log
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeDeclineCode
-import org.signal.donations.StripeError
-import org.signal.donations.StripeFailureCode
+import org.sparkcore.util.logging.Log
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeDeclineCode
+import org.sparkdonations.StripeError
+import org.sparkdonations.StripeFailureCode
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
 import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
 

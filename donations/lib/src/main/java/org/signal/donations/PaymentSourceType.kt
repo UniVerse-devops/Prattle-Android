@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 sealed class PaymentSourceType {
   abstract val code: String

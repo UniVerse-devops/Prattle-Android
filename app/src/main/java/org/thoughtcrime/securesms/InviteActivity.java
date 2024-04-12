@@ -22,7 +22,7 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.core.util.concurrent.ListenableFuture.Listener;
+import org.sparkcore.util.concurrent.ListenableFuture.Listener;
 import org.thoughtcrime.securesms.components.ContactFilterView;
 import org.thoughtcrime.securesms.components.ContactFilterView.OnFilterChangedListener;
 import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;

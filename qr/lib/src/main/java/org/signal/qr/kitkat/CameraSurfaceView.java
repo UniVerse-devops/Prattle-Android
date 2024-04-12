@@ -1,4 +1,4 @@
-package org.signal.qr.kitkat;
+package org.spark.qr.kitkat;
 
 import android.content.Context;
 import android.view.SurfaceHolder;

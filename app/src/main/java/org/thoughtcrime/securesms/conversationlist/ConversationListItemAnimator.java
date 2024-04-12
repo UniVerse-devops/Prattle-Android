@@ -5,7 +5,7 @@ import android.os.Handler;
 import androidx.annotation.MainThread;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
 public class ConversationListItemAnimator extends DefaultItemAnimator {
 

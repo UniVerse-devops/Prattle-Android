@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms
 
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.AndroidLogger
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
+import org.spark.core.util.concurrent.SignalExecutors
+import org.spark.core.util.logging.AndroidLogger
+import org.spark.core.util.logging.Log
+import org.spark.libsignal.protocol.logging.SignalProtocolLoggerProvider
 import org.thoughtcrime.securesms.database.LogDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider

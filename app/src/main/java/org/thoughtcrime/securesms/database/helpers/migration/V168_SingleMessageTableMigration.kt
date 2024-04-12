@@ -2,9 +2,9 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 
 @Suppress("ClassName")

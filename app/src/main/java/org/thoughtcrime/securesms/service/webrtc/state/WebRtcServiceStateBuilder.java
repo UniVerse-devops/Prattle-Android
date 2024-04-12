@@ -5,8 +5,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.OptionalLong;
 
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.GroupCall;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.GroupCall;
 import org.thoughtcrime.securesms.components.sensors.Orientation;
 import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
 import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;

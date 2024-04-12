@@ -1,4 +1,4 @@
-package org.signal.qr
+package org.spark.qr
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,8 +13,8 @@ import androidx.camera.view.PreviewView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.signal.core.util.logging.Log
-import org.signal.qr.kitkat.ScanListener
+import org.spark.core.util.logging.Log
+import org.spark.qr.kitkat.ScanListener
 import java.util.concurrent.Executors
 
 /**

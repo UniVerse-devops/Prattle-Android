@@ -1,13 +1,13 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.components.settings.app.subscription.errors
 
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeDeclineCode
-import org.signal.donations.StripeFailureCode
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeDeclineCode
+import org.sparkdonations.StripeFailureCode
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import org.whispersystems.signalservice.internal.push.exceptions.DonationProcessorError
 

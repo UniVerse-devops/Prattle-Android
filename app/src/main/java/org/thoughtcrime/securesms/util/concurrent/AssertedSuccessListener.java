@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.util.concurrent;
 
-import org.signal.core.util.concurrent.ListenableFuture.Listener;
+import org.spark.core.util.concurrent.ListenableFuture.Listener;
 
 import java.util.concurrent.ExecutionException;
 

@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.messages
 
 import android.annotation.SuppressLint
 import android.content.Context
-import org.signal.core.util.Stopwatch
+import org.sparkcore.util.Stopwatch
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobs.PushProcessEarlyMessagesJob

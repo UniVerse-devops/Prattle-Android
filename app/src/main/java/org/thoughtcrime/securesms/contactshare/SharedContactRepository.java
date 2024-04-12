@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.signal.contacts.SystemContactsRepository;
-import org.signal.contacts.SystemContactsRepository.NameDetails;
-import org.signal.contacts.SystemContactsRepository.PhoneDetails;
+import org.sparkcontacts.SystemContactsRepository;
+import org.sparkcontacts.SystemContactsRepository.NameDetails;
+import org.sparkcontacts.SystemContactsRepository.PhoneDetails;
 import org.thoughtcrime.securesms.contactshare.Contact.Email;
 import org.thoughtcrime.securesms.contactshare.Contact.Name;
 import org.thoughtcrime.securesms.contactshare.Contact.Phone;

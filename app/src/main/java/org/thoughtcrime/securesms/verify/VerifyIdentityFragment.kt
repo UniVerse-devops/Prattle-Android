@@ -7,9 +7,9 @@ import android.widget.Toast
 import androidx.activity.addCallback
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import org.signal.core.util.ThreadUtil
-import org.signal.core.util.getParcelableCompat
-import org.signal.qr.kitkat.ScanListener
+import org.sparkcore.util.ThreadUtil
+import org.sparkcore.util.getParcelableCompat
+import org.sparkqr.kitkat.ScanListener
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.WrapperDialogFragment
 import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable

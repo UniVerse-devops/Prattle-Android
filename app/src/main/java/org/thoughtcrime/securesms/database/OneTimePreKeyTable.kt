@@ -2,17 +2,17 @@ package org.thoughtcrime.securesms.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.Base64
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.delete
-import org.signal.core.util.deleteAll
-import org.signal.core.util.logging.Log
-import org.signal.core.util.requireNonNullString
-import org.signal.core.util.update
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.protocol.ecc.Curve
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.state.PreKeyRecord
+import org.sparkcore.util.Base64
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.delete
+import org.sparkcore.util.deleteAll
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.requireNonNullString
+import org.sparkcore.util.update
+import org.sparklibsignal.protocol.InvalidKeyException
+import org.sparklibsignal.protocol.ecc.Curve
+import org.sparklibsignal.protocol.ecc.ECKeyPair
+import org.sparklibsignal.protocol.state.PreKeyRecord
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.io.IOException
 

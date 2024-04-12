@@ -35,7 +35,7 @@ import com.annimon.stream.Stream;
 import com.bumptech.glide.RequestManager;
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.attachments.AttachmentId;
 import org.thoughtcrime.securesms.components.AudioView;

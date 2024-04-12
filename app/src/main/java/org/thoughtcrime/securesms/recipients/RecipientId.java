@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.DatabaseId;
-import org.signal.core.util.LongSerializer;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.DatabaseId;
+import org.sparkcore.util.LongSerializer;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.util.DelimiterUtil;

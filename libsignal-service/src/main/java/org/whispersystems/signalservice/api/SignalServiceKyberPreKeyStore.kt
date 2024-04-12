@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api
 
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.KyberPreKeyStore
+import org.spark.libsignal.protocol.state.KyberPreKeyRecord
+import org.spark.libsignal.protocol.state.KyberPreKeyStore
 
 /**
  * And extension of the normal protocol sender key store interface that has additional methods that are

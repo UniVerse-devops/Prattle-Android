@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -18,9 +18,9 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.navGraphViewModels
-import org.signal.core.ui.Rows
-import org.signal.core.ui.Scaffolds
-import org.signal.core.ui.theme.SignalTheme
+import org.spark.core.ui.Rows
+import org.spark.core.ui.Scaffolds
+import org.spark.core.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.ComposeFragment
 

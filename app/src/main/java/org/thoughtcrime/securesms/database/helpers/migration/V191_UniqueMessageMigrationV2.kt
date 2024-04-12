@@ -2,12 +2,12 @@ package org.thoughtcrime.securesms.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.Stopwatch
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.readToSingleBoolean
-import org.signal.core.util.requireLong
+import org.sparkcore.util.SqlUtil
+import org.sparkcore.util.Stopwatch
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.readToSingleBoolean
+import org.sparkcore.util.requireLong
 
 /**
  * We want to have a unique constraint on message (author, timestamp, thread). Unfortunately, because we haven't had one for all this time, some dupes

@@ -39,10 +39,10 @@ import androidx.core.content.ContextCompat;
 import com.bumptech.glide.Glide;
 import com.google.android.material.card.MaterialCardView;
 
-import org.signal.core.util.Stopwatch;
-import org.signal.core.util.concurrent.SimpleTask;
-import org.signal.core.util.logging.Log;
-import org.signal.qr.QrProcessor;
+import org.sparkcore.util.Stopwatch;
+import org.sparkcore.util.concurrent.SimpleTask;
+import org.sparkcore.util.logging.Log;
+import org.sparkqr.QrProcessor;
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener;

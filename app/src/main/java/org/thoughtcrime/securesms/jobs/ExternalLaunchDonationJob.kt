@@ -1,16 +1,16 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 package org.thoughtcrime.securesms.jobs
 
 import io.reactivex.rxjava3.core.Single
-import org.signal.core.util.logging.Log
-import org.signal.core.util.money.FiatMoney
-import org.signal.donations.PaymentSourceType
-import org.signal.donations.StripeApi
-import org.signal.donations.StripeIntentAccessor
-import org.signal.donations.json.StripeIntentStatus
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.money.FiatMoney
+import org.sparkdonations.PaymentSourceType
+import org.sparkdonations.StripeApi
+import org.sparkdonations.StripeIntentAccessor
+import org.sparkdonations.json.StripeIntentStatus
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper
 import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType

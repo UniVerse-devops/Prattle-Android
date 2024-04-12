@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -15,10 +15,10 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TestName
-import org.signal.core.util.Base64
-import org.signal.libsignal.messagebackup.MessageBackup
-import org.signal.libsignal.messagebackup.MessageBackupKey
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.spark.core.util.Base64
+import org.spark.libsignal.messagebackup.MessageBackup
+import org.spark.libsignal.messagebackup.MessageBackupKey
+import org.spark.libsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.backup.v2.proto.AccountData
 import org.thoughtcrime.securesms.backup.v2.proto.BackupInfo
 import org.thoughtcrime.securesms.backup.v2.proto.BodyRange
@@ -1371,7 +1371,7 @@ class ImportExportTest {
   private fun validate(importData: ByteArray): MessageBackup.ValidationResult {
     val factory = { ByteArrayInputStream(importData) }
     val masterKey = SignalStore.svr().getOrCreateMasterKey()
-    val key = MessageBackupKey(masterKey.serialize(), org.signal.libsignal.protocol.ServiceId.Aci.parseFromBinary(SELF_ACI.toByteArray()))
+    val key = MessageBackupKey(masterKey.serialize(), org.spark.libsignal.protocol.ServiceId.Aci.parseFromBinary(SELF_ACI.toByteArray()))
 
     return MessageBackup.validate(key, MessageBackup.Purpose.REMOTE_BACKUP, factory, importData.size.toLong())
   }

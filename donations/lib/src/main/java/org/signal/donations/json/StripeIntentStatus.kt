@@ -1,4 +1,4 @@
-package org.signal.donations.json
+package org.sparkdonations.json
 
 import com.fasterxml.jackson.annotation.JsonCreator
 

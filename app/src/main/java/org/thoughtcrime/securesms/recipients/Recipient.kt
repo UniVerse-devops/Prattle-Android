@@ -8,11 +8,11 @@ import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.collections.immutable.toImmutableList
-import org.signal.core.util.StringUtil
-import org.signal.core.util.isNotNullOrBlank
-import org.signal.core.util.logging.Log
-import org.signal.core.util.nullIfBlank
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.sparkcore.util.StringUtil
+import org.sparkcore.util.isNotNullOrBlank
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.nullIfBlank
+import org.sparklibsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.badges.models.Badge
 import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto

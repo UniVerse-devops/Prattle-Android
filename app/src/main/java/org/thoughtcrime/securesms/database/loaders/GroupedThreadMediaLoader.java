@@ -7,8 +7,8 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.loader.content.AsyncTaskLoader;
 
-import org.signal.core.util.ThreadUtil;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.ThreadUtil;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.DatabaseObserver;
 import org.thoughtcrime.securesms.database.MediaTable;

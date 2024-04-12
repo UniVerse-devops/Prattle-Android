@@ -1,4 +1,4 @@
-package org.signal.core.util;
+package org.spark.core.util;
 
 /**
  * <p>Encodes and decodes to and from Base64 notation.</p>

@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.api;
 
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.groups.state.SenderKeyStore;
+import org.spark.libsignal.protocol.SignalProtocolAddress;
+import org.spark.libsignal.protocol.groups.state.SenderKeyStore;
 import org.whispersystems.signalservice.api.push.DistributionId;
 
 import java.util.Collection;

@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/payments_transfer_scan_qr">
 
-        <org.signal.qr.QrScannerView
+        <org.sparkqr.QrScannerView
             android:id="@+id/scanner"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

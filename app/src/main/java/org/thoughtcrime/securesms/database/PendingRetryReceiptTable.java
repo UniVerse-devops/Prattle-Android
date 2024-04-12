@@ -11,8 +11,8 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase;
 import org.thoughtcrime.securesms.database.model.PendingRetryReceiptModel;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.signal.core.util.CursorUtil;
-import org.signal.core.util.SqlUtil;
+import org.sparkcore.util.CursorUtil;
+import org.sparkcore.util.SqlUtil;
 
 import java.util.LinkedList;
 import java.util.List;

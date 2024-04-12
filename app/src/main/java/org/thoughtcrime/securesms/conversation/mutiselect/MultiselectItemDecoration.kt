@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -31,7 +31,7 @@ import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.SimpleColorFilter
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import org.signal.core.util.SetUtil
+import org.sparkcore.util.SetUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge
 import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge.PulseRequest

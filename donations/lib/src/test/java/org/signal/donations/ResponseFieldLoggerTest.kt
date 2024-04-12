@@ -1,10 +1,10 @@
-package org.signal.donations
+package org.sparkdonations
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.Before
 import org.junit.Test
-import org.signal.core.util.logging.Log
-import org.signal.core.util.logging.Log.Logger
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.logging.Log.Logger
 
 class ResponseFieldLoggerTest {
 

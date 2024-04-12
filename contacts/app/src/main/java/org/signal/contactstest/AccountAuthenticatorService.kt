@@ -1,4 +1,4 @@
-package org.signal.contactstest
+package org.sparkcontactstest
 
 import android.accounts.AbstractAccountAuthenticator
 import android.accounts.Account

@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
+import org.spark.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;

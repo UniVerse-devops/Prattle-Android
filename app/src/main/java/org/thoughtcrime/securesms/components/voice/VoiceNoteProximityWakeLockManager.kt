@@ -14,7 +14,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionCommand
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.util.ServiceUtil
 import java.util.concurrent.TimeUnit
 

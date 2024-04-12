@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.model;
+package org.sparkimageeditor.core.model;
 
 import android.animation.ValueAnimator;
 import android.view.animation.Interpolator;

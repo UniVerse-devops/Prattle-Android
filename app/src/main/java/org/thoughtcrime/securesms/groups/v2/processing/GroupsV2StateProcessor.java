@@ -10,14 +10,14 @@ import androidx.annotation.WorkerThread;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.signal.storageservice.protos.groups.local.DecryptedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.zkgroup.VerificationFailedException;
+import org.sparklibsignal.zkgroup.groups.GroupMasterKey;
+import org.sparklibsignal.zkgroup.groups.GroupSecretParams;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroup;
+import org.sparkstorageservice.protos.groups.local.DecryptedGroupChange;
+import org.sparkstorageservice.protos.groups.local.DecryptedMember;
+import org.sparkstorageservice.protos.groups.local.DecryptedPendingMember;
 import org.thoughtcrime.securesms.backup.v2.proto.GroupChangeChatUpdate;
 import org.thoughtcrime.securesms.database.GroupTable;
 import org.thoughtcrime.securesms.database.MessageTable;

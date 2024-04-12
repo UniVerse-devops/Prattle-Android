@@ -5,8 +5,8 @@
  */
 package org.whispersystems.signalservice.api.messages
 
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.spark.libsignal.zkgroup.groups.GroupSecretParams
+import org.spark.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import org.whispersystems.signalservice.api.messages.shared.SharedContact
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.util.OptionalUtil.asOptional

@@ -8,7 +8,7 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricPrompt
 import androidx.biometric.BiometricPrompt.PromptInfo
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.util.ServiceUtil
 
 /**

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -16,9 +16,9 @@ import androidx.navigation.navGraphViewModels
 import com.bumptech.glide.Glide
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.logging.Log
-import org.signal.ringrtc.CallLinkRootKey
+import org.spark.core.util.concurrent.LifecycleDisposable
+import org.spark.core.util.logging.Log
+import org.spark.ringrtc.CallLinkRootKey
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ViewBinderDelegate
 import org.thoughtcrime.securesms.components.recyclerview.SmoothScrollingLinearLayoutManager

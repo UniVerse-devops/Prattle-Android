@@ -8,7 +8,7 @@ import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.subjects.MaybeSubject
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.logging.Log
 
 class ExportAccountDataViewModel(
   private val repository: ExportAccountDataRepository = ExportAccountDataRepository()

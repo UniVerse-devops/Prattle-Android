@@ -21,7 +21,7 @@ import org.mockito.kotlin.whenever
 import org.mockito.quality.Strictness
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.signal.core.util.logging.Log
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
 import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
 import org.thoughtcrime.securesms.database.IdentityTable

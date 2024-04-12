@@ -2,7 +2,7 @@ package org.whispersystems.signalservice.api.util;
 
 import java.math.BigInteger;
 
-import static org.signal.libsignal.protocol.util.ByteUtil.longToByteArray;
+import static org.spark.libsignal.protocol.util.ByteUtil.longToByteArray;
 
 public final class Uint64Util {
 

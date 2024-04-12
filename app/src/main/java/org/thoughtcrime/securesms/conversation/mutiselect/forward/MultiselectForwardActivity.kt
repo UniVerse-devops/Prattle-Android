@@ -9,9 +9,9 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import org.signal.core.util.getParcelableArrayListExtraCompat
-import org.signal.core.util.getParcelableExtraCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.getParcelableArrayListExtraCompat
+import org.sparkcore.util.getParcelableExtraCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.FragmentWrapperActivity
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey

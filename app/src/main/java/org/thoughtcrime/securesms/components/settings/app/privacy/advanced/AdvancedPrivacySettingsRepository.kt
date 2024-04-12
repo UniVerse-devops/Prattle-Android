@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.components.settings.app.privacy.advanced
 import android.content.Context
 import com.google.android.gms.tasks.Tasks
 import com.google.firebase.installations.FirebaseInstallations
-import org.signal.core.util.concurrent.SignalExecutors
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.concurrent.SignalExecutors
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.jobs.MultiDeviceConfigurationUpdateJob

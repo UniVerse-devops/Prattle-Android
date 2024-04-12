@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.ViewCompositionStrategy
-import org.signal.core.ui.theme.SignalTheme
+import org.sparkcore.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.LoggingFragment
 import org.thoughtcrime.securesms.util.DynamicTheme
 

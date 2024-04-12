@@ -9,9 +9,9 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.SetUtil;
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.Pair;
+import org.sparkcore.util.SetUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.util.Pair;
 import org.thoughtcrime.securesms.attachments.Attachment;
 import org.thoughtcrime.securesms.database.GroupReceiptTable;
 import org.thoughtcrime.securesms.database.GroupReceiptTable.GroupReceiptInfo;

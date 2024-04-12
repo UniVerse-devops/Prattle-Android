@@ -33,9 +33,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.signal.core.ui.Buttons
-import org.signal.core.ui.Dialogs
-import org.signal.core.ui.theme.SignalTheme
+import org.sparkcore.ui.Buttons
+import org.sparkcore.ui.Dialogs
+import org.sparkcore.ui.theme.SignalTheme
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeBadge
 import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData

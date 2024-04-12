@@ -6,11 +6,11 @@
         android:detailColumn="data3"
         android:detailSocialSummary="true"
         android:icon="@mipmap/ic_launcher"
-        android:mimeType="vnd.android.cursor.item/vnd.org.signal.contacts.test.message"
+        android:mimeType="vnd.android.cursor.item/vnd.org.sparkcontacts.test.message"
         android:summaryColumn="data2" />
     <ContactsDataKind
         android:detailColumn="data3"
         android:icon="@mipmap/ic_launcher"
-        android:mimeType="vnd.android.cursor.item/vnd.org.signal.contacts.test.call"
+        android:mimeType="vnd.android.cursor.item/vnd.org.sparkcontacts.test.call"
         android:summaryColumn="data2" />
 </ContactsSource>

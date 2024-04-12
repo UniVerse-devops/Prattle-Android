@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.conversation.colors.ui
 
 import androidx.lifecycle.LiveData
-import org.signal.core.util.concurrent.SignalExecutors
+import org.sparkcore.util.concurrent.SignalExecutors
 import org.thoughtcrime.securesms.conversation.colors.ChatColors
 import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
 import org.thoughtcrime.securesms.database.ChatColorsTable

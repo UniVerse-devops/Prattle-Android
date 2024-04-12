@@ -3,11 +3,11 @@ package org.thoughtcrime.securesms.database
 import android.content.Context
 import android.database.Cursor
 import androidx.core.content.contentValuesOf
-import org.signal.core.util.logging.Log
-import org.signal.core.util.readToList
-import org.signal.core.util.requireLong
-import org.signal.core.util.select
-import org.signal.core.util.withinTransaction
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.readToList
+import org.sparkcore.util.requireLong
+import org.sparkcore.util.select
+import org.sparkcore.util.withinTransaction
 import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.ID
 import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.NEW_ID
 import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.OLD_ID

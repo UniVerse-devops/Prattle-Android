@@ -7,9 +7,9 @@ import androidx.fragment.app.commit
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.signal.core.util.DimensionUnit
-import org.signal.core.util.concurrent.LifecycleDisposable
-import org.signal.core.util.concurrent.addTo
+import org.sparkcore.util.DimensionUnit
+import org.sparkcore.util.concurrent.LifecycleDisposable
+import org.sparkcore.util.concurrent.addTo
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ComposeText
 import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragmentV2

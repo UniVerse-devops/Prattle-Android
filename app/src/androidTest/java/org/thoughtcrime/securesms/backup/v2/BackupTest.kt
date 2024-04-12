@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -11,18 +11,18 @@ import androidx.core.content.contentValuesOf
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import org.junit.Before
 import org.junit.Test
-import org.signal.core.util.Hex
-import org.signal.core.util.SqlUtil
-import org.signal.core.util.insertInto
-import org.signal.core.util.readToList
-import org.signal.core.util.readToSingleObject
-import org.signal.core.util.requireBlob
-import org.signal.core.util.requireLong
-import org.signal.core.util.requireString
-import org.signal.core.util.select
-import org.signal.core.util.toInt
-import org.signal.core.util.withinTransaction
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.spark.core.util.Hex
+import org.spark.core.util.SqlUtil
+import org.spark.core.util.insertInto
+import org.spark.core.util.readToList
+import org.spark.core.util.readToSingleObject
+import org.spark.core.util.requireBlob
+import org.spark.core.util.requireLong
+import org.spark.core.util.requireString
+import org.spark.core.util.select
+import org.spark.core.util.toInt
+import org.spark.core.util.withinTransaction
+import org.spark.libsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.backup.v2.database.clearAllDataForBackupRestore
 import org.thoughtcrime.securesms.database.CallTable
 import org.thoughtcrime.securesms.database.EmojiSearchTable

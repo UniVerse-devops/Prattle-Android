@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.signal.core.util.logging.Log;
-import org.signal.devicetransfer.ClientTask;
+import org.sparkcore.util.logging.Log;
+import org.sparkdevicetransfer.ClientTask;
 import org.thoughtcrime.securesms.backup.BackupEvent;
 import org.thoughtcrime.securesms.backup.FullBackupExporter;
 import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
@@ -21,7 +21,7 @@ import java.io.OutputStream;
 
 /**
  * Create the backup stream of the old device and sends it over the wire via the output stream.
- * Used in conjunction with {@link org.signal.devicetransfer.DeviceToDeviceTransferService}.
+ * Used in conjunction with {@link org.sparkdevicetransfer.DeviceToDeviceTransferService}.
  */
 final class OldDeviceClientTask implements ClientTask {
 

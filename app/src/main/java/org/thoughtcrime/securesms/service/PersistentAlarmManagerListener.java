@@ -10,8 +10,8 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import org.signal.core.util.PendingIntentFlags;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.PendingIntentFlags;
+import org.sparkcore.util.logging.Log;
 
 public abstract class PersistentAlarmManagerListener extends BroadcastReceiver {
 

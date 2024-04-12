@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.keyvalue;
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 import org.thoughtcrime.securesms.ratelimit.RecaptchaRequiredEvent;
 
 import java.util.Collections;

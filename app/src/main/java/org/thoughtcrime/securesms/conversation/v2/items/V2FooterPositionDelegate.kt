@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -7,8 +7,8 @@ package org.thoughtcrime.securesms.conversation.v2.items
 
 import android.view.View
 import android.widget.Space
-import org.signal.core.util.StringUtil
-import org.signal.core.util.dp
+import org.sparkcore.util.StringUtil
+import org.sparkcore.util.dp
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView
 import org.thoughtcrime.securesms.util.ViewUtil

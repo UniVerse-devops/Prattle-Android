@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.events
 
 import android.content.Context
-import org.signal.libsignal.protocol.IdentityKey
+import org.sparklibsignal.protocol.IdentityKey
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
 import org.thoughtcrime.securesms.recipients.Recipient

@@ -25,7 +25,7 @@ import android.os.Bundle;
 
 import androidx.core.app.RemoteInput;
 
-import org.signal.core.util.concurrent.SignalExecutors;
+import org.spark.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.database.model.ParentStoryId;

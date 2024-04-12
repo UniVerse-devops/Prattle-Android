@@ -1,4 +1,4 @@
-package org.signal.donations
+package org.sparkdonations
 
 import android.net.Uri
 import android.os.Parcelable

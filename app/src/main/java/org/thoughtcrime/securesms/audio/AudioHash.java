@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
 import org.thoughtcrime.securesms.util.ParcelUtil;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 
 import java.io.IOException;
 import java.util.Objects;

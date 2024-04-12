@@ -1,16 +1,16 @@
 package org.whispersystems.signalservice.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.signal.storageservice.protos.groups.Member;
-import org.signal.storageservice.protos.groups.RequestingMember;
-import org.signal.storageservice.protos.groups.local.DecryptedApproveMember;
-import org.signal.storageservice.protos.groups.local.DecryptedBannedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedMember;
-import org.signal.storageservice.protos.groups.local.DecryptedModifyMemberRole;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
-import org.signal.storageservice.protos.groups.local.DecryptedPendingMemberRemoval;
-import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember;
+import org.spark.libsignal.zkgroup.InvalidInputException;
+import org.spark.libsignal.zkgroup.profiles.ProfileKey;
+import org.spark.storageservice.protos.groups.Member;
+import org.spark.storageservice.protos.groups.RequestingMember;
+import org.spark.storageservice.protos.groups.local.DecryptedApproveMember;
+import org.spark.storageservice.protos.groups.local.DecryptedBannedMember;
+import org.spark.storageservice.protos.groups.local.DecryptedMember;
+import org.spark.storageservice.protos.groups.local.DecryptedModifyMemberRole;
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMember;
+import org.spark.storageservice.protos.groups.local.DecryptedPendingMemberRemoval;
+import org.spark.storageservice.protos.groups.local.DecryptedRequestingMember;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 import org.whispersystems.signalservice.internal.util.Util;
 

@@ -1,4 +1,4 @@
-package org.signal.spinner
+package org.sparkspinner
 
 import android.database.Cursor
 import androidx.sqlite.db.SupportSQLiteDatabase

@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -12,8 +12,8 @@ import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI
 import org.whispersystems.signalservice.api.util.UuidUtil
 import java.util.UUID
-import org.signal.libsignal.protocol.ServiceId.Aci as LibSignalAci
-import org.signal.libsignal.protocol.ServiceId.Pni as LibSignalPni
+import org.spark.libsignal.protocol.ServiceId.Aci as LibSignalAci
+import org.spark.libsignal.protocol.ServiceId.Pni as LibSignalPni
 
 class ServiceIdTests {
 

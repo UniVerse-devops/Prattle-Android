@@ -7,7 +7,7 @@ import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
-import org.signal.core.util.ThreadUtil;
+import org.spark.core.util.ThreadUtil;
 
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;

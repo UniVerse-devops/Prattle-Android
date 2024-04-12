@@ -17,8 +17,8 @@ import io.reactivex.rxjava3.processors.BehaviorProcessor
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.signal.core.util.getParcelableCompat
-import org.signal.core.util.logging.Log
+import org.sparkcore.util.getParcelableCompat
+import org.sparkcore.util.logging.Log
 import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.fonts.TextFont

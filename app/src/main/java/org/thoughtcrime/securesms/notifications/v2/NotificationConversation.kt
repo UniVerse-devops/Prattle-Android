@@ -7,8 +7,8 @@ import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.text.SpannableStringBuilder
 import androidx.core.app.TaskStackBuilder
-import org.signal.core.util.PendingIntentFlags
-import org.signal.core.util.logging.Log
+import org.spark.core.util.PendingIntentFlags
+import org.spark.core.util.logging.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.contacts.TurnOffContactJoinedNotificationsActivity
 import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto

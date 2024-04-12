@@ -1,4 +1,4 @@
-package org.signal.core.util.money
+package org.spark.core.util.money
 
 import java.util.Currency
 

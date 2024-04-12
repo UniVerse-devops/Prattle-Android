@@ -6,9 +6,9 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
-import org.signal.ringrtc.CallId;
-import org.signal.ringrtc.Remote;
+import org.sparkcore.util.logging.Log;
+import org.sparkringrtc.CallId;
+import org.sparkringrtc.Remote;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 

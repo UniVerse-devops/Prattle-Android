@@ -1,7 +1,7 @@
 package org.whispersystems.signalservice.internal.push.http
 
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
-import org.signal.libsignal.protocol.incrementalmac.IncrementalMacOutputStream
+import org.spark.libsignal.protocol.incrementalmac.ChunkSizeChoice
+import org.spark.libsignal.protocol.incrementalmac.IncrementalMacOutputStream
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherOutputStream
 import org.whispersystems.signalservice.api.crypto.DigestingOutputStream
 import java.io.IOException

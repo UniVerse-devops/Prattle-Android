@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
-import org.signal.core.util.requireBlob
-import org.signal.spinner.ColumnTransformer
+import org.spark.core.util.requireBlob
+import org.spark.spinner.ColumnTransformer
 import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
 
 object MessageRangesTransformer : ColumnTransformer {

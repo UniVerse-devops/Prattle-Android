@@ -1,4 +1,4 @@
-package org.signal.imageeditor.core.renderers
+package org.sparkimageeditor.core.renderers
 
 import android.graphics.Color
 import android.graphics.DashPathEffect
@@ -6,10 +6,10 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.os.Parcel
 import android.os.Parcelable
-import org.signal.core.util.DimensionUnit
-import org.signal.imageeditor.core.Bounds
-import org.signal.imageeditor.core.Renderer
-import org.signal.imageeditor.core.RendererContext
+import org.sparkcore.util.DimensionUnit
+import org.sparkimageeditor.core.Bounds
+import org.sparkimageeditor.core.Renderer
+import org.sparkimageeditor.core.RendererContext
 
 class SelectedElementGuideRenderer : Renderer {
 

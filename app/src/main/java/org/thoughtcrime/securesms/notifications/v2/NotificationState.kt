@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.notifications.v2
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import org.signal.core.util.PendingIntentFlags
+import org.spark.core.util.PendingIntentFlags
 import org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
 import org.thoughtcrime.securesms.notifications.MarkReadReceiver
 import org.thoughtcrime.securesms.notifications.NotificationIds

@@ -1,4 +1,4 @@
-package org.signal.donations.app;
+package org.sparkdonations.app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.wallet.PaymentData;
 import com.google.android.gms.wallet.WalletConstants;
 
-import org.signal.core.util.logging.Log;
-import org.signal.core.util.money.FiatMoney;
-import org.signal.donations.GooglePayApi;
+import org.sparkcore.util.logging.Log;
+import org.sparkcore.util.money.FiatMoney;
+import org.sparkdonations.GooglePayApi;
 
 import java.math.BigDecimal;
 import java.util.Currency;

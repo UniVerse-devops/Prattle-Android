@@ -11,10 +11,10 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.signal.core.util.Result
-import org.signal.core.util.isNotNullOrBlank
-import org.signal.core.util.logging.Log
-import org.signal.libsignal.usernames.Username
+import org.sparkcore.util.Result
+import org.sparkcore.util.isNotNullOrBlank
+import org.sparkcore.util.logging.Log
+import org.sparklibsignal.usernames.Username
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.UsernameDeleteResult

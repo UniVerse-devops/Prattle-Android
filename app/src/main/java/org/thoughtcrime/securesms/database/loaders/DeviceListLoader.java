@@ -8,18 +8,18 @@ import androidx.annotation.VisibleForTesting;
 
 import com.annimon.stream.Stream;
 
-import org.signal.core.util.logging.Log;
-import org.signal.libsignal.protocol.IdentityKeyPair;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.Curve;
-import org.signal.libsignal.protocol.ecc.ECPrivateKey;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import org.sparkcore.util.logging.Log;
+import org.sparklibsignal.protocol.IdentityKeyPair;
+import org.sparklibsignal.protocol.InvalidKeyException;
+import org.sparklibsignal.protocol.ecc.Curve;
+import org.sparklibsignal.protocol.ecc.ECPrivateKey;
+import org.sparklibsignal.protocol.ecc.ECPublicKey;
+import org.sparklibsignal.protocol.util.ByteUtil;
 import org.thoughtcrime.securesms.devicelist.Device;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher;
 import org.thoughtcrime.securesms.util.AsyncLoader;
-import org.signal.core.util.Base64;
+import org.sparkcore.util.Base64;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;

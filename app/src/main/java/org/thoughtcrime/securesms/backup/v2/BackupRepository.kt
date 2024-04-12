@@ -1,19 +1,19 @@
 /*
- * Copyright 2023 Signal Messenger, LLC
+ * Copyright 2023 Spark Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.backup.v2
 
-import org.signal.core.util.Base64
-import org.signal.core.util.EventTimer
-import org.signal.core.util.logging.Log
-import org.signal.core.util.withinTransaction
-import org.signal.libsignal.messagebackup.MessageBackup
-import org.signal.libsignal.messagebackup.MessageBackup.ValidationResult
-import org.signal.libsignal.messagebackup.MessageBackupKey
-import org.signal.libsignal.protocol.ServiceId.Aci
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.sparkcore.util.Base64
+import org.sparkcore.util.EventTimer
+import org.sparkcore.util.logging.Log
+import org.sparkcore.util.withinTransaction
+import org.sparklibsignal.messagebackup.MessageBackup
+import org.sparklibsignal.messagebackup.MessageBackup.ValidationResult
+import org.sparklibsignal.messagebackup.MessageBackupKey
+import org.sparklibsignal.protocol.ServiceId.Aci
+import org.sparklibsignal.zkgroup.profiles.ProfileKey
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.backup.v2.database.ChatItemImportInserter
 import org.thoughtcrime.securesms.backup.v2.database.clearAllDataForBackupRestore

@@ -1,17 +1,17 @@
 package org.whispersystems.signalservice.api.crypto;
 
-import org.signal.libsignal.protocol.DuplicateMessageException;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidKeyIdException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.InvalidVersionException;
-import org.signal.libsignal.protocol.LegacyMessageException;
-import org.signal.libsignal.protocol.NoSessionException;
-import org.signal.libsignal.protocol.SessionCipher;
-import org.signal.libsignal.protocol.UntrustedIdentityException;
-import org.signal.libsignal.protocol.message.CiphertextMessage;
-import org.signal.libsignal.protocol.message.PreKeySignalMessage;
-import org.signal.libsignal.protocol.message.SignalMessage;
+import org.spark.libsignal.protocol.DuplicateMessageException;
+import org.spark.libsignal.protocol.InvalidKeyException;
+import org.spark.libsignal.protocol.InvalidKeyIdException;
+import org.spark.libsignal.protocol.InvalidMessageException;
+import org.spark.libsignal.protocol.InvalidVersionException;
+import org.spark.libsignal.protocol.LegacyMessageException;
+import org.spark.libsignal.protocol.NoSessionException;
+import org.spark.libsignal.protocol.SessionCipher;
+import org.spark.libsignal.protocol.UntrustedIdentityException;
+import org.spark.libsignal.protocol.message.CiphertextMessage;
+import org.spark.libsignal.protocol.message.PreKeySignalMessage;
+import org.spark.libsignal.protocol.message.SignalMessage;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 
 /**
@@ -27,13 +27,13 @@ public class SignalSessionCipher {
     this.cipher = cipher;
   }
 
-  public CiphertextMessage encrypt(byte[] paddedMessage) throws org.signal.libsignal.protocol.UntrustedIdentityException, NoSessionException {
+  public CiphertextMessage encrypt(byte[] paddedMessage) throws org.spark.libsignal.protocol.UntrustedIdentityException, NoSessionException {
     try (SignalSessionLock.Lock unused = lock.acquire()) {
       return cipher.encrypt(paddedMessage);
     }
   }
 
-  public byte[] decrypt(PreKeySignalMessage ciphertext) throws DuplicateMessageException, LegacyMessageException, InvalidMessageException, InvalidKeyIdException, InvalidKeyException, org.signal.libsignal.protocol.UntrustedIdentityException {
+  public byte[] decrypt(PreKeySignalMessage ciphertext) throws DuplicateMessageException, LegacyMessageException, InvalidMessageException, InvalidKeyIdException, InvalidKeyException, org.spark.libsignal.protocol.UntrustedIdentityException {
     try (SignalSessionLock.Lock unused = lock.acquire()) {
       return cipher.decrypt(ciphertext);
     }

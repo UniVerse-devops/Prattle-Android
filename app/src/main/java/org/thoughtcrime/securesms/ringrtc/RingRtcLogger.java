@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.ringrtc;
 
-import org.signal.core.util.logging.Log;
+import org.sparkcore.util.logging.Log;
 
-public class RingRtcLogger implements org.signal.ringrtc.Log.Logger {
+public class RingRtcLogger implements org.sparkringrtc.Log.Logger {
   @Override
   public void v(String tag, String message, Throwable t) {
     Log.v(tag, message, t);
